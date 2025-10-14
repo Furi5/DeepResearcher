@@ -1,0 +1,5 @@
+JAK-STAT 通路抑制剂通过靶向上游 Janus 激酶（JAK）来调节 STAT6 的活化，从而干预特应性皮炎（AD）的核心病理机制。在 AD 中，多种关键炎症因子如 IL-4、IL-13、IL-31 和 TSLP 依赖 JAK-STAT 通路进行信号转导，其中 IL-4 和 IL-13 通过激活 JAK1 和 JAK3 或 JAK1 和 TYK2，进而磷酸化并活化 STAT6 [cite:review2022]。STAT6 作为 Th2 免疫应答的关键调节因子，促进 GATA3 表达和 B 细胞类别转换以产生 IgE，从而驱动 AD 的炎症反应和皮肤屏障功能障碍 [cite:review2022, stat6_2020]。JAK 抑制剂通过竞争性结合 JAK 酶的 ATP 结合位点，阻断 JAK 的自磷酸化和活化，进而抑制 STAT 蛋白的磷酸化、二聚化及核转位，最终减少促炎基因的转录 [cite:upadacitinib2023, abrocitinib2023]。
+
+已上市的 JAK 抑制剂在作用机制上表现出对特定 JAK 亚型的选择性。Upadacitinib 和 Abrocitinib 均为选择性 JAK1 抑制剂，通过优先抑制 JAK1 来阻断 IL-4、IL-13 等细胞因子介导的 STAT6 活化，从而减轻 Th2 免疫应答和瘙痒症状 [cite:upadacitinib2023, abrocitinib2023, jak1_role2023]。Baricitinib 则主要抑制 JAK1 和 JAK2，通过直接拮抗 JAK-STAT 通路的异常激活，不仅减少 CD4+ Th2 细胞的活化和炎症因子（如 IL-4、IL-13、IL-21）的分泌，还间接抑制 MAPK 和 PI3K/Akt/mTOR 等下游炎症通路 [cite:baricitinib2024]。这些抑制剂的共同作用在于中断 IL-13/IL-4-JAK-STAT6/STAT3 轴，该轴会抑制角质形成细胞中丝聚蛋白（filaggrin）和兜甲蛋白（loricrin）等皮肤屏障蛋白的表达；因此，JAK 抑制剂通过恢复皮肤屏障功能，进一步改善 AD 临床表现 [cite:stat6_2020]。
+
+临床前和临床研究证实，JAK 抑制剂通过广泛抑制 Th2、Th22 和 Th17 等多种免疫通路，显著减轻 AD 的炎症和症状 [cite:jakinhibitors_review2021, jakstat_review2022]。总体而言，JAK-STAT 通路抑制剂通过精准靶向上游 JAK 酶，特别是 JAK1，有效阻断了 STAT6 介导的 AD 核心病理环节，为中度至重度 AD 提供了重要的治疗选择。

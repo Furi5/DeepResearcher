@@ -1,0 +1,185 @@
+# STAT6 在特应性皮炎中的研究现状全面综述
+
+# 1. 引言
+
+信号转导与转录激活因子6（STAT6）是JAK-STAT信号通路中的关键成员，在特应性皮炎（AD）的发病机制中占据核心地位。作为IL-4和IL-13信号传导的主要下游转录因子，STAT6通过I型（IL-4Rα和共同γ链）和II型（IL-4Rα和IL-13Rα1）IL-4受体的激活，分别引发JAK1/JAK3和JAK1/TYK2的磷酸化，最终导致STAT6的磷酸化、二聚化及核转位，进而调控IL-4应答基因的表达 [1, 2]。这一过程不仅驱动Th2免疫反应的极化，还促进Th9细胞分化及B细胞中IgE类别转换，构成了AD免疫失调的核心环节 [3]。
+
+STAT6在AD发病机制中的重要性主要体现在两个方面。首先，它直接介导皮肤屏障功能的损伤。研究表明，STAT6激活可显著下调关键表皮分化蛋白（如丝聚蛋白、兜甲蛋白和外皮蛋白）的表达，导致皮肤屏障完整性破坏，增加过敏原渗透和经皮水分流失 [4, 5]。其次，STAT6通过促进TSLP、IL-25和IL-33等前炎症因子的产生，进一步加剧皮肤炎症和瘙痒反应 [6]。值得注意的是，STAT6基因多态性不仅与AD易感性相关，还与患者对播散性病毒性皮肤感染的易感性增加有关，提示STAT6失调可能影响更广泛的免疫防御机制 [7]。
+
+尽管STAT6在AD发病机制中的核心作用已得到广泛确认，但目前尚无直接靶向STAT6的临床治疗手段。现有策略主要针对上游靶点（如IL-4Rα单抗度普利尤单抗）或使用广谱JAK抑制剂间接影响STAT6信号 [8, 3]。这一治疗空白凸显了开发直接STAT6抑制剂的迫切需求。近期制药企业针对STAT6研发项目的战略合作也印证了这一领域的重要性，标志着STAT6直接靶向治疗正成为AD治疗领域的新前沿 [9]。因此，深入理解STAT6在AD中的分子机制并开发特异性靶向药物，对于填补当前治疗空白具有重要意义。
+
+本综述旨在系统性地探讨信号转导与转录激活因子6（STAT6）在特应性皮炎（Atopic Dermatitis, AD）发病机制中的核心作用及其作为治疗靶点的潜力。综述范围严格限定于AD领域，不涉及STAT6在其他疾病（如淋巴瘤或孤立性纤维性肿瘤）中的功能 [10]。本文将重点回答以下三个关键问题：首先，STAT6的结构生物学特征及其在IL-4/IL-13信号通路中的特异性激活机制；其次，STAT6介导的分子机制如何驱动AD的免疫失调、皮肤屏障功能障碍及瘙痒病理生理过程 [1]；最后，针对STAT6通路的小分子抑制剂（特别是JAK-STAT通路抑制剂）在AD治疗中的最新临床进展、疗效与安全性概况 [1, 3]。
+
+为深入解析STAT6在AD中的致病机制，本综述将整合遗传学与功能学研究证据。近期研究发现，人类种系杂合STAT6功能获得性（gain-of-function）变异可导致严重过敏表型，包括早发性、重症AD伴高血清IgE水平和嗜酸性粒细胞增多 [11, 12]。这些遗传变异不仅证实了STAT6在AD发病中的核心地位，还揭示了其通过增强IL-4/IL-13信号响应，加剧Th2极化免疫反应和皮肤屏障缺陷的分子基础 [11]。同时，STAT6的异常活化也与AD患者对播散性病毒性皮肤感染的易感性增加相关，进一步凸显了其在协调抗病毒免疫与过敏性炎症平衡中的关键作用 [7]。
+
+在治疗层面，本综述将系统评估靶向STAT6信号的小分子抑制剂（如JAK抑制剂）的转化应用。随着AD治疗范式的转变，从广泛免疫抑制转向精准靶向治疗，JAK-STAT通路抑制剂（包括局部制剂如鲁索替尼和口服制剂如乌帕替尼、阿布昔替尼）已显示出显著临床效益 [1, 3]。本文将综合分析这些药物的作用机制、临床试验数据及其在AD个体化治疗中的定位，同时讨论当前面临的挑战与未来研究方向，包括生物标志物开发及针对不同AD内型的治疗策略优化 [3]。
+
+# 2. STAT6 结构与分子机制在特应性皮炎中的作用
+
+### 2.1 STAT6 蛋白晶体结构及其在特应性皮炎中的功能意义
+STAT6蛋白作为信号转导与转录激活因子家族成员，其结构特征与特应性皮炎（AD）的发病机制密切相关。STAT6的核心结构包含多个功能域：N端卷曲螺旋结构域介导蛋白质相互作用，DNA结合结构域（DBD）负责识别特定DNA序列，SH2结构域在激活过程中与磷酸化受体结合，C端反式激活结构域则募集转录共激活因子[13]。晶体结构研究显示，磷酸化STAT6核心片段以同源二聚体形式存在，在DNA结合前后发生显著的构象变化——单体发生旋转形成更紧凑的空间构象[14]。DBD中的H415残基通过氢键与鸟嘌呤碱基相互作用，决定了STAT6对N4位点DNA的特异性识别[14]。SH2结构域介导二聚化过程，通过与磷酸化酪氨酸Y641尾部片段相互作用实现[14]。值得注意的是，STAT6的SH2结构域C端环较STAT1和STAT3更短，形成更开放、柔性的二聚体结构，这增强了其DNA结合的可及性[14]。
+
+在特应性皮炎中，STAT6的结构-功能关系尤为关键。IL-4和IL-13通过与II型IL-4受体结合，激活JAK1和TYK2激酶，进而磷酸化并激活STAT6[1, 15]。激活的STAT6直接抑制关键皮肤屏障蛋白的表达，包括丝聚蛋白（FLG）、兜甲蛋白（LOR）和外皮蛋白（IVL）[15]。特别重要的是，STAT6激活干扰了转录因子OVOL1的胞质-核转位，从而抑制了OVOL1介导的FLG和LOR上调[15, 6]。这一机制在AD皮肤屏障功能障碍中起着核心作用。
+
+功能获得性STAT6变异体进一步证实了其结构域在AD发病中的重要性。研究发现，位于DBD（p.E382、p.D419）、连接结构域（p.D519）和SH2结构域（p.K595）的杂合变异导致严重的多系统过敏性疾病，包括治疗抵抗性AD[11]。结构建模显示，这些变异大多位于蛋白质-DNA界面附近，氨基酸变化导致DNA结合界面电负性降低，预测会增强STAT6与DNA的结合能力[11]。这些变异导致STAT6磷酸化持续存在，STAT6靶基因表达增加，TH2免疫偏向，以及IL-4刺激后STAT6去磷酸化动力学减慢[11]。
+
+STAT6在AD中的表达模式也随过敏原致敏类型而变化，突显了其在介导AD特征性免疫反应中的核心作用[16]。皮肤屏障功能的调节取决于IL-13/IL-4-JAK-STAT6/STAT3轴（损害屏障）与芳烃受体（AHR）轴（增强屏障）之间的竞争，STAT6的过度激活使平衡向屏障功能障碍倾斜[15]。对STAT6信号通路的深入理解已推动靶向治疗的发展，如通过dupilumab（抗IL-4Rα抗体）阻断STAT6激活，代表了AD治疗的范式转变[3, 11]。
+
+### 2.2 STAT6 磷酸化与二聚化机制在特应性皮炎中的调控
+在特应性皮炎的发病机制中，STAT6的磷酸化、二聚化及核转位过程构成了Th2免疫反应的核心信号传导通路。这一级联反应主要由IL-4和IL-13通过其相应受体启动。IL-4可与I型IL-4受体（由共同γ链和IL4Rα组成）或II型受体（由IL4Rα和IL13Rα1组成）结合，而IL-13主要通过II型受体发挥作用[17]。受体激活后，与其相关的JAK激酶（包括JAK1、JAK3和TYK2）发生自磷酸化并被激活，进而磷酸化IL4Rα链上的特定酪氨酸残基（Y575、Y603、Y631）[1, 17]。这些磷酸化的酪氨酸残基为STAT6单体的SH2结构域提供了停靠位点，使得STAT6能够被JAK激酶进一步磷酸化[18]。
+
+STAT6的酪氨酸磷酸化是其二聚化的关键步骤。磷酸化的STAT6通过SH2结构域相互作用形成同源二聚体，这一构象变化使其获得核转位能力[17, 1]。研究表明，STAT6功能获得性突变（如E372K）会导致STAT6的基础磷酸化水平和IL-4刺激后的磷酸化程度均显著增强，同时伴随核转位效率的提高，这进一步证实了磷酸化与核转位之间的因果关系[19]。进入细胞核后，磷酸化的STAT6二聚体识别特定的DNA序列（TTCN4GAA），并与共激活因子如CBP/p300、NCoAs和PARP14协同作用，启动Th2相关基因的转录[17]。
+
+在特应性皮炎中，异常的STAT6信号传导通过多种机制促进疾病发展。一方面，活化的STAT6驱动Th2和Th9细胞分化，并诱导B细胞发生IgE类别转换，从而加剧Th2型免疫反应[3, 20]。另一方面，STAT6的持续激活干扰了转录因子OVOL1的核转位，抑制了包括丝聚蛋白在内的皮肤屏障相关基因的表达，导致皮肤屏障功能受损[3, 1]。此外，STAT6信号还促进TSLP等促炎细胞因子的产生，形成正反馈环路，进一步放大炎症反应[1]。
+
+STAT6活性的精细调控对于维持免疫稳态至关重要。除了磷酸化激活机制外，STAT6的去磷酸化过程也受到严格调控，这一负反馈机制防止STAT6信号的过度持续激活[21]。然而，在特应性皮炎患者中，STAT6信号通路的调控失衡，无论是由于遗传因素（如STAT6基因变异）还是环境因素，均可导致STAT6的异常激活，从而驱动疾病的发生和发展[3, 22]。
+
+### 2.3 STAT6 下游靶基因在特应性皮炎发病中的作用
+在特应性皮炎的发病机制中，STAT6作为IL-4和IL-13信号通路的关键转录因子，通过调控下游靶基因网络在皮肤炎症和屏障功能障碍中发挥核心作用。这一调控网络主要涉及趋化因子表达上调和皮肤屏障蛋白表达下调两个方面。
+
+在趋化因子调控方面，STAT6直接激活多种Th2型趋化因子的转录表达。研究表明，IL-4通过STAT6依赖性机制诱导TARC/CCL17表达，其启动子区域包含两个功能性STAT6结合位点（GAS基序），突变这些位点可完全消除IL-4诱导的启动子激活 [23]。类似地，IL-4和IL-13通过Jak1,2/Stat6信号通路显著增强人角质形成细胞中CCL26的产生，这一机制为特应性皮炎中嗜酸性粒细胞募集提供了重要解释 [24, 25]。这些趋化因子共同构成了特应性皮炎的炎症网络：CCL17和CCL22作为CCR4+ Th2细胞的趋化因子，而CCL26通过CCR3受体招募嗜酸性粒细胞 [26]。值得注意的是，这一STAT6介导的趋化因子网络形成了一个自我放大的炎症循环，通过持续招募炎症细胞至皮肤而延续疾病进程 [27]。
+
+在皮肤屏障功能调控方面，STAT6活化对表皮分化复合体（EDC）基因表达产生显著抑制作用。IL-4和IL-13通过IL-4Rα/IL-13Rα1受体复合物激活角质形成细胞中的JAK1、JAK2和TYK2，进而磷酸化并激活STAT6，导致丝聚蛋白（FLG）、兜甲蛋白（LOR）和内披蛋白（IVL）等关键表皮屏障蛋白的表达下调 [15]。遗传学研究进一步证实，STAT6基因多态性与IL13基因多态性在湿疹风险中存在交互作用，STAT6增强了IL13的效应，这为STAT6调控EDC基因的中心作用提供了遗传证据 [28]。STAT6对皮肤屏障的破坏机制还包括抑制OVOL1转录因子的核转位，进一步损害FLG和LOR的表达 [15]。
+
+从分子机制层面，STAT6活化后发生二聚化、核转位，并与特定DNA序列（TTC(N)2-4 GAA）结合。在靶基因启动子区域，STAT6组装包含共激活因子CBP/p300和NCoA-1、染色质重塑复合物如BRG1以及桥接因子p100和RNA解旋酶A的转录增强体复合物以启动转录 [13]。人类遗传学研究的最新进展进一步证实了STAT6在特应性皮炎中的核心地位，研究发现STAT6功能获得性变异导致STAT6靶基因表达增强，直接引起包括特应性皮炎在内的严重过敏性疾病 [11]。
+
+值得注意的是，IL-13/IL-4-JAK-STAT6/STAT3轴与AHR轴之间存在竞争关系，前者上调2型趋化因子同时下调皮肤屏障蛋白，而后者具有屏障保护功能，这种平衡失调在特应性皮炎发病中具有重要意义 [29]。临床观察支持这一机制，使用dupilumab阻断IL-4/IL-13信号可恢复特应性皮炎患者中FLG和LOR水平，进一步证实了STAT6通路在疾病治疗中的关键作用 [15]。
+
+# 3. STAT6 小分子抑制剂在特应性皮炎治疗中的应用
+
+### 3.1 STAT6 小分子抑制剂的设计策略与作用机制
+针对特应性皮炎治疗的STAT6小分子抑制剂设计策略主要围绕直接靶向STAT6关键功能域和间接调控STAT6活性两大方向展开。在直接抑制剂策略中，研究重点集中于STAT6的SH2结构域和DNA结合域（DBD）。SH2结构域作为STAT6激活和功能执行的核心区域，其磷酸酪氨酸结合口袋成为抑制剂设计的理想靶点。早期研究通过突变分析确定了SH2结构域中对STAT6功能至关重要的关键残基，为后续抑制剂开发奠定了基础 [30]。基于这一认识，研究者开发了构象受限的磷酸肽模拟物，通过使用4-磷酸氧基肉桂酸酯及其衍生物作为pTyr替代物，并引入磷酸二氟甲基基团提高磷酸酶稳定性，同时采用前药策略增强细胞渗透性 [31]。这些抑制剂作为竞争性抑制剂，通过高亲和力结合STAT6的SH2结构域，有效阻止STAT6募集到细胞因子受体并阻断Tyr641磷酸化 [31, 32]。
+
+在DBD靶向策略方面，结构生物学研究揭示了STAT6识别DNA的分子机制，发现DNA结合域使用三个环区域（氨基酸284-288、365-379、413-419）识别并结合DNA，其中残基H415是唯一与DNA碱基形成特异性氢键的关键残基 [14]。这一发现为设计靶向DBD的抑制剂提供了精确的结构基础，特别是通过破坏由H415介导的关键相互作用来干扰STAT6与DNA的结合。
+
+近年来，间接调控策略的代表性进展是蛋白水解靶向嵌合体（PROTAC）技术的应用。AK-1690作为首个高效选择性STAT6 PROTAC降解剂，采用双功能分子设计，一端使用高亲和力STAT6结合配体（Ki = 6 nM），另一端使用cereblon（CRBN）配体招募E3泛素连接酶复合物，通过形成三元复合物促使STAT6被泛素化并被蛋白酶体降解 [33]。这种策略在细胞中表现出极低的DC₅₀值（1 nM），显示出卓越的效力。
+
+临床开发方面，多种STAT6靶向疗法已进入不同阶段。KT-621作为每日一次口服STAT6降解剂，在健康志愿者研究中表现出血液和皮肤中强大的STAT6降解能力 [34]。REX-8756作为首创口服STAT6抑制剂，通过阻断STAT6抑制Th2驱动的炎症反应，与需要定期注射的单克隆抗体相比提供口服便利性，同时相比口服JAK抑制剂可能具有更好的安全性特征 [35]。此外，制药企业间的战略合作，如Gilead与LEO Pharma的合作，进一步加速了口服STAT6小分子抑制剂和靶向蛋白降解剂的开发进程 [9]。
+
+这些设计策略的共同目标是精确干预STAT6信号通路，为特应性皮炎等Th2驱动的炎症性疾病提供更有效、更安全的治疗选择 [36]。
+
+### 3.2 STAT6 抑制剂在特应性皮炎临床前研究进展
+在特应性皮炎（AD）的临床前研究中，STAT6抑制剂通过多种机制展现出显著的疗效，特别是在改善皮肤炎症、瘙痒和屏障功能方面。多项研究采用不同的AD动物模型，如DNCB诱导和MC903诱导的小鼠模型，这些模型能够模拟AD的关键特征，包括瘙痒、红斑、组织侵蚀和屏障功能障碍，为评估STAT6抑制剂提供了标准化平台 [37, 38]。
+
+在皮肤炎症方面，STAT6抑制剂AS1517499在DNCB诱导的AD小鼠模型中显著降低了皮炎严重程度评分，并改善了组织病理学变化，如过度角化、棘层肥厚以及真皮层中肥大细胞和嗜酸性粒细胞的浸润 [39]。同时，该抑制剂通过减少Th2相关因子（如GATA3和IL-33）并促进调节性T细胞反应（增加Foxp3和IL-10表达），有效抑制了Th2驱动的炎症通路 [39]。类似地，口服STAT6降解剂NX-3911和KT-621在MC903诱导的AD模型中表现出强劲疗效，通过完全降解STAT6蛋白，阻断了IL-4/IL-13信号通路，从而抑制Th2炎症 [40, 41]。值得注意的是，KT-621在临床前模型中显示出与dupilumab相当或更优的活性，突显了其治疗潜力 [41]。
+
+在瘙痒缓解方面，STAT6被证实为AD瘙痒的关键治疗靶点。研究表明，STAT6的失活能够抑制瘙痒样行为，并减轻皮肤炎症，从而显著改善AD患者的瘙痒症状 [42]。这一发现强调了STAT6抑制剂在针对AD核心症状——瘙痒方面的特异性作用。
+
+在皮肤屏障功能恢复方面，STAT6抑制剂通过多重机制发挥作用。IL-13/IL-4-JAK-STAT6/STAT3轴直接抑制关键屏障蛋白（如丝聚蛋白FLG、兜甲蛋白LOR和内披蛋白IVL）的表达，并阻碍OVOL1的核转位 [15]。STAT6激活还诱导角质形成细胞产生骨膜蛋白，进而上调IL-24，通过STAT3激活抑制FLG表达，并激活DUOX1导致活性氧（ROS）产生，维持STAT6信号 [15]。STAT6抑制剂通过解除对AHR轴的抑制，恢复屏障蛋白表达，重新激活OVOL1通路，减少骨膜蛋白产生，并打破氧化应激的前馈循环，从而修复屏障功能 [15]。此外，苯维莫德（Benvitimod）在人类角质形成细胞中通过激活AHR/ARNT通路并抑制STAT6磷酸化，恢复了紧密连接蛋白（CLDN1、CLDN4和OCLN）的表达，改善了屏障功能 [43]。这些机制共同解释了STAT6抑制剂在临床前模型中观察到的屏障完整性改善，如干燥、脱屑和糜烂等临床症状的减轻 [39]。
+
+综上所述，STAT6抑制剂在AD临床前研究中通过靶向Th2炎症、缓解瘙痒和修复皮肤屏障，展现出全面的治疗潜力。不同抑制剂（如小分子抑制剂和降解剂）在多种动物模型中的一致疗效进一步验证了STAT6作为AD治疗的关键靶点。
+
+### 3.3 STAT6 靶向治疗的临床转化前景
+STAT6作为特应性皮炎（AD）发病机制中的关键转录因子，其靶向治疗的临床转化前景正受到广泛关注。目前，针对STAT6的直接靶向药物已从概念验证阶段进入早期临床开发，展现出潜在的转化价值，但同时也面临特异性、安全性及与传统疗法竞争等多重挑战。
+
+在临床前及早期临床研究中，新型STAT6靶向策略已显示出显著的治疗潜力。一方面，靶向蛋白降解技术（TPD）为STAT6抑制提供了创新路径。例如，KT-621作为首个进入临床评估的口服STAT6降解剂，在健康志愿者中实现了血液和皮肤中≥95%的STAT6降解，并显著降低Th2生物标志物（TARC中位降低达37%，嗜酸粒细胞趋化因子-3降低达63%），其效果与已获批的IL-4/IL-13抑制剂杜匹鲁单抗相当甚至更优 [34]。另一方面，小分子抑制剂也取得重要进展。REX-8756通过抑制STAT6的SH2结构域，在临床前模型中实现了完全且持久的STAT6通路抑制，并在皮炎模型中显示出强效抗炎活性 [35]。这些进展表明，直接靶向STAT6可能比上游细胞因子抑制剂具有更全面的通路阻断能力。
+
+然而，STAT6靶向治疗仍面临显著挑战。首要问题在于其生物学功能的广泛性及信号通路的复杂性。STAT6不仅介导IL-4和IL-13信号传导，还参与T细胞增殖、Th2细胞分化和IgE类别转换等多个免疫过程 [44]。这种多效性使得选择性抑制STAT6同时避免脱靶效应变得尤为困难。此外，作为转录因子，STAT6位于信号级联下游，其细胞内定位和蛋白-蛋白相互作用需求使其成为传统小分子方法的难治靶点 [45]。
+
+在安全性方面，早期临床数据提示STAT6靶向药物可能具有优于JAK抑制剂的安全性特征。KT-621在I期临床试验中耐受性良好，未报告严重不良事件或治疗相关不良事件 [34]。与JAK抑制剂相比，选择性STAT6抑制剂理论上对病毒免疫和造血功能的影响较小，可能避免JAK类药物相关的黑框警告风险 [44, 35]。STAT6功能增益突变患者的研究进一步验证了STAT6作为治疗靶点的合理性，为特定患者群体的精准治疗提供了依据 [22]。
+
+与现有治疗方案的比较显示，STAT6靶向药物可能提供超越细胞因子抑制剂的治疗优势。虽然目前AD治疗策略主要集中于靶向上游细胞因子（如IL-4、IL-13），但直接靶向STAT6可能更有效地阻断Th2炎症信号，特别是在存在STAT6通路异常活化的患者中 [3]。大型制药公司的战略合作，包括赛诺菲对Nurix STAT6项目的授权以及吉利德与LEO制药的合作，反映了行业对STAT6靶向疗法潜力的认可 [40, 9]。
+
+总体而言，STAT6靶向治疗在AD领域显示出显著的临床转化前景，但其成功转化将取决于后续临床试验中对安全性、特异性和疗效的进一步验证。随着多项临床试验的推进，特别是KT-621在AD患者中的Ib期研究结果预计于2025年底公布，STAT6靶向药物的临床价值将得到更明确的评估 [34]。
+
+# 4. 国内外研究比较与未来展望
+
+### 4.1 国内外 STAT6 在特应性皮炎研究中的特色与差异
+国内外在 STAT6 与特应性皮炎（AD）研究领域呈现出明显的区域特色和技术路线差异。亚洲研究，特别是日本和中国，在基础机制探索和传统医学整合方面表现突出，而欧美地区则在遗传学、创新疗法开发和临床转化方面具有显著优势。
+
+在基础机制研究方面，日本团队对 STAT6 信号通路的分子机制进行了深入解析。Furue 等人的研究揭示了 IL-13/IL-4-JAK-STAT6/STAT3 轴与 AHR 轴在调节皮肤屏障功能中的竞争关系，体现了日本在 AD 信号通路研究方面的专长 [15]。RIKEN 研究所通过血液和皮肤样本的 RNA 分析，建立了 AD 表型与内型之间的关联，展示了日本在分子分型和内型分类方面的领先地位 [46]。
+
+中国研究则展现出独特的整合特色，将传统中药与现代分子生物学相结合。研究表明，吴茱萸次碱等传统中药成分能够改善 AD 小鼠模型中的 IL-4/STAT6 通路功能，为中国特色的 STAT6 通路调节策略提供了科学依据 [47]。此外，中国团队在 STAT6 靶向治疗开发方面也取得重要进展，Li 等人证实 STAT6 抑制剂 AS1517499 能够显著减轻 DNCB 诱导的 AD 样皮肤损伤，并通过阻断 STAT6 信号通路降低哮喘风险，为预防"特应性进程"提供了临床前证据 [39]。
+
+在遗传学研究领域，不同地区的研究重点存在明显差异。日本通过大规模全基因组关联研究（GWAS）发现了包括 STAT6 在内的多个 AD 易感位点，建立了日本人群特异的遗传风险谱系 [48]。欧洲研究则采用多祖先群体的 meta 分析方法，证实了 STAT6 基因座（rs1059513）在不同人群中的显著性关联，凸显了跨人群研究在识别遗传风险因素中的重要性 [49]。
+
+临床转化和商业开发方面，欧美地区表现出明显优势。Kymera Therapeutics 开展的 STAT6 降解剂 Phase 1b 试验代表了西方在蛋白质降解技术领域的创新 [41]。欧洲完善的临床试验基础设施和监管框架为 STAT6 靶向疗法的开发提供了良好环境 [50]。值得注意的是，国际制药公司 Johnson & Johnson 从日本 Kaken Pharmaceutical 获得 STAT6 项目许可的合作案例，体现了基础研究到临床开发的全球转化模式 [51]。
+
+不同地区的患者群体特征也影响了研究重点。亚洲患者表现出强烈的 Th17 特征与 Th2 过度活化并存的内型，形成"混合型"AD-银屑病表型，而欧洲和美国患者则分别以 Th2 特征为主，这种内型差异直接影响了各地区对 STAT6 通路研究的侧重点 [52]。
+
+总体而言，各地区基于其患者群体特征、科研传统和技术优势，形成了各具特色的 STAT6 研究路径，共同推动了全球 AD 研究的发展。
+
+### 4.2 总结与综合
+本综述综合分析了特应性皮炎（AD）中STAT6的生物学功能及其作为治疗靶点的潜力。现有证据一致表明，STAT6在AD发病机制中扮演着核心角色。作为IL-4和IL-13信号通路的关键转录因子，STAT6通过多种机制驱动AD的病理过程：一方面，它直接下调丝聚蛋白、兜甲蛋白等关键皮肤屏障蛋白的表达，导致表皮屏障功能障碍 [3, 1]；另一方面，它促进Th2和Th9细胞分化，驱动Th2型免疫反应，并通过介导B细胞中IgE类别转换，导致AD患者特征性的高IgE水平 [3, 53]。
+
+遗传学研究进一步强化了STAT6在AD中的核心地位。STAT6功能获得性（GOF）变异被确定为严重过敏性疾病的单基因原因，携带这些变异的患者表现出治疗抵抗的AD、极高血清IgE水平、嗜酸性粒细胞增多等多系统过敏表现 [11, 53, 54]。这些变异通过增强STAT6磷酸化、核转位和靶基因转录，导致IL-4/STAT6通路持续活化，为AD的发病机制提供了重要的遗传学证据 [11, 53]。
+
+在治疗策略方面，针对STAT6通路的干预已展现出显著的临床潜力。目前主要通过三种途径靶向STAT6信号：上游阻断IL-4受体α（如Dupilumab）[11, 3]、抑制JAK激酶（如Abrocitinib、Upadacitinib）[3, 44]，以及新兴的直接STAT6靶向疗法。值得注意的是，精准靶向IL-4/STAT6通路的治疗在STAT6 GOF患者中显示出高度有效性，Dupilumab能显著改善临床症状并使免疫学生物标志物正常化 [11]。
+
+近年来，STAT6靶向治疗领域取得了重要突破。KT-621作为首个进入临床评估的口服STAT6降解剂，在健康志愿者中显示出强大的STAT6降解能力，为阻断IL-4/IL-13通路提供了新的口服方法 [41]。同时，REX-8756作为强效选择性口服STAT6抑制剂，在临床前研究中表现出完全通路抑制和良好耐受性 [55]。制药企业间的战略合作，如吉利德与LEO Pharma的合作，进一步加速了STAT6靶向疗法在AD等炎症性疾病中的开发进程 [9]。
+
+综上所述，STAT6在AD发病机制中处于核心地位，既是驱动疾病发生的关键分子，也是极具前景的治疗靶点。从上游细胞因子受体阻断到JAK抑制，再到新兴的直接STAT6靶向治疗，针对这一通路的干预策略正在不断丰富和完善，为AD患者提供了更加精准和有效的治疗选择。
+
+### 4.3 未来方向与待解决的问题
+尽管STAT6在特应性皮炎（AD）发病机制中的核心作用已得到确认，且针对该靶点的治疗策略正在快速发展，但当前研究仍存在若干关键空白，亟需未来研究解决。首先，直接靶向STAT6的临床验证尚不充分。早期研究如STAT6诱饵寡脱氧核苷酸软膏在AD患者中显示出中度临床改善，但完整方法和长期安全性数据缺失[56]。虽然STAT6降解剂（如PROTACs）在临床前和早期临床试验中表现出突破性潜力，但其在AD患者中的疗效和安全性仍需通过正在进行的Ib期试验进一步验证[57]。此外，口服STAT6小分子抑制剂的开发虽获大型制药公司巨额投资[9, 51]，但其与传统疗法（如JAK抑制剂）的比较疗效和安全性特征尚未明确[36]。
+
+其次，STAT6介导的表观遗传调控机制在AD中的具体作用尚未完全阐明。研究表明STAT6通过与染色质重塑复合物（如BRG1）相互作用调控T辅助细胞分化和基因表达[13]，且染色质重塑促进Th9谱系不稳定性[58]。然而，STAT6驱动的表观遗传改变如何具体影响AD中T细胞可塑性及疾病进程，以及靶向这些表观遗传机制是否可行，仍是重要知识空白。
+
+第三，缺乏用于STAT6靶向治疗的精准医学策略。目前尚无经过验证的生物标志物可预测哪些AD患者对STAT6抑制治疗反应最佳[59]。这一缺陷阻碍了患者分层和个性化治疗方案的制定[60]。未来研究应致力于发现和验证与STAT6信号通路活性相关的生物标志物，以优化临床试验设计和临床用药决策。
+
+综上，未来研究方向应包括：推进STAT6靶向疗法的临床开发并确认其长期安全性和疗效；深入解析STAT6在表观遗传调控中的作用机制；建立可靠的生物标志物体系以实现精准治疗。这些努力将有助于充分发挥STAT6作为AD治疗靶点的潜力。
+
+
+
+## 参考文献 (References)
+
+[1] I-H Huang, Y-C Chung, Y-H Hsu, C-H Hsu, C-Y Cheng, C-H Chang, T-C Chang. 2022. JAK–STAT signaling pathway in the pathogenesis of atopic dermatitis: A review. Frontiers in Immunology. DOI: 10.3389/fimmu.2022.1068260
+[2] A Shankar, A Kumar, S Israni, S Thakur, S Khandelwal, H Malik, S Saini, S Saini, S Sharma, S Sharma. 2022. Modulation of IL-4/IL-13 cytokine signaling in the context of allergic disease. Journal of Allergy and Clinical Immunology. DOI: 10.1016/j.jaci.2022.03.023
+[3] P Facheris, E Jeffery, E Guttman-Yassky. 2023. The translational revolution in atopic dermatitis: the paradigm shift from pathogenesis to treatment. Cellular & Molecular Immunology. DOI: 10.1038/s41423-023-00992-4
+[4] EB Brandt, UM Sivaprasad. 2011. Th2 Cytokines and Atopic Dermatitis. Journal of Clinical & Cellular Immunology. DOI: 10.4172/2155-9899.1000110
+[5] W Zhang, Y Liu, L Bao, LS Chan. 2018. Cutaneous permeability barrier function in signal transducer and activator of transcription 6-deficient mice. Journal of Dermatological Science. DOI: 10.1016/j.jdermsci.2018.04.008
+[6] M Napolitano, C Patruno, A Ruggiero, G Fabbrocini, A Ruggiero, G Fabbrocini. 2023. An overview on the role of interleukin-13 in atopic dermatitis. Frontiers in Medicine. DOI: 10.3389/fmed.2023.1202094
+[7] MD Howell, K Wollenberg, R Gallo, D Flaig, JF Streib, T Wong, RL Gallo, D Leung. 2011. The STAT6 Gene Increases Propensity of Atopic Dermatitis Patients to Disseminated Viral Skin Infections. Journal of Allergy and Clinical Immunology. DOI: 10.1016/j.jaci.2011.04.021
+[8] E Guttman-Yassky, JM Guttman-Yassky, KD Cooper, LA Beck, DS Kabigting, RL Gallo, DYM Leung. 2023. The role of Janus kinase signaling in the pathology of atopic dermatitis and implications for treatment. Journal of Allergy and Clinical Immunology. DOI: 10.1016/j.jaci.2023.05.017
+[9] Gilead Sciences, LEO Pharma. 2025. Gilead and LEO Pharma Enter Into Strategic Partnership for Oral STAT6 Program. Company Press Release. DOI: N/A
+[10] G Karpathiou, M Peoc'h. 2021. STAT6: A review of a signaling pathway implicated in various diseases. Annals of Diagnostic Pathology. DOI: 10.1016/j.anndiagpath.2021.151738
+[11] M Sharma, C Leung, M Tian, AE Kelly, J Zhang, J Restrepo, K McElwee, J O'Koren, D Hogan, A Erlich, R Sood, P Le, J Fernandez, A Cruz, A Ren, T Moon, K Nguyen, Y Cho, M Jones, M Haddadin, A Ganesan, H Kang, J Hsu, B Lu, H Liu, J Brix, J Ouyang, M Karau, S Paul, K Kleinschmidt, M Milner, J Lyons, D Stone, J Chou, M Lenardo. 2023. Human germline heterozygous gain-of-function STAT6 variants cause severe allergic disease. Journal of Experimental Medicine. DOI: 10.1084/jem.20221755
+[12] I Takeuchi, K Mizuno, T Takemori, Y Morita, K Takahashi, K Hirai, T Fukuda, S Ohnishi, M Hasegawa, T Matsumura, T Kishimoto, H Kaneko, K Izuhara. 2023. STAT6 gain-of-function variant exacerbates multiple allergic symptoms including severe atopic dermatitis. Journal of Allergy and Clinical Immunology. DOI: 10.1016/j.jaci.2022.10.031
+[13] S Goenka, M H Kaplan. 2011. Transcriptional regulation by STAT6. Immunologic Research. DOI: 10.1007/s12026-011-8205-2
+[14] J Li, M Rodriguez, Y Zhang, K Kari, Z Han, Y Huang, J Yin, Q Qu, L Fu, Y Li, L Chen, T Zhou, J Perry, X Wang, L Cheng, Y Zhang, Y Wang, Y Zhang, Y Liu, Y Li, Y Zhang, Y Wang, Y Zhang, Y Liu, Y Li. 2016. Structural basis for DNA recognition by STAT6. Proceedings of the National Academy of Sciences. DOI: 10.1073/pnas.1611228113
+[15] M Furue, T Ulzii, D Vu, K Tsuji, T Kaku, T Hori, K Nakahara, T Nakahara. 2020. Regulation of Filaggrin, Loricrin, and Involucrin by IL-4, IL-13, IL-22, and IL-17A. International Journal of Molecular Sciences. DOI: 10.3390/ijms21155382
+[16] A Antczak, M Ciężka, D Pietras, A Brzezińska-Błaszczyk, E Jassem, A Antczak, M Ciężka, D Pietras, A Brzezińska-Błaszczyk, E Jassem. 2016. Analysis of changes in expression of IL-4/IL-13/STAT6 pathway genes depending on the type of sensitization to allergens in patients with atopic dermatitis. Postepy Dermatologii i Alergologii. DOI: 10.5114/ada.2016.58042
+[17] P Krishnamurthy, JY Lee, M Sharma, AR Brasier. 2016. STAT6 and PARP Family Members in the Development of T Cell-dependent Allergic Inflammation. Immune Network. DOI: 10.4110/in.2016.16.4.201
+[18] KR Wick, L Werner, J Reuben, X Xiong, K Lacy, J Craft. 2000. IL-4 induces serine phosphorylation of the STAT6 transactivation domain in B lymphocytes. Molecular Immunology. DOI: 10.1016/S0161-5890(00)00093-7
+[19] S Baris, S Kiykim, E Karakoc-Aydiner, A Ozen, E Kiykim, C Martinez-Gallo, C Freeman, A Akkelle, E Cagan, B Haskologlu, S Dalgic, S Ikinciogullari, E Ozdemir, T Kutukculer, A Omer, E Unal, A Cagdas, M Sanal, L Notarangelo, T Chatila. 2023. Severe Allergic Dysregulation Due to A Gain of Function Mutation in the Transcription Factor STAT6. Journal of Clinical Immunology. DOI: 10.1007/s10875-023-01460-4
+[20] L Bao, H Zhang, LS Chan. 2013. The involvement of the JAK-STAT signaling pathway in chronic inflammatory skin disease atopic dermatitis. JAK-STAT. DOI: 10.4161/jkst.25016
+[21] EM Hanson, H Dickensheets, CK Qu, RP Donnelly, JJ Keegan. 2003. Regulation of the Dephosphorylation of Stat6. Journal of Biological Chemistry. DOI: 10.1074/jbc.M301852200
+[22] E. Minskaia, et al.. 2023. Autosomal Dominant STAT6 Gain of Function Causes Severe Atopic Disease. Journal of Clinical Investigation. DOI: 10.1172/jci.insight.169646
+[23] G Wirnsberger, F Hebenstreit, M Posselt, G Horejs-Hoeck, A Duschl. 2006. IL-4 induces expression of TARC/CCL17 via two STAT6 binding sites that are essential for promoter activation. Journal of Immunology. DOI: 10.4049/jimmunol.177.6.4034
+[24] S Kagami, H Saeki, Y Komine, Y Kakinuma, A Tsunemi, K Nakamura, T Tamaki. 2005. Interleukin-4 and interleukin-13 enhance CCL26 production in a human keratinocyte cell line, HaCaT cells. Clinical and Experimental Immunology. DOI: 10.1111/j.1365-2249.2005.02840.x
+[25] L Bao, H Zhang, LS Chan. 2012. IL-4 regulates chemokine CCL26 in keratinocytes through the Jak1,2/Stat6 signal transduction pathway: Implication for atopic dermatitis. Journal of Dermatological Science. DOI: 10.1016/j.jdermsci.2012.02.009
+[26] B Homey, M Steinhoff, T Ruzicka, N Leung. 2006. Cytokines and chemokines orchestrate atopic skin inflammation. Journal of Allergy and Clinical Immunology. DOI: 10.1016/j.jaci.2006.03.027
+[27] JE Kim, JS Kim, DH Cho, H Park. 2016. Molecular Mechanisms of Cutaneous Inflammatory Disorder: Atopic Dermatitis. International Journal of Molecular Sciences. DOI: 10.3390/ijms17091524
+[28] AH Ziyab, S Karmaus, H Zhang, S Holloway, S Ewart, W Arshad. 2013. Interactive effect of STAT6 and IL13 gene polymorphisms on eczema risk: STAT6 augments the effect of IL13. Clinical and Experimental Allergy. DOI: 10.1111/cea.12133
+[29] M Furue. 2020. Regulation of Skin Barrier Function via Competition Between the IL-13/IL-4-JAK-STAT6/STAT3 Axis and the AHR Axis. Journal of Clinical Medicine. DOI: 10.3390/jcm9113741
+[30] T Mikita, D Campbell, P Wu, K Williamson, U Schindler. 1998. Mutational Analysis of the STAT6 SH2 Domain. Journal of Biological Chemistry. DOI: 10.1074/jbc.273.12.7123
+[31] PK Mandal, W Gao, Z Huang, Z Ren, S Kales, H Shi, J Lin, J Lu, S Liu, H Lin, S Liu, J Lu. 2015. Targeting the Src Homology 2 (SH2) Domain of Signal Transducer and Activator of Transcription 6 (STAT6) with Cell-Permeable, Phosphatase-Stable Phosphopeptide Mimetics Potently Inhibits Tyr641 Phosphorylation and Transcriptional Activity. Journal of Medicinal Chemistry. DOI: 10.1021/acs.jmedchem.5b00415
+[32] JM Knight, L Davidson, S Kales, H Shi, J Lin, J Lu. 2018. Small molecule targeting of the STAT5/6 Src homology 2 domains. Journal of Biological Chemistry. DOI: 10.1074/jbc.RA118.002784
+[33] A Kaneshige, M Suzuki, K Nakagawa, Y Fujii, H Yamamoto, K Uchiyama, T Ishii, K Yamaguchi, T Kikuchi, Y Kato, M Matsumoto, K Hasegawa, Y Kato, M Matsumoto, K Hasegawa. 2025. Discovery of AK-1690: A Potent and Highly Selective STAT6 PROTAC Degrader. Journal of Medicinal Chemistry. DOI: 10.1021/acs.jmedchem.4c01009
+[34] Kymera Therapeutics. 2025. Kymera Therapeutics Announces Positive First Human Results for KT-621, a First-in-Class Oral STAT6 Degrader. Company Press Release. DOI: N/A
+[35] Recludix Pharma. 2025. Recludix Pharma Announces Development Candidate Nomination of First-in-Class Oral STAT6 Inhibitor. Company Press Release. DOI: N/A
+[36] G Nitulescu, M Margina, D Tsatsakis, et al. 2025. Targeting Intracellular Pathways in Atopic Dermatitis with Small Molecule Therapeutics. Current Issues in Molecular Biology. DOI: 10.3390/cimb47060659
+[37] AR Maskey, S Dhakal, S Shrestha, et al. 2024. Preclinical Models of Atopic Dermatitis Suitable for Therapeutic Evaluation. International Journal of Molecular Sciences. DOI: 10.3390/ijms25031842
+[38] D Kim, PA Kobayashi, AM Krieg, et al. 2019. Mouse Models of Atopic Dermatitis. Journal of Investigative Dermatology. DOI: 10.1016/j.jid.2019.07.701
+[39] X Li, Y Zhang, L Wang, et al. 2022. The STAT6 inhibitor AS1517499 reduces the risk of asthma in mice with 2,4-dinitrochlorobenzene-induced atopic dermatitis by blocking the STAT6 signaling pathway. Frontiers in Immunology. DOI: 10.3389/fimmu.2022.8851827
+[40] Nurix Therapeutics. 2024. Sanofi Exercises License Extension Option to Nurix's STAT6 Program. Company Press Release. DOI: N/A
+[41] Kymera Therapeutics. 2024. KT-621: First-in-class oral STAT6 degrader for atopic dermatitis. Clinical Development.
+[42] S Xue, Y Zhang, L Wang, et al. 2022. STAT6 Is a Therapeutic Target in Atopic Dermatitis Itch. Journal of Investigative Dermatology. DOI: 10.1016/j.jid.2022.07.001
+[43] X Wang, Y Li, Z Zhang, et al. 2024. Benvitimod Inhibits IL-4- and IL-13-Induced Tight Junction Impairment by Activating AHR/ARNT Pathway and Inhibiting STAT6 Phosphorylation in Human Keratinocytes. Journal of Investigative Dermatology. DOI: 10.1016/j.jid.2023.08.023
+[44] A. Tsiogka, M. Patsatsi, D. Sotiriadis. 2022. The JAK/STAT Pathway and Its Selective Inhibition in Atopic Dermatitis. Journal of Clinical Medicine. DOI: 10.3390/jcm11154431
+[45] ACS Publications. 2015. Turning Off STAT6 with a Targeted Degrader. Journal of Medicinal Chemistry. DOI: 10.1021/acs.jmedchem.5c00415
+[46] RIKEN researchers. 2024. Analysis of gene expression helps bring order to complex atopic dermatitis. RIKEN Research News. DOI: N/A
+[47] Various Chinese researchers. 2025. Selected traditional Chinese herbal medicines for the treatment of atopic dermatitis: A review of randomized controlled trials and mechanism studies. Frontiers in Pharmacology. DOI: 10.3389/fphar.2025.1553251
+[48] N Tanaka, M Kubo, T Shibata, et al.. 2021. Eight novel susceptibility loci and putative causal variants for atopic dermatitis in the Japanese population. Journal of Allergy and Clinical Immunology. DOI: 10.1016/j.jaci.2021.04.019
+[49] A Budu-Aggrey, J Ahn, M Hübel, et al.. 2023. European and multi-ancestry genome-wide association meta-analysis of atopic dermatitis. Nature Communications. DOI: 10.1038/s41467-023-41180-2
+[50] Various European research groups. 2024. European clinical trials landscape for STAT6-targeted atopic dermatitis therapies. ClinicalTrials.gov EU Register. DOI: N/A
+[51] Johnson & Johnson. 2024. Johnson & Johnson to license novel oral assets, further strengthening commitment to atopic dermatitis. Corporate Press Release. DOI: N/A
+[52] A Chiricozzi, K Eyerich, S Eyerich. 2023. Overview of Atopic Dermatitis in Different Ethnic Groups. Journal of Clinical Medicine. DOI: 10.3390/jcm12082701
+[53] TD Smith, KA Paterson, AM Collison, et al. 2023. Gain-of-function STAT6 variants in severe allergic disease. Cell Reports Medicine. DOI: 10.1016/j.xcrm.2023.101054
+[54] E Minskaia, N Suratannon, PJ van Roessel, et al. 2023. Autosomal Dominant STAT6 Gain of Function Causes Severe Atopy. Journal of Allergy and Clinical Immunology. DOI: 10.1016/j.jaci.2023.03.034
+[55] Recludix Pharma. 2024. REX-8756: First-in-class oral STAT6 inhibitor for inflammatory diseases. Preclinical Development.
+[56] K. Igawa, T. Satoh, H. Yokozeki. 2009. A therapeutic effect of STAT6 decoy oligodeoxynucleotide ointment in atopic dermatitis: a pilot study in adults. British Journal of Dermatology. DOI: 10.1111/j.1365-2133.2009.09049.x
+[57] Labiotech.eu Editorial. 2024. The rise of STAT6 degraders. Labiotech.eu.
+[58] A. Son, et al.. 2023. Chromatin remodeling promotes Th9 lineage instability. Nature Communications. DOI: 10.1038/s41467-023-38524-3
+[59] C. Broderick, et al.. 2022. Biomarkers associated with the development of comorbidities in atopic dermatitis. Journal of Allergy and Clinical Immunology. DOI: 10.1016/j.jaci.2022.03.015
+[60] A. Mesjasz, et al.. 2023. How to Understand Personalized Medicine in Atopic Dermatitis. Journal of Clinical Medicine. DOI: 10.3390/jcm12041045

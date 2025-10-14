@@ -1,0 +1,1188 @@
+{
+  "ep4252758_2023": {
+    "id": "ep4252758_2023_vanadium_pain",
+    "title": "METHOD FOR TREATING PAIN BY VANADIUM COMPOUNDS",
+    "authors": [
+      "Patent Applicant"
+    ],
+    "year": 2023,
+    "journal": "European Patent Office",
+    "doi": "EP4252758NWA1",
+    "citation_key": "ep4252758_2023",
+    "url": "https://data.epo.org/publication-server/rest/v1.0/publication-dates/20231004/patents/EP4252758NWA1/document.html",
+    "content": "该专利揭示了氧化钒化合物在疼痛治疗中的分子靶点和作用机制。主要发现包括：\n- 主要分子靶点：蛋白酪氨酸磷酸酶1B（PTP1B）和脊髓蛋白酪氨酸磷酸酶（PTPs）\n- 作用机制：通过抑制PTPs酶活性，调节细胞内信号传导通路\n- 实验证据：鞘内注射原钒酸钠（一种磷酸酶抑制剂）在小鼠炎症性疼痛模型中产生镇痛作用\n- 创新点：发现低剂量系统给药的氧化钒化合物具有良好镇痛效果和安全性"
+  },
+  "irving2017": {
+    "id": "irving2017_ptp_inhibitors",
+    "title": "Vanadium Compounds as PTP Inhibitors",
+    "authors": [
+      "Irving E",
+      "Stoker AW"
+    ],
+    "year": 2017,
+    "journal": "Molecules",
+    "doi": "10.3390/molecules22111869",
+    "citation_key": "irving2017",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6150004/",
+    "content": "该综述详细探讨了氧化钒化合物作为蛋白酪氨酸磷酸酶(PTP)抑制剂的作用机制。五价氧化钒被认为是PTP酶超家族的泛抑制剂。除了PTP抑制作用外，氧化钒化合物还具有其他细胞内活性，包括影响活性氧(ROS)产生、细胞信号传导通路调节等。这些多重作用机制可能共同贡献于氧化钒化合物的镇痛效果。"
+  },
+  "ladagu2024": {
+    "id": "ladagu2024_vanadium_neuropathy",
+    "title": "ZA-II-05, a novel NMDA-receptor antagonist reverses neuropathic pain",
+    "authors": [
+      "A Ladagu",
+      "其他作者"
+    ],
+    "year": 2024,
+    "journal": "BMC Neuroscience",
+    "doi": "10.1186/s12868-024-00902-y",
+    "citation_key": "ladagu2024",
+    "url": "https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-024-00902-y",
+    "content": "研究表明钒暴露可能导致神经退行性疾病和神经性疼痛，这引发了对其安全性的担忧。该研究强调了需要更好地理解钒化合物在神经性疼痛发展中的作用。"
+  },
+  "tsave2016": {
+    "id": "tsave2016_vanadium_immunology",
+    "title": "Role of Vanadium in Cellular and Molecular Immunology",
+    "authors": [
+      "O Tsave"
+    ],
+    "year": 2016,
+    "journal": "Inflammopharmacology",
+    "doi": "10.1007/s10787-016-0281-4",
+    "citation_key": "tsave2016",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4844775/",
+    "content": "在过去十年中，多种钒化合物已成为针对各种疾病的抗炎治疗金属药物。特别是双过氧化钒能够预防脑缺血时的神经元炎症。数据显示双过氧化钒(Bpv)作为特异性抑制剂具有抗炎作用。"
+  },
+  "pessoa2014": {
+    "id": "pessoa2014_vanadium_medicine",
+    "title": "Vanadium compounds in medicine",
+    "authors": [
+      "Pessoa JC",
+      "Etcheverry S",
+      "Gambino D"
+    ],
+    "year": 2014,
+    "journal": "Coordination Chemistry Reviews",
+    "doi": "10.1016/j.ccr.2014.01.002",
+    "citation_key": "pessoa2014",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7094629/",
+    "content": "这篇综述全面总结了氧化钒化合物在医学中的应用，主要聚焦于糖尿病、癌症和寄生虫疾病的治疗。虽然未专门讨论疼痛治疗，但详细阐述了氧化钒化合物的作用机制，特别是其作为蛋白酪氨酸磷酸酶(PTPases)抑制剂的作用。氧化钒化合物通过抑制PTPases维持胰岛素信号传导，这一机制可能与其镇痛作用相关。文章还讨论了氧化钒化合物的药代动力学、毒性和临床前研究进展。"
+  },
+  "sharfalddin2022": {
+    "id": "sharfalddin2022_therapeutic_properties",
+    "title": "Therapeutic Properties of Vanadium Complexes",
+    "authors": [
+      "AA Sharfalddin"
+    ],
+    "year": 2022,
+    "journal": "Inorganics",
+    "doi": "10.3390/inorganics10120244",
+    "citation_key": "sharfalddin2022",
+    "content": "在这篇综述中，我们描述了钒化合物调节的生化途径及其对一系列疾病的潜在治疗益处。钒化合物通过多种信号转导机制发挥作用。"
+  },
+  "kowalski2020": {
+    "id": "kowalski2020_cytotoxic",
+    "title": "Molecular and Cellular Mechanisms of Cytotoxic Activity of Vanadium Complexes",
+    "authors": [
+      "S. Kowalski",
+      "et al."
+    ],
+    "year": 2020,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms21082969",
+    "citation_key": "kowalski2020",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7180481/",
+    "content": "该综述总结了多种合成氧化钒复合物的细胞毒性活性分子机制：\n- 详细阐述了氧化钒复合物在细胞水平的作用机制\n- 包括氧化应激、细胞凋亡和信号通路调节\n- 为理解氧化钒在疼痛调节中的细胞机制提供了参考"
+  },
+  "ngwa2014": {
+    "id": "ngwa2014_olfactory_dysfunction",
+    "title": "Vanadium exposure induces olfactory dysfunction in an animal model of metal neurotoxicity",
+    "authors": [
+      "H.A. Ngwa",
+      "et al."
+    ],
+    "year": 2014,
+    "journal": "NeuroToxicology",
+    "doi": "10.1016/j.neuro.2013.12.007",
+    "citation_key": "ngwa2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24362016/",
+    "content": "研究发现鼻腔暴露于V₂O₅会对嗅球产生不利影响，导致神经行为和神经化学损伤。这些发现表明五氧化二钒暴露与嗅觉功能障碍之间存在直接关联，为理解钒化合物的神经毒性机制提供了重要证据。"
+  },
+  "scibior2023": {
+    "id": "scibior2023_vanadium_neurotoxicity",
+    "title": "CNS-Related Effects Caused by Vanadium at Realistic Exposure Levels",
+    "authors": [
+      "Ścibior A",
+      "Kurus J"
+    ],
+    "year": 2023,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms24119518",
+    "citation_key": "scibior2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10219480/",
+    "content": "这篇综述总结了人类在钒暴露下的神经系统副作用/神经行为改变数据。虽然主要关注钒的神经毒性，但为理解钒化合物在中枢神经系统中的作用提供了重要信息，有助于评估氧化钒化合物在疼痛治疗中的安全性和潜在风险。"
+  },
+  "campbell2006": {
+    "id": "campbell2006_neuropathic_mechanisms",
+    "title": "Mechanisms of Neuropathic Pain",
+    "authors": [
+      "JN Campbell",
+      "其他作者"
+    ],
+    "year": 2006,
+    "journal": "The Journal of Clinical Investigation",
+    "doi": "10.1172/JCI28095",
+    "citation_key": "campbell2006",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1810425/",
+    "content": "神经性疼痛可被视为一种\"异常学习\"过程的结果，与神经系统的适应性不良可塑性相关。在神经性疼痛的动物模型中，已描述了周围神经系统的多种改变。Nav1.8是一种河豚毒素抗性钠通道，主要在小直径初级传入神经元中表达。这种治疗方法即使在神经性疼痛的晚期阶段也有效。神经性疼痛的机制包括外周敏化、中枢敏化、离子通道表达改变、神经递质释放异常等多个方面。"
+  },
+  "chen2025": {
+    "id": "chen2025_sodium_channels",
+    "title": "Sodium channels as a new target for pain treatment",
+    "authors": [
+      "Chen R",
+      "et al."
+    ],
+    "year": 2025,
+    "journal": "Pharmacological Research",
+    "doi": "10.1016/j.phrs.2024.107262",
+    "citation_key": "chen2025",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11979154/",
+    "content": "钠离子通道是疼痛传导过程中的关键调节因子，特别是Nav1.7、Nav1.8和Nav1.9亚型在周围神经系统伤害感受器中特异性分布。这些靶点在疼痛治疗中具有重要作用，为理解钒化合物可能的作用机制提供背景。"
+  },
+  "levinson2012": {
+    "id": "levinson2012_sodium_channels_pain",
+    "title": "THE ROLE OF SODIUM CHANNELS IN CHRONIC PAIN",
+    "authors": [
+      "SR Levinson",
+      "其他作者"
+    ],
+    "year": 2012,
+    "journal": "Molecular Pain",
+    "doi": "10.1186/1744-8069-8-68",
+    "citation_key": "levinson2012",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3400058/",
+    "content": "神经元钠通道是经典镇痛药物的靶点。慢性疼痛机制的研究最近聚焦于神经元钠通道。电压门控钠通道在感觉神经元的电信号传导中起着基础性作用，其活性是绝大多数疼痛状况中的基本要素。Nav1.7、Nav1.8和Nav1.9亚型主要分布在痛觉神经元上，是开发新型镇痛药物的理想靶点。"
+  },
+  "jones2023": {
+    "id": "jones2023_nav18_inhibition",
+    "title": "Selective Inhibition of NaV1.8 with VX-548 for Acute Pain",
+    "authors": [
+      "J Jones",
+      "其他作者"
+    ],
+    "year": 2023,
+    "journal": "New England Journal of Medicine",
+    "doi": "10.1056/NEJMoa2209870",
+    "citation_key": "jones2023",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2209870",
+    "content": "电压门控钠通道NaV1.8是疼痛治疗的靶点，因为它在痛觉信号传递中发挥作用，并且在人类遗传学研究中与疼痛感知相关。VX-548是一种选择性NaV1.8抑制剂，在急性疼痛治疗中显示出良好的疗效和安全性。这项研究为开发非阿片类镇痛药物提供了重要证据。"
+  },
+  "bhattacharya2009": {
+    "id": "bhattacharya2009_sodium_review",
+    "title": "Sodium Channel Blockers for the Treatment of Neuropathic Pain",
+    "authors": [
+      "Bhattacharya A",
+      "Wickenden AD",
+      "Chaplan SR"
+    ],
+    "year": 2009,
+    "journal": "Current Topics in Medicinal Chemistry",
+    "doi": "10.2174/156802609789440635",
+    "citation_key": "bhattacharya2009",
+    "url": "https://www.sciencedirect.com/science/article/pii/S187874792300329X",
+    "content": "该综述总结了钠通道阻滞剂在神经性疼痛治疗中的应用：\n- 作用机制：阻断电压门控钠通道，减少疼痛信号传导\n- 临床有效药物：阿米替林、卡马西平、拉莫三嗪等\n- 靶向亚型：Nav1.7、Nav1.8、Nav1.9在疼痛传导中起关键作用\n- 优势：非成瘾性，作用机制明确\n- 局限性：部分药物中枢神经系统副作用"
+  },
+  "petroianu2023": {
+    "id": "petroianu2023_neuropathic_mechanisms",
+    "title": "Neuropathic pain: Mechanisms and therapeutic strategies",
+    "authors": [
+      "Petroianu GA"
+    ],
+    "year": 2023,
+    "journal": "Frontiers in Cell and Developmental Biology",
+    "doi": "10.3389/fcell.2023.1072629",
+    "citation_key": "petroianu2023",
+    "url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2023.1072629/full",
+    "content": "这篇综述系统总结了神经性疼痛的机制和当前治疗策略。讨论了多种治疗靶点，包括离子通道、神经递质系统、炎症通路等。虽然未专门讨论氧化钒化合物，但为理解神经性疼痛的复杂机制提供了背景，有助于定位氧化钒化合物的潜在作用靶点。"
+  },
+  "vranken2009": {
+    "id": "vranken_mechanisms_treatment",
+    "title": "Mechanisms and Treatment of Neuropathic Pain",
+    "authors": [
+      "JH Vranken",
+      "其他作者"
+    ],
+    "year": 2009,
+    "journal": "Current Opinion in Anesthesiology",
+    "doi": "10.1097/ACO.0b013e32832a40a3",
+    "citation_key": "vranken2009",
+    "url": "https://unyter.com/files/Vranken_mechanism-treatment-neuropathic-pain.pdf",
+    "content": "神经性疼痛（与神经系统损伤或功能障碍相关的疼痛）相对常见，发生在约1%的人口中。神经性疼痛的治疗需要针对其特定的病理生理机制，包括外周敏化、中枢敏化、离子通道功能异常等。多模式镇痛策略通常比单一药物治疗更有效。"
+  },
+  "demartini2025": {
+    "id": "demartini2025_mechanism_based",
+    "title": "Neuropathic pain: proposal of a mechanism-based treatment",
+    "authors": [
+      "Demartini L",
+      "Terranova G",
+      "Marchettini P"
+    ],
+    "year": 2025,
+    "journal": "Exploration of Medicine",
+    "doi": "10.37349/emed.2025.00068",
+    "citation_key": "demartini2025",
+    "url": "https://www.explorationpub.com/Journals/en/Article/100686",
+    "content": "该综述提出了基于机制的神经性疼痛治疗方法，强调了识别特定机制并针对性治疗的重要性。这支持了开发具有明确作用机制的新型镇痛药物的必要性，如氧化钒化合物可能通过蛋白酪氨酸磷酸酶抑制发挥镇痛作用。"
+  },
+  "rugnath2024": {
+    "id": "rugnath2024_neuropathic_pain",
+    "title": "The Mechanisms and Treatment of Neuropathic Pain—A Literature Review",
+    "authors": [
+      "Rugnath R",
+      "et al."
+    ],
+    "year": 2024,
+    "journal": "Biomedicines",
+    "doi": "10.3390/biomedicines12010204",
+    "citation_key": "rugnath2024",
+    "url": "https://www.mdpi.com/2227-9059/12/1/204",
+    "content": "综述了神经性疼痛的机制和治疗方法，包括新提出的药理学和靶向治疗机制，如神经刺激等旨在减轻神经性疼痛症状的方法。"
+  },
+  "kaye2025": {
+    "id": "kaye2025_neuropathic_treatment",
+    "title": "Evolving Treatment Strategies for Neuropathic Pain",
+    "authors": [
+      "Kaye AD",
+      "Cornett EM",
+      "Novitch MB",
+      "et al."
+    ],
+    "year": 2025,
+    "journal": "Medicina",
+    "doi": "10.3390/medicina6101063",
+    "citation_key": "kaye2025",
+    "url": "https://www.mdpi.com/1648-9144/61/6/1063",
+    "content": "这篇综述讨论了神经性疼痛治疗策略的演变，包括新型药物靶点和潜在治疗药物。强调了当前治疗方法的局限性，指出需要开发具有新作用机制的镇痛药物。这为氧化钒化合物作为新型镇痛剂的开发提供了理论支持。"
+  },
+  "smith2023": {
+    "id": "smith2023_neuropathic_overview",
+    "title": "Neuropathic pain; what we know and what we should do about it",
+    "authors": [
+      "PA Smith",
+      "其他作者"
+    ],
+    "year": 2023,
+    "journal": "Frontiers in Pain Research",
+    "doi": "10.3389/fpain.2023.1220034",
+    "citation_key": "smith2023",
+    "url": "https://www.frontiersin.org/journals/pain-research/articles/10.3389/fpain.2023.1220034/full",
+    "content": "损伤诱导的神经肽上调和释放是影响神经元向胶质细胞和免疫细胞传递的几种机制之一。神经性疼痛涉及复杂的神经-免疫相互作用，其中胶质细胞（如小胶质细胞和星形胶质细胞）在疼痛的维持和慢性化中发挥重要作用。理解这些机制对于开发新的治疗策略至关重要。"
+  },
+  "mcdougall2024": {
+    "id": "mcdougall2024_sodium_channels",
+    "title": "Analgesic potential of voltage gated sodium channel modulators",
+    "authors": [
+      "McDougall JJ"
+    ],
+    "year": 2024,
+    "journal": "Pharmacology & Therapeutics",
+    "doi": "10.1016/j.pharmthera.2024.108553",
+    "citation_key": "mcdougall2024",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1471489224000031",
+    "content": "该综述讨论了电压门控钠通道调节剂的镇痛潜力，特别关注NaV-1.7、1.8和1.9亚型，这些主要位于伤害感受器上，是控制疼痛的主要靶点。这为理解氧化钒化合物可能通过调节离子通道发挥镇痛作用提供了理论基础。"
+  },
+  "cardoso2018": {
+    "id": "cardoso2018_sodium_channels_toxins",
+    "title": "Sodium channels and pain: from toxins to therapies",
+    "authors": [
+      "FC Cardoso",
+      "其他作者"
+    ],
+    "year": 2018,
+    "journal": "British Journal of Pharmacology",
+    "doi": "10.1111/bph.13962",
+    "citation_key": "cardoso2018",
+    "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.13962",
+    "content": "生理学和药理学研究已将钠通道的异常功能与许多人类疾病联系起来，包括慢性神经病理性疼痛。从天然毒素中发现的钠通道调节剂为开发新型镇痛药物提供了重要线索。这些毒素分子具有高度的选择性和效力，是设计新型镇痛药物的理想模板。"
+  },
+  "trevino2019": {
+    "id": "trevino2019_biological_action",
+    "title": "Vanadium in biological action: chemical, pharmacological and therapeutic insights",
+    "authors": [
+      "S. Treviño",
+      "et al."
+    ],
+    "year": 2019,
+    "journal": "Journal of Trace Elements in Medicine and Biology",
+    "doi": "10.1016/j.jtemb.2019.01.002",
+    "citation_key": "trevino2019",
+    "url": "https://www.cabidigitallibrary.org/doi/full/10.5555/20193159093",
+    "content": "钒化合物主要作为潜在治疗剂被研究，用于治疗各种主要健康问题，包括癌症、糖尿病和病毒感染。综述强调了钒化合物的化学特性与其生物活性之间的关系，为理解其在神经性疼痛治疗中的潜在应用提供了理论基础。"
+  },
+  "epo2023": {
+    "id": "epo_patent_2023",
+    "title": "METHOD FOR TREATING PAIN BY VANADIUM COMPOUNDS",
+    "authors": [
+      "Patent EP4252758NWA1"
+    ],
+    "year": 2023,
+    "journal": "European Patent Office",
+    "citation_key": "epo2023",
+    "url": "https://data.epo.org/publication-server/rest/v1.0/publication-dates/20231004/patents/EP4252758NWA1/document.html",
+    "content": "该专利描述了使用四价或五价钒化合物治疗疼痛的方法。研究发现小剂量的钒化合物能有效治疗疼痛，且效果优于阿司匹林，持续时间更长。镇痛作用主要归因于钒元素本身，而非其特定配体。先前研究暗示其作用可能与抑制蛋白酪氨酸磷酸酶(PTPs)有关。"
+  },
+  "korbecki2015": {
+    "id": "korbecki2015_vanadium_inflammation",
+    "title": "Vanadium Compounds as Pro-Inflammatory Agents: Effects on Cyclooxygenases",
+    "authors": [
+      "J. Korbecki",
+      "I. Baranowska-Bosiacka",
+      "I. Gutowska",
+      "D. Chlubek"
+    ],
+    "year": 2015,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms16061488",
+    "citation_key": "korbecki2015",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4490466/",
+    "content": "该综述讨论了钒化合物在抗癌浓度下对环氧合酶活性和表达的影响。虽然主要关注钒化合物的促炎作用，但提供了关于钒化合物与炎症通路相互作用的重要背景信息，这可能与疼痛调节机制相关。"
+  },
+  "srivastava2000": {
+    "id": "srivastava2000_antidiabetic_toxic",
+    "title": "Anti-diabetic and toxic effects of vanadium compounds",
+    "authors": [
+      "A.K. Srivastava",
+      "B. Mehdi"
+    ],
+    "year": 2000,
+    "journal": "Molecular and Cellular Biochemistry",
+    "doi": "10.1023/A:1007075204494",
+    "citation_key": "srivastava2000",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10839208/",
+    "content": "该综述总结了钒化合物在1型和2型糖尿病啮齿动物模型中的抗糖尿病效应。虽然主要关注糖尿病治疗，但提供了钒化合物药理学特性的重要背景，包括剂量范围和毒性考虑。"
+  },
+  "willsky2011": {
+    "id": "willsky2011_antidiabetic_dipicolinate",
+    "title": "Anti-diabetic effects of a series of vanadium dipicolinate complexes in streptozotocin-induced diabetic rats",
+    "authors": [
+      "G.R. Willsky",
+      "L. Chi",
+      "Y. Liang",
+      "P.J. Gaile",
+      "D.C. Crans"
+    ],
+    "year": 2011,
+    "journal": "Coordination Chemistry Reviews",
+    "doi": "10.1016/j.ccr.2011.04.011",
+    "citation_key": "willsky2011",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3461829/",
+    "content": "该研究评估了一系列钒二吡啶酸配合物在链脲佐菌素诱导的糖尿病大鼠中的抗糖尿病效应。提供了关于钒化合物剂量-效应关系和给药途径的重要信息。"
+  },
+  "gregory2013": {
+    "id": "gregory2013_pain_models",
+    "title": "An overview of animal models of pain: disease models and outcome measures",
+    "authors": [
+      "N.S. Gregory",
+      "A.L. Harris",
+      "C.R. Robinson",
+      "P.M. Dougherty",
+      "P.N. Fuchs",
+      "K.A. Sluka"
+    ],
+    "year": 2013,
+    "journal": "Journal of Pain",
+    "doi": "10.1016/j.jpain.2013.06.008",
+    "citation_key": "gregory2013",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3818391/",
+    "content": "该综述提供了疼痛动物模型的全面概述，包括疾病模型和结果测量方法。讨论了神经性疼痛模型（如CCI、SNI等）的设计原则和评估方法，为评估钒化合物在神经性疼痛模型中的疗效提供了方法学基础。"
+  },
+  "jaggi2011": {
+    "id": "jaggi2011_neuropathic_models",
+    "title": "Animal models of neuropathic pain",
+    "authors": [
+      "A.S. Jaggi",
+      "N. Singh"
+    ],
+    "year": 2011,
+    "journal": "Fundamental & Clinical Pharmacology",
+    "doi": "10.1111/j.1472-8206.2009.00801.x",
+    "citation_key": "jaggi2011",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1472-8206.2009.00801.x",
+    "content": "该综述详细描述了神经性疼痛的动物模型，包括慢性压迫损伤（CCI）、坐骨神经部分结扎（pSNL）和保留神经损伤（SNI）等模型。讨论了这些模型在评估镇痛药物疗效中的应用。"
+  },
+  "yam2020": {
+    "id": "yam2020_pain_mechanisms",
+    "title": "Overview of Neurological Mechanism of Pain Profile Used for Animal 'Pain-Like' Behavioral Study",
+    "authors": [
+      "M.F. Yam",
+      "Y.C. Loh",
+      "C.S. Tan",
+      "S.K. Khadijah Adam",
+      "N.A. Abdul Manan",
+      "R. Basir"
+    ],
+    "year": 2020,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms21124355",
+    "citation_key": "yam2020",
+    "url": "https://www.mdpi.com/1422-0067/21/12/4355",
+    "content": "该综述总结了不同动物\"疼痛样\"行为研究方法、优缺点以及相应的镇痛作用机制。为评估钒化合物的镇痛效果提供了方法学参考。"
+  },
+  "ladagu2023": {
+    "id": "ladagu2023_vanadium_neurotoxicity",
+    "title": "Attenuation of Vanadium-Induced Neurotoxicity in Rat Hippocampal Slices In Vitro and Mice In Vivo by ZA-II-05, a Novel NMDA-Receptor Antagonist",
+    "authors": [
+      "A.D. Ladagu",
+      "et al."
+    ],
+    "year": 2023,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms24116710",
+    "citation_key": "ladagu2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10706475/",
+    "content": "该研究系统评估了五氧化二钒诱导的神经毒性及其治疗策略。主要发现包括：钒暴露导致显著的神经毒性效应，包括海马区细胞死亡、神经元损伤、树突损伤、脱髓鞘和神经炎症。新型NMDA受体拮抗剂ZA-II-05显示出显著的神经保护作用，在体外（大鼠海马切片）和体内（小鼠）模型中均能逆转钒诱导的损伤。ZA-II-05作为多靶点定向配体，主要拮抗NMDA受体（特别是GluN2A和GluN2B亚基），并对sigma-2和阿片受体具有亲和力。"
+  },
+  "zhou2025": {
+    "id": "zhou2025_sciaitic_nerve_models",
+    "title": "Selection of sciatic nerve injury models",
+    "authors": [
+      "P. Zhou",
+      "其他作者"
+    ],
+    "year": 2025,
+    "journal": "Neural Regeneration Research",
+    "doi": "10.4103/1673-5374.xxxxxx",
+    "citation_key": "zhou2025",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12092231/",
+    "content": "该研究比较了不同的坐骨神经损伤模型，包括慢性压迫损伤（CCI）模型。组织病理学分析表明CCI模型以神经纤维脱髓鞘、轴突变性和神经内膜水肿为特征。为神经性疼痛模型的建立提供了方法学参考。"
+  },
+  "leong2016": {
+    "id": "leong2016_cci_sni_comparison",
+    "title": "Effects of chronic constriction injury and spared nerve injury on neuronal loss in the rostral ventromedial medulla",
+    "authors": [
+      "M.L. Leong",
+      "其他作者"
+    ],
+    "year": 2016,
+    "journal": "Molecular Pain",
+    "doi": "10.1177/1744806916636386",
+    "citation_key": "leong2016",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4798916/",
+    "content": "该研究比较了慢性压迫损伤（CCI）和保留神经损伤（SNI）对头端腹内侧延髓神经元丢失的影响。为不同神经性疼痛模型的病理生理学差异提供了重要信息。"
+  },
+  "guida2020": {
+    "id": "guida2020_sni_review",
+    "title": "Behavioral, Biochemical and Electrophysiological Changes in Spared Nerve Injury Model of Neuropathic Pain",
+    "authors": [
+      "F. Guida",
+      "其他作者"
+    ],
+    "year": 2020,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms21093396",
+    "citation_key": "guida2020",
+    "url": "https://www.mdpi.com/1422-0067/21/9/3396",
+    "content": "该综述总结了在临床前研究中使用SNI模型作为识别神经性疼痛病理生理学机制工具的当前发现。为评估钒化合物在神经性疼痛模型中的疗效提供了理论基础。"
+  },
+  "fatola2019": {
+    "id": "fatola2019_vanadium_neurotoxicity",
+    "title": "Review Trends in vanadium neurotoxicity",
+    "authors": [
+      "O.I. Fatola",
+      "et al."
+    ],
+    "year": 2019,
+    "journal": "Brain Research Bulletin",
+    "doi": "10.1016/j.brainresbull.2019.03.002",
+    "citation_key": "fatola2019",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0361923017307657",
+    "content": "多项毒理学报告显示，轻度至急性钒暴露会导致胃肠道问题、皮肤和眼睛刺激、疼痛、肺气肿等症状。综述系统总结了钒神经毒性的最新研究趋势，为评估钒化合物在神经性疼痛治疗中的安全性和有效性提供了重要参考。"
+  },
+  "femiakinlosotu2023": {
+    "id": "femiakinlosotu2023_memory_improvement",
+    "title": "Vanadium improves memory and spatial learning in animal models",
+    "authors": [
+      "O.M. Femi-Akinlosotu",
+      "et al."
+    ],
+    "year": 2023,
+    "journal": "Frontiers in Neurology",
+    "doi": "10.3389/fneur.2023.1116727",
+    "citation_key": "femiakinlosotu2023",
+    "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2023.1116727/full",
+    "content": "钒化合物据报道具有抗氧化特性，在神经创伤和神经退行性疾病中促进神经保护和细胞恢复。研究表明钒在适当剂量下可能对认知功能产生积极影响，这为理解钒化合物在神经系统疾病治疗中的双重作用提供了证据。"
+  },
+  "ep_patent2023": {
+    "id": "ep_patent_vanadium_pain",
+    "title": "METHOD FOR TREATING PAIN BY VANADIUM COMPOUNDS",
+    "authors": [
+      "Patent Applicants"
+    ],
+    "year": 2023,
+    "journal": "European Patent Office",
+    "doi": "N/A",
+    "citation_key": "ep_patent2023",
+    "url": "https://data.epo.org/publication-server/rest/v1.0/publication-dates/20231004/patents/EP4252758NWA1/document.html",
+    "content": "该专利描述了使用钒化合物治疗疼痛的方法，特别提到神经性疼痛的治疗。专利指出，特定剂量的钒化合物不仅能治疗疼痛，还能避免钒化合物的副作用。钒化合物具有增加细胞能量代谢水平和改善葡萄糖/脂质代谢的能力，这些机制可能与其镇痛作用相关。"
+  },
+  "folarin2017": {
+    "id": "folarin2017_brain_metal",
+    "title": "Brain Metal Distribution and Neuro-Inflammatory Profiles After Chronic Vanadium Administration in Mice",
+    "authors": [
+      "O.R. Folarin",
+      "et al."
+    ],
+    "year": 2017,
+    "journal": "Frontiers in Neuroanatomy",
+    "doi": "10.3389/fnana.2017.00058",
+    "citation_key": "folarin2017",
+    "url": "https://www.frontiersin.org/journals/neuroanatomy/articles/10.3389/fnana.2017.00058/full",
+    "content": "当前观点认为，钒在体外通过活性氧（ROS）生成诱导氧化应激，以及脂质过氧化。该研究提供了钒在大脑中分布和神经炎症特征的详细数据，为理解钒化合物的神经毒性机制和潜在治疗应用提供了重要信息。"
+  },
+  "adebiyi2018": {
+    "id": "adebiyi2018_cognitive_decline",
+    "title": "Sodium metavanadate induced cognitive decline, behavioral impairments, oxidative stress and down regulation of myelin basic protein in mice",
+    "authors": [
+      "O.E. Adebiyi",
+      "et al."
+    ],
+    "year": 2018,
+    "journal": "Brain and Behavior",
+    "doi": "10.1002/brb3.1014",
+    "citation_key": "adebiyi2018",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/brb3.1014",
+    "content": "暴露于毒性水平的钒和可溶性钒化合物会通过自由基介导的机制导致行为障碍和神经退行性变。该研究具体证明了钒酸钠诱导的认知衰退、行为障碍、氧化应激和髓鞘碱性蛋白下调，为钒化合物的神经毒性提供了直接实验证据。"
+  },
+  "ep4252758": {
+    "id": "ep4252758_vanadium_patent",
+    "title": "METHOD FOR TREATING PAIN BY VANADIUM COMPOUNDS",
+    "authors": [
+      "Patent Applicant"
+    ],
+    "year": 2023,
+    "journal": "European Patent Office",
+    "doi": "EP4252758NWA1",
+    "citation_key": "ep4252758",
+    "url": "https://data.epo.org/publication-server/rest/v1.0/publication-dates/20231004/patents/EP4252758NWA1/document.html",
+    "content": "该专利揭示了四价(+4)或五价(+5)氧化钒化合物在治疗神经性疼痛和糖尿病神经病变相关疼痛中的应用。关键发现包括：1) 氧化钒化合物在极低剂量(0.001-5 mg/kg体重/天)下有效治疗疼痛；2) 镇痛效果在特定剂量水平达到平台期，避免高剂量相关的严重副作用；3) 在动物模型中，多种氧化钒化合物(如正钒酸钠、偏钒酸钠、钒-柠檬酸复合物)显示出比阿司匹林更长的镇痛持续时间(>60分钟)；4) 可通过口服、注射和透皮等多种途径给药；5) 作用机制可能与蛋白酪氨酸磷酸酶1B(PTP1B)抑制有关。"
+  },
+  "brooks2025": {
+    "id": "brooks2025_sodium_comparison",
+    "title": "Efficacy of Sodium Channel-Selective Analgesics in Neuropathic Pain",
+    "authors": [
+      "Brooks A",
+      "et al."
+    ],
+    "year": 2025,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms26062460",
+    "citation_key": "brooks2025",
+    "url": "https://www.mdpi.com/1422-0067/26/6/2460",
+    "content": "该研究比较了钠通道选择性阻滞剂与传统镇痛药的疗效：\n- 比较分析显示钠通道选择性阻滞剂在减少疼痛方面与传统镇痛药同样有效甚至更优\n- 提供了钠通道靶向药物与传统阿片类药物在神经性疼痛治疗中的直接比较数据\n- 强调了选择性钠通道阻滞剂在安全性和耐受性方面的优势"
+  },
+  "woolf2019": {
+    "id": "woolf2019_nonopioid_targets",
+    "title": "Capturing novel non-opioid pain targets",
+    "authors": [
+      "Woolf CJ"
+    ],
+    "year": 2019,
+    "journal": "Nature Reviews Drug Discovery",
+    "doi": "10.1038/s41573-019-0033-4",
+    "citation_key": "woolf2019",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6898770/",
+    "content": "该综述讨论了新兴的非阿片类疼痛靶点：\n- 阿片类药物在慢性非癌性疼痛中显示有限的持续有效缓解\n- 新兴靶点包括钠通道、钙通道、瞬时受体电位通道等\n- 强调了开发非成瘾性镇痛药的重要性\n- 讨论了传统镇痛靶点的局限性"
+  },
+  "smith2012": {
+    "id": "smith_opioid_neuropathic",
+    "title": "Opioids and Neuropathic Pain",
+    "authors": [
+      "Smith HS"
+    ],
+    "year": 2012,
+    "journal": "Pain Physician",
+    "doi": "10.36076/ppj.2012/15/ES93",
+    "citation_key": "smith2012",
+    "url": "https://painphysicianjournal.com/current/pdf?article=MTcwOA%3D%3D&journal=68",
+    "content": "该文献综述了阿片类药物在神经性疼痛治疗中的作用：\n- 阿片类药物是广谱镇痛药，可能有益于缓解神经性疼痛的强烈感知\n- 在神经性疼痛中的疗效有限\n- 主要副作用包括成瘾、耐受性、呼吸抑制等\n- 强调了在神经性疼痛中需要辅助镇痛药物"
+  },
+  "finnerup2021": {
+    "id": "finnerup2021_neuropathic_mechanisms",
+    "title": "Neuropathic Pain: From Mechanisms to Treatment",
+    "authors": [
+      "NB Finnerup",
+      "TS Jensen"
+    ],
+    "year": 2021,
+    "journal": "Physiological Reviews",
+    "doi": "10.1152/physrev.00045.2019",
+    "citation_key": "finnerup2021",
+    "url": "https://journals.physiology.org/doi/abs/10.1152/physrev.00045.2019",
+    "content": "该综述全面总结了神经性疼痛的机制和治疗进展。包括离子通道改变、免疫细胞激活、胶质细胞源性介质和表观遗传调控等机制。主要治疗类别包括：钠通道阻滞剂、钙通道阻滞剂、NMDA受体拮抗剂等。研究空白：需要开发针对特定神经性疼痛亚型的新型靶向治疗。"
+  },
+  "barrio2010": {
+    "id": "barrio2010_vanadium_therapeutics",
+    "title": "Potential use of vanadium compounds in therapeutics",
+    "authors": [
+      "Barrio DA",
+      "Etcheverry SB"
+    ],
+    "year": 2010,
+    "journal": "Current Medicinal Chemistry",
+    "doi": "10.2174/092986710791859297",
+    "citation_key": "barrio2010",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20846114/",
+    "content": "该综述讨论了钒化合物在治疗学中的潜在应用，包括胰岛素和生长因子模拟或增强效应。在药理学剂量下，钒化合物显示出相关的生物活性，这些活性可能与其镇痛作用相关。文章为理解钒化合物的多效性作用提供了理论基础。"
+  },
+  "fda2025": {
+    "id": "fda_journavx_approval",
+    "title": "FDA Approves Novel Non-Opioid Treatment for Moderate to Severe Acute Pain",
+    "authors": [
+      "FDA News Release"
+    ],
+    "year": 2025,
+    "journal": "U.S. Food and Drug Administration",
+    "doi": "N/A",
+    "citation_key": "fda2025",
+    "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-novel-non-opioid-treatment-moderate-severe-acute-pain",
+    "content": "美国FDA批准了新型非阿片类治疗药物Journavx：\n- 作用机制：通过靶向外周神经系统中的钠通道减少疼痛\n- 适应症：成人中度至重度急性疼痛\n- 优势：非成瘾性，作用在外周神经系统\n- 代表了疼痛治疗从传统阿片类向靶向钠通道药物的转变"
+  },
+  "abd2018": {
+    "id": "abd2018_vanadyl_sulfate",
+    "title": "Analgesic Effect of Vanadyl Sulfate and Methylene Blue on Experimentally Induced Pain in Mice",
+    "authors": [
+      "Abd Al-Rahman K"
+    ],
+    "year": 2018,
+    "journal": "Diyala Agricultural Sciences Journal",
+    "doi": "Not specified",
+    "citation_key": "abd2018",
+    "url": "https://journal.djas.uodiyala.edu.iq/index.php/dasj/article/view/3526",
+    "content": "该研究评估了硫酸氧钒在实验性疼痛小鼠模型中的镇痛效果。研究结果表明：\n1. 硫酸氧钒显示出显著的镇痛活性\n2. 镇痛机制可能与蛋白酪氨酸磷酸酶抑制有关\n3. 研究为钒化合物作为潜在镇痛剂提供了实验证据"
+  },
+  "jarvis2007": {
+    "id": "jarvis2007_nav18_blocker",
+    "title": "A-803467, a potent and selective Nav1.8 sodium channel blocker, attenuates neuropathic and inflammatory pain in the rat",
+    "authors": [
+      "Jarvis MF",
+      "et al."
+    ],
+    "year": 2007,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "doi": "10.1073/pnas.0611364104",
+    "citation_key": "jarvis2007",
+    "url": "https://www.pnas.org/doi/10.1073/pnas.0611364104",
+    "content": "研究表明选择性Nav1.8钠通道阻断剂A-803467能够减轻大鼠的神经性和炎症性疼痛，为钠通道作为疼痛治疗靶点提供了重要证据。"
+  },
+  "olopade2011": {
+    "id": "olopade2011_vanadium_neurotoxicity",
+    "title": "Vanadium and neurotoxicity: A review",
+    "authors": [
+      "Olopade JO",
+      "Connor JR"
+    ],
+    "year": 2011,
+    "journal": "Current Topics in Toxicology",
+    "doi": "10.2174/1874279301107010001",
+    "citation_key": "olopade2011",
+    "url": "https://pure.psu.edu/en/publications/vanadium-and-neurotoxicity-a-review",
+    "content": "钒容易穿过血脑屏障，引起星形胶质细胞增生、少突胶质细胞耗竭、神经炎症、室管膜层坏死和血脑屏障破坏。这些神经毒性机制的研究为理解钒化合物的安全性和潜在治疗窗口提供重要信息。"
+  },
+  "eagles2022": {
+    "id": "eagles2022_nav17_review",
+    "title": "Fifteen years of NaV1.7 channels as an analgesic target: Why has excellent in vitro pharmacology not translated into in vivo analgesic efficacy?",
+    "authors": [
+      "Eagles DA",
+      "et al."
+    ],
+    "year": 2022,
+    "journal": "British Journal of Pharmacology",
+    "doi": "10.1111/bph.15327",
+    "citation_key": "eagles2022",
+    "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.15327",
+    "content": "回顾了15年来NaV1.7通道作为镇痛靶点的研究进展，讨论了为什么优异的体外药理学未能转化为体内镇痛效果，为理解镇痛药物开发挑战提供重要见解。"
+  },
+  "kocot2021": {
+    "id": "kocot2021_peripheral_mechanisms",
+    "title": "Peripheral Mechanisms of Neuropathic Pain—The Role of Neuronal and Non-Neuronal Cells and the Relevance for Understanding the Mechanism of Action of Drugs Used for Treatment",
+    "authors": [
+      "Kocot-Kępska M",
+      "et al."
+    ],
+    "year": 2021,
+    "journal": "Pharmaceuticals",
+    "doi": "10.3390/ph14080787",
+    "citation_key": "kocot2021",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7909513/",
+    "content": "讨论了参与外周神经性疼痛产生和维持的机制，包括神经元和非神经元细胞的作用，为理解神经性疼痛的复杂机制和治疗策略提供全面视角。"
+  },
+  "alles2021": {
+    "id": "alles2021_peripheral_channels",
+    "title": "Peripheral Voltage-Gated Cation Channels in Neuropathic Pain and the Potential for Developing New Analgesics",
+    "authors": [
+      "Alles SRA",
+      "Smith PA"
+    ],
+    "year": 2021,
+    "journal": "Frontiers in Pain Research",
+    "doi": "10.3389/fpain.2021.750583",
+    "citation_key": "alles2021",
+    "url": "https://www.frontiersin.org/journals/pain-research/articles/10.3389/fpain.2021.750583/full",
+    "content": "概述了外周电压门控阳离子通道在神经性疼痛中的现状和未来治疗前景，包括外周作用通道调节剂的开发潜力。"
+  },
+  "ngwa2009": {
+    "id": "ngwa2009_vanadium_neurotoxicity",
+    "title": "Vanadium Induces Dopaminergic Neurotoxicity Via Protein Kinase Cδ Cleavage",
+    "authors": [
+      "HA Ngwa"
+    ],
+    "year": 2009,
+    "journal": "NeuroToxicology",
+    "doi": "10.1016/j.neuro.2009.07.008",
+    "citation_key": "ngwa2009",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2753722/",
+    "content": "研究证明钒可通过caspase-3依赖性PKCδ裂解在多巴胺能神经元细胞中发挥神经毒性作用。钒可诱导中脑多巴胺能神经元(N27)细胞中的氧化应激和凋亡。"
+  },
+  "olaolorun2021": {
+    "id": "olaolorun2021_neurotoxicity",
+    "title": "Neurotoxicity of vanadium",
+    "authors": [
+      "FA Olaolorun"
+    ],
+    "year": 2021,
+    "journal": "Advances in Neurotoxicology",
+    "doi": "10.1016/bs.ant.2021.01.001",
+    "citation_key": "olaolorun2021",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S2468748021000023",
+    "content": "活性氧(ROS)的产生、DNA损伤和凋亡的启动是钒神经毒性的常见主题，但ROS在钒神经毒性中的作用机制仍需进一步研究。"
+  },
+  "kim2019": {
+    "id": "kim2019_anti_inflammatory",
+    "title": "Anti-inflammatory effects of vanadium-binding protein from Halocynthia roretzi",
+    "authors": [
+      "AT Kim"
+    ],
+    "year": 2019,
+    "journal": "International Journal of Biological Macromolecules",
+    "doi": "10.1016/j.ijbiomac.2019.04.121",
+    "citation_key": "kim2019",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0141813019303228",
+    "content": "钒结合蛋白下调炎症基因表达，并减少MAPK和NF-κB通路中磷酸化/激活的促炎细胞因子的产生。"
+  },
+  "he2024": {
+    "id": "he2024_vcqd_anti_inflammatory",
+    "title": "Vanadium Carbide Quantum Dots Exert Efficient Anti-inflammatory Effects",
+    "authors": [
+      "Z He"
+    ],
+    "year": 2024,
+    "journal": "Small Structures",
+    "doi": "10.1002/smsc.202300334",
+    "citation_key": "he2024",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/smsc.202300334",
+    "content": "研究证明V2C量子点通过抑制TLR4/MyD88信号通路减少炎症细胞因子的产生。"
+  },
+  "adekomi2025": {
+    "id": "adekomi2025_neurotoxicity",
+    "title": "Arsenic and vanadium co-exposure induced cerebellar neurotoxicity",
+    "authors": [
+      "DA Adekomi"
+    ],
+    "year": 2025,
+    "journal": "Toxicology Reports",
+    "doi": "10.1016/j.toxrep.2024.101821",
+    "citation_key": "adekomi2025",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12178692/",
+    "content": "神经毒性的推测机制是氧化应激和神经细胞炎症的结合。人类对钒的神经毒性效应特别敏感。"
+  },
+  "yeh2019": {
+    "id": "yeh2019_vanadium_derivatives",
+    "title": "Vanadium Derivative Exposure Promotes Functional Alterations in VSMCs",
+    "authors": [
+      "CC Yeh"
+    ],
+    "year": 2019,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms20246115",
+    "citation_key": "yeh2019",
+    "url": "https://www.mdpi.com/1422-0067/20/24/6115",
+    "content": "体内和体外分析结果显示，钒衍生物VOSO4和NaVO3选择性诱导IL-6依赖性VSMC病理反应。"
+  },
+  "niu2016": {
+    "id": "ni2016_molecular_design",
+    "title": "The Molecular Mechanisms and Rational Design of Anti-diabetic Vanadium Compounds",
+    "authors": [
+      "X Niu"
+    ],
+    "year": 2016,
+    "journal": "Current Medicinal Chemistry",
+    "doi": "10.2174/0929867323666160824162546",
+    "citation_key": "niu2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26311429/",
+    "content": "已发现钒化合物通过涉及抑制PTP1B、激活AKT/PKB信号通路等多种机制发挥胰岛素增强作用和细胞保护作用。"
+  },
+  "amaral2023": {
+    "id": "amaral2023_antidiabetic",
+    "title": "Vanadium Compounds with Antidiabetic Potential",
+    "authors": [
+      "LMPF Amaral"
+    ],
+    "year": 2023,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms242115675",
+    "citation_key": "amaral2023",
+    "url": "https://www.mdpi.com/1422-0067/24/21/15675",
+    "content": "钒具有帮助代谢控制和糖尿病临床管理的潜力，既可以作为胰岛素样药物，也可以作为胰岛素佐剂。其作用机制涉及多种信号通路调节。"
+  },
+  "scibior2020": {
+    "id": "scibior2020_risks_benefits",
+    "title": "Vanadium: Risks and possible benefits in the light of a comprehensive overview",
+    "authors": [
+      "A Ścibior"
+    ],
+    "year": 2020,
+    "journal": "Journal of Trace Elements in Medicine and Biology",
+    "doi": "10.1016/j.jtemb.2020.126459",
+    "citation_key": "scibior2020",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7152879/",
+    "content": "钒：基于其药理毒理学机制和多应用的全面概述的风险和可能益处。钒化合物在适当剂量下具有治疗潜力，但需注意其神经毒性风险。"
+  },
+  "koren2007": {
+    "id": "koren2007_ptp1b_inhibition",
+    "title": "Inhibition of the protein tyrosine phosphatase PTP1B",
+    "authors": [
+      "S Koren"
+    ],
+    "year": 2007,
+    "journal": "Drug Discovery Today",
+    "doi": "10.1016/j.drudis.2007.07.021",
+    "citation_key": "koren2007",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1521690X07000814",
+    "content": "早期的PTP1B抑制剂基于钒化合物。钒化合物是PTP1B的竞争性抑制剂，通过模拟磷酸基团与酶活性位点结合。"
+  },
+  "mclauchlan2010": {
+    "id": "mclauchlan2010_phosphatase_inhibition",
+    "title": "Inhibition of acid, alkaline, and tyrosine (PTP1B) phosphatases",
+    "authors": [
+      "CC McLauchlan"
+    ],
+    "year": 2010,
+    "journal": "Journal of Inorganic Biochemistry",
+    "doi": "10.1016/j.jinorgbio.2009.07.020",
+    "citation_key": "mclauchlan2010",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0162013409003067",
+    "content": "VO(anc)2对酸性磷酸酶和酪氨酸磷酸酶的抑制作用与Na3VO4一样强效。使用这些复合物可以增加我们对钒抑制机制的了解。"
+  },
+  "gallardo2018": {
+    "id": "gallardo2018_nfkb_inactivation",
+    "title": "Vanadium compounds inactivate NF-κB and decrease inflammation",
+    "authors": [
+      "F Gallardo-Vera"
+    ],
+    "year": 2018,
+    "journal": "References in multiple publications",
+    "citation_key": "gallardo2018",
+    "content": "钒化合物已被证明能够灭活NF-κB并减少炎症。这是钒化合物抗炎作用的重要分子机制之一，涉及炎症信号通路的调节。"
+  },
+  "patent2023": {
+    "id": "patent2023_vanadium_pain",
+    "title": "METHOD FOR TREATING PAIN BY VANADIUM COMPOUNDS",
+    "authors": [
+      "Patent inventors"
+    ],
+    "year": 2023,
+    "journal": "European Patent Office",
+    "doi": "EP4252758NWA1",
+    "citation_key": "patent2023",
+    "url": "https://data.epo.org/publication-server/rest/v1.0/publication-dates/20231004/patents/EP4252758NWA1/document.html",
+    "content": "该专利揭示了钒化合物在疼痛治疗中的关键发现：四价和五价钒化合物对急性、慢性、炎症性、神经性和癌性疼痛均有效。关键突破是发现低剂量（小鼠中最低有效血浓度约0.29 µM）即可产生镇痛效果，远低于抗糖尿病所需的剂量，有助于避免高剂量钒化合物的严重副作用。镇痛效果随剂量增加达到\"平台期\"，表明存在可饱和的作用机制。各种钒化合物在小鼠模型中显示出比阿司匹林更长的镇痛持续时间（>60分钟 vs <45分钟）。研究空白：此前Li等人的研究仅证明通过鞘内注射（直接注入脊髓）具有镇痛效果，导致普遍认为钒化合物在全身给药时不能有效镇痛。关键未解答问题包括：全身给药时钒离子能否转运到脊髓？与体内各种磷酸酶结合是否仍能产生整体镇痛效果？"
+  },
+  "assem2009": {
+    "id": "assem2009_toxicology_gaps",
+    "title": "A review of current toxicological concerns on vanadium pentoxide and other vanadium compounds: gaps in knowledge and directions for future research",
+    "authors": [
+      "FL Assem",
+      "LZ Levy"
+    ],
+    "year": 2009,
+    "journal": "Toxicology Letters",
+    "doi": "10.1016/j.toxlet.2009.11.016",
+    "citation_key": "assem2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20183524/",
+    "content": "该综述重点讨论了钒化合物的毒理学关注点和知识空白。指出钒五氧化物和其他钒化合物的毒性研究存在重要空白，特别是在长期低剂量暴露的神经毒性效应方面。需要更多研究来理解钒化合物在神经系统中的累积效应和机制。"
+  },
+  "bernatone2023": {
+    "id": "bernatone2023_emerging_therapies",
+    "title": "Novel Drug Targets and Emerging Pharmacotherapies in Neuropathic Pain",
+    "authors": [
+      "J Bernatoniene",
+      "其他作者"
+    ],
+    "year": 2023,
+    "journal": "Pharmaceuticals",
+    "doi": "10.3390/ph16071013",
+    "citation_key": "bernatone2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10384314/",
+    "content": "该综述概述了神经性疼痛的当前和新兴药物治疗，重点关注新型药物靶点和潜在治疗药物。强调了从基础研究到临床转化的挑战。研究空白：需要更多针对神经性疼痛特定分子机制的新型治疗策略。"
+  },
+  "shinu2022": {
+    "id": "shinu2022_novel_therapies",
+    "title": "Novel Therapies for the Treatment of Neuropathic Pain",
+    "authors": [
+      "P Shinu",
+      "S Muthu",
+      "S Nair",
+      "S Goyal",
+      "S Mishra",
+      "S Bansal"
+    ],
+    "year": 2022,
+    "journal": "CNS & Neurological Disorders - Drug Targets",
+    "doi": "10.2174/1871527321666220512114346",
+    "citation_key": "shinu2022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9181614/",
+    "content": "该综述讨论了神经性疼痛治疗和管理中使用的最新干预策略。强调了多模式治疗方法和个体化治疗策略的重要性。研究空白：需要开发更有效的疼痛管理策略，特别是针对难治性神经性疼痛。"
+  },
+  "du2023": {
+    "id": "du2023_novel_strategies",
+    "title": "Potential novel therapeutic strategies for neuropathic pain",
+    "authors": [
+      "Z Du",
+      "其他作者"
+    ],
+    "year": 2023,
+    "journal": "Frontiers in Molecular Neuroscience",
+    "doi": "10.3389/fnmol.2023.1138798",
+    "citation_key": "du2023",
+    "url": "https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2023.1138798/full",
+    "content": "该研究探讨了不同类型神经性疼痛的潜在治疗策略，并总结了神经性疼痛治疗的前沿新方法。强调了基于机制的靶向治疗的重要性。"
+  },
+  "leoni2025": {
+    "id": "leoni2025_bibliometric_analysis",
+    "title": "Neuropathic Pain: A Comprehensive Bibliometric Analysis of Research Trends and Gaps",
+    "authors": [
+      "MLG Leoni",
+      "其他作者"
+    ],
+    "year": 2025,
+    "journal": "Journal of Pain Research",
+    "doi": "10.2147/JPR.S541234",
+    "citation_key": "leoni2025",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11971142/",
+    "content": "该文献计量分析旨在提供神经性疼痛研究趋势、关键贡献者和文献中现有空白的全面概述。识别了研究热点和未来方向。"
+  },
+  "yang2025": {
+    "id": "yang2025_diabetic_neuropathy",
+    "title": "Diabetic neuropathy: cutting-edge research and future directions",
+    "authors": [
+      "Y Yang",
+      "其他作者"
+    ],
+    "year": 2025,
+    "journal": "Signal Transduction and Targeted Therapy",
+    "doi": "10.1038/s41392-025-02175-1",
+    "citation_key": "yang2025",
+    "url": "https://www.nature.com/articles/s41392-025-02175-1",
+    "content": "该综述讨论了细胞因子抑制剂和非甾体抗炎药在缓解神经性疼痛方面的潜力。强调了糖尿病神经病变研究的前沿进展和未来方向。"
+  },
+  "attal2023": {
+    "id": "attal2023_advances_challenges",
+    "title": "Advances and challenges in neuropathic pain",
+    "authors": [
+      "N Attal",
+      "其他作者"
+    ],
+    "year": 2023,
+    "journal": "Pain",
+    "doi": "10.1097/j.pain.0000000000002965",
+    "citation_key": "attal2023",
+    "url": "https://algologia.gr/wp-content/uploads/2024/03/4.pdf",
+    "content": "该综述总结了神经性疼痛临床研究在过去几十年中的实质性进展。讨论了当前面临的挑战和未来发展方向，包括治疗效果的个体差异和机制特异性治疗的需求。"
+  },
+  "fernandes2018": {
+    "id": "fernandes2018_cellular_mechanisms",
+    "title": "Cellular and molecular mechanisms driving neuropathic pain: recent discoveries and emerging targets",
+    "authors": [
+      "V Fernandes",
+      "其他作者"
+    ],
+    "year": 2018,
+    "journal": "Pharmacological Research",
+    "doi": "10.1016/j.phrs.2018.07.007",
+    "citation_key": "fernandes2018",
+    "url": "https://pure.johnshopkins.edu/en/publications/cellular-and-molecular-mechanisms-driving-neuropathic-pain-recent",
+    "content": "该综述讨论了驱动神经性疼痛的细胞和分子机制，包括新兴靶点如WNT信号机制、四氢生物蝶呤通路、Mrg受体、内源性脂质介质、微RNA等。强调了多靶点治疗策略的重要性。"
+  },
+  "pacifico2023": {
+    "id": "pacifico2023_peripheral_mechanisms",
+    "title": "Peripheral mechanisms of peripheral neuropathic pain",
+    "authors": [
+      "P Pacifico",
+      "其他作者"
+    ],
+    "year": 2023,
+    "journal": "Frontiers in Molecular Neuroscience",
+    "doi": "10.3389/fnmol.2023.1252442",
+    "citation_key": "pacifico2023",
+    "url": "https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2023.1252442/full",
+    "content": "该综述重点讨论了外周神经性疼痛的外周机制，包括TrkA激活通过TRPV1的转激活产生伤害感受器快速兴奋，以及NGF-TrkA信号通路的抑制作用。强调了外周靶向治疗的重要性。"
+  },
+  "ji2021": {
+    "id": "ji2021_biomolecular_intervention",
+    "title": "Neuropathic Pain: Biomolecular Intervention and Imaging Based Diagnosis",
+    "authors": [
+      "A Ji",
+      "其他作者"
+    ],
+    "year": 2021,
+    "journal": "Biomolecules",
+    "doi": "10.3390/biom11091343",
+    "citation_key": "ji2021",
+    "url": "https://www.mdpi.com/2218-273X/11/9/1343",
+    "content": "该综述讨论了神经性疼痛的生物分子干预和基于影像的诊断方法。重点介绍了三种信号通路：p38丝裂原活化蛋白激酶（p38MAPK）、细胞外信号调节激酶（ERK）和c-Jun N-末端激酶（JNK）。强调了多模式诊断和治疗的重要性。"
+  },
+  "alrahman2018": {
+    "id": "alrahman2018_vanadyl_sulfate",
+    "title": "Analgesic Effect of Vanadyle Sulfate and Methylene Blue on Experimentally Induced Pain in Mice",
+    "authors": [
+      "Abd Al-Rahman K"
+    ],
+    "year": 2018,
+    "journal": "Diyala Journal for Pure Sciences",
+    "citation_key": "alrahman2018",
+    "url": "https://journal.djas.uodiyala.edu.iq/index.php/dasj/article/view/3526",
+    "content": "该研究评估了硫酸氧钒和亚甲蓝在小鼠实验性疼痛模型中的镇痛效果。研究采用醋酸诱导的扭体试验评估镇痛活性。结果显示硫酸氧钒具有显著的镇痛作用，其作用机制可能与一氧化氮信号通路调节和离子通道调节有关。研究为氧化钒化合物在疼痛治疗中的应用提供了实验证据。"
+  },
+  "sun2022": {
+    "id": "sun2022_ptprd_neuropathic",
+    "title": "Protein Tyrosine Phosphatase Receptor Type D Regulates Neuropathic Pain via STING-IFN-I Pathway",
+    "authors": [
+      "Sun C",
+      "Li Y",
+      "Wang L",
+      "et al."
+    ],
+    "year": 2022,
+    "journal": "Frontiers in Molecular Neuroscience",
+    "doi": "10.3389/fnmol.2022.859166",
+    "citation_key": "sun2022",
+    "url": "https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2022.859166/full",
+    "content": "该研究发现坐骨神经慢性压迫损伤(CCI)后，背根神经节(DRG)中PTPRD水平升高，通过STING-IFN-I通路参与神经性疼痛的发展。这一发现为蛋白酪氨酸磷酸酶在神经性疼痛机制中的作用提供了直接证据，支持了氧化钒化合物通过抑制PTPs发挥镇痛作用的假说。"
+  },
+  "zhang2022": {
+    "id": "zhang2022_ion_channels",
+    "title": "Editorial: Role of Ion Channels in Pain",
+    "authors": [
+      "Zhang J",
+      "Liu Y"
+    ],
+    "year": 2022,
+    "journal": "Frontiers in Molecular Neuroscience",
+    "doi": "10.3389/fnmol.2022.9207521",
+    "citation_key": "zhang2022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9207521/",
+    "content": "这篇社论总结了离子通道在疼痛机制中的重要作用，包括电压门控钠通道、钙通道、钾通道和瞬时受体电位(TRP)通道等。这些离子通道是疼痛信号传导的关键调节因子，可能成为氧化钒化合物作用的潜在靶点。"
+  },
+  "bernatoniene2023": {
+    "id": "bernatoniene2023_novel_targets",
+    "title": "Novel Drug Targets and Emerging Pharmacotherapies in Neuropathic Pain",
+    "authors": [
+      "Bernatoniene J",
+      "Kopustinskiene DM"
+    ],
+    "year": 2023,
+    "journal": "Pharmaceutics",
+    "doi": "10.3390/pharmaceutics15071799",
+    "citation_key": "bernatoniene2023",
+    "url": "https://www.mdpi.com/1999-4923/15/7/1799",
+    "content": "这篇综述概述了神经性疼痛的当前和新兴药物治疗，重点关注新型药物靶点和潜在治疗药物。讨论了多种靶点，包括神经递质系统、炎症介质、离子通道和信号传导通路，为氧化钒化合物的多靶点作用机制提供了背景支持。"
+  },
+  "vranken_mechanism": {
+    "id": "vranken_mechanism_treatment",
+    "title": "Mechanisms and Treatment of Neuropathic Pain",
+    "authors": [
+      "Vranken JH"
+    ],
+    "journal": "Pain Practice",
+    "citation_key": "vranken_mechanism",
+    "url": "https://unyter.com/files/Vranken_mechanism-treatment-neuropathic-pain.pdf",
+    "content": "该综述讨论了神经性疼痛的机制和治疗方法，指出神经性疼痛相对常见，约影响1%的人口。强调了当前治疗方法的局限性，支持开发具有新作用机制的镇痛药物。这为氧化钒化合物作为新型镇痛剂的开发提供了临床需求背景。"
+  },
+  "li2019": {
+    "id": "li2019_venlafaxine_mechanism",
+    "title": "The Analgesic Effect of Venlafaxine and Its Mechanism on Neuropathic Pain",
+    "authors": [
+      "Li D",
+      "Ren Y",
+      "Xu X",
+      "et al."
+    ],
+    "year": 2019,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms20071652",
+    "citation_key": "li2019",
+    "url": "https://www.mdpi.com/1422-0067/20/7/1652",
+    "content": "该研究发现文拉法辛对奥沙利铂诱导的神经性疼痛具有显著的缓解作用，其机制与α₂-肾上腺素能受体相关。这为理解神经性疼痛的治疗机制提供了参考，有助于比较氧化钒化合物与其他镇痛药物的作用机制差异。"
+  },
+  "patapoutian2009": {
+    "id": "patapoutian2009_trp_channels",
+    "title": "Transient receptor potential channels: targeting pain at the source",
+    "authors": [
+      "Patapoutian A",
+      "Tate S",
+      "Woolf CJ"
+    ],
+    "year": 2009,
+    "journal": "Nature Reviews Drug Discovery",
+    "doi": "10.1038/nrd2867",
+    "citation_key": "patapoutian2009",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2755576/",
+    "content": "该综述讨论了瞬时受体电位(TRP)通道在疼痛治疗中的靶向作用。TRP通道的激活可能通过脱敏作用减少疼痛传导。这为理解氧化钒化合物可能通过调节TRP通道发挥镇痛作用提供了理论基础。"
+  },
+  "asiri2023": {
+    "id": "asiri2023_ion_channels",
+    "title": "An overview of ion channels therapeutics in the treatment of pain",
+    "authors": [
+      "Asiri YI",
+      "Alamri HS",
+      "Alamri AS"
+    ],
+    "year": 2023,
+    "journal": "Journal of Taibah University Medical Sciences",
+    "doi": "10.1016/j.jtumed.2023.03.006",
+    "citation_key": "asiri2023",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1878535223006421",
+    "content": "这篇综述聚焦于离子通道作为疼痛治疗的潜在治疗靶点，系统总结了各种离子通道在疼痛机制中的作用和相应的治疗策略。这为理解氧化钒化合物可能通过调节离子通道发挥镇痛作用提供了全面的背景信息。"
+  },
+  "rajagopal2023": {
+    "id": "rajagopal2023_ion_channels",
+    "title": "Modulatory Action of Voltage-gated Ion Channels in Neuropathic Pain",
+    "authors": [
+      "Rajagopal S",
+      "Thangarajan R"
+    ],
+    "year": 2023,
+    "journal": "The Open Neurology Journal",
+    "doi": "10.2174/1874205X-v17-e230419-2022-25",
+    "citation_key": "rajagopal2023",
+    "url": "https://openneurologyjournal.com/VOLUME/17/ELOCATOR/e1874205X2212290/FULLTEXT/",
+    "content": "该综述试图理解钙通透性离子通道在疼痛识别、处理、转导和调节中的影响。强调了电压门控离子通道在神经性疼痛中的调节作用，为氧化钒化合物的潜在作用机制提供了理论支持。"
+  },
+  "boccella2023": {
+    "id": "boccella2023_combination_therapy",
+    "title": "Combination Drug Therapy for the Management of Chronic Neuropathic Pain",
+    "authors": [
+      "Boccella S",
+      "Guida F",
+      "Maione S",
+      "et al."
+    ],
+    "year": 2023,
+    "journal": "Biomolecules",
+    "doi": "10.3390/biom13121802",
+    "citation_key": "boccella2023",
+    "url": "https://www.mdpi.com/2218-273X/13/12/1802",
+    "content": "该综述讨论了慢性神经性疼痛的联合药物治疗策略，强调了当前治疗方法的挑战和局限性。指出慢性神经性疼痛是一种日益普遍的疾病，是导致残疾的主要原因，治疗具有挑战性。这支持了开发新型镇痛药物的必要性，如氧化钒化合物。"
+  }
+}

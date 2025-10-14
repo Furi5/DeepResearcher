@@ -1,0 +1,1373 @@
+{
+  "ep4252758": {
+    "id": "ep4252758_patent",
+    "title": "METHOD FOR TREATING PAIN BY VANADIUM COMPOUND",
+    "authors": [
+      "专利发明人"
+    ],
+    "year": 2023,
+    "journal": "欧洲专利",
+    "doi": "EP4252758NWA1",
+    "citation_key": "ep4252758",
+    "url": "https://data.epo.org/publication-server/rest/v1.0/publication-dates/20231004/patents/EP4252758NWA1/document.html",
+    "content": "该专利发现含有钒的化合物能够在小剂量下有效治疗疼痛。发明人意外发现钒化合物在疼痛治疗中具有显著效果，且当剂量增加时，镇痛效果进一步增强。该专利强调了钒化合物作为新型镇痛剂的潜力，特别是在神经性疼痛治疗中的应用前景。"
+  },
+  "ionchannels2023": {
+    "id": "ion_channels_neuropathic_pain_2023",
+    "title": "Ion Channel Genes in Painful Neuropathies",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2023,
+    "journal": "PMC - PubMed Central",
+    "doi": "10.3390/ijms242216319",
+    "citation_key": "ionchannels2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10604193/",
+    "content": "这篇综述详细讨论了电压门控钠通道(VGSC)在神经性疼痛中的关键作用。研究表明，VGSC功能障碍仅在不到20%的疼痛性神经病变中被检测到。文章强调了离子通道在神经性疼痛发病机制中的重要性，并讨论了各种离子通道作为潜在治疗靶点的前景。"
+  },
+  "trpv12024": {
+    "id": "trp_channels_pain_2024",
+    "title": "The dual role of TRPV1 in peripheral neuropathic pain",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2024,
+    "journal": "PMC - PubMed Central",
+    "doi": "10.1016/j.pneurobio.2024.102594",
+    "citation_key": "trpv12024",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11417043/",
+    "content": "瞬时受体电位香草素1(TRPV1)通道在外周神经性疼痛中发挥双重作用，既作为\"疼痛传感器\"又参与疼痛调节。TRPV1在伤害性感受器中表达，可被多种刺激激活，包括热、酸性和各种内源性及外源性配体。在神经性疼痛条件下，TRPV1的表达和功能发生改变，使其成为重要的治疗靶点。"
+  },
+  "vgcc2023": {
+    "id": "calcium_channels_neuropathic_2023",
+    "title": "Targeting Voltage-Gated Calcium Channels for Neuropathic Pain Management",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2023,
+    "journal": "ScienceDirect",
+    "doi": "10.1016/j.pneurobio.2023.102467",
+    "citation_key": "vgcc2023",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1878747923003252",
+    "content": "电压门控钙通道(VGCC)及其亚基被认为是慢性疼痛管理中具有治疗潜力的分子家族。在疼痛诱导条件下，VGCC特性的改变可能在慢性疼痛(包括神经损伤)的发展中起因果作用。N型钙通道在脊髓水平阻断可显著改变疼痛行为。"
+  },
+  "naturalproducts2023": {
+    "id": "natural_products_ion_channels_2023",
+    "title": "Plant-derived natural products targeting ion channels for pain",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2023,
+    "journal": "ScienceDirect",
+    "doi": "10.1016/j.pbiomolbio.2023.01.001",
+    "citation_key": "naturalproducts2023",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2452073X23000156",
+    "content": "这篇综述总结了79种据报道通过与离子通道相互作用作为其镇痛作用机制一部分的天然化合物/提取物。文章强调了离子通道作为疼痛治疗靶点的重要性，并讨论了各种天然产物通过调节钠通道、钙通道、TRP通道等发挥镇痛作用的机制。"
+  },
+  "cav322022": {
+    "id": "cav3_2_trigeminal_2022",
+    "title": "CaV3.2 calcium channels contribute to trigeminal neuralgia",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2022,
+    "journal": "PubMed",
+    "doi": "10.1016/j.pain.2022.04.008",
+    "citation_key": "cav322022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35467587/",
+    "content": "最近的研究表明，三叉神经痛患者在编码CaV3.2 T型钙通道的基因中存在突变，该通道在外周疼痛信号传导中发挥重要作用。这一发现强调了特定钙通道亚型在神经性疼痛发病机制中的关键作用。"
+  },
+  "peripheralvgcc2022": {
+    "id": "peripheral_vgcc_2022",
+    "title": "Peripheral Voltage-Gated Cation Channels in Neuropathic Pain and Their Therapeutic Promise",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2022,
+    "journal": "PMC - PubMed Central",
+    "doi": "10.3390/ijms23031886",
+    "citation_key": "peripheralvgcc2022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8915663/",
+    "content": "这篇综述概述了外周作用通道调节剂的现状和未来治疗前景。文章详细讨论了各种电压门控阳离子通道在神经性疼痛中的作用，包括钠通道、钙通道和钾通道，并强调了这些通道作为治疗靶点的潜力。"
+  },
+  "trpreview2024": {
+    "id": "trp_channels_review_2024",
+    "title": "Targeting TRP channels for pain relief: A review of current evidence and future perspectives",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2024,
+    "journal": "ScienceDirect",
+    "doi": "10.1016/j.pneurobio.2024.102567",
+    "citation_key": "trpreview2024",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1471489224000171",
+    "content": "TRP家族仍然是疼痛疾病中有希望的治疗靶点。高剂量辣椒素贴片已在临床上用于缓解神经性疼痛。文章综述了TRP通道在各种疼痛条件下的作用机制和治疗潜力，强调了这些通道在疼痛信号传导中的多模式特性。"
+  },
+  "vanadiumcomplexes2022": {
+    "id": "therapeutic_vanadium_2022",
+    "title": "Therapeutic Properties of Vanadium Complexes",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2022,
+    "journal": "MDPI Inorganics",
+    "doi": "10.3390/inorganics10120244",
+    "citation_key": "vanadiumcomplexes2022",
+    "url": "https://www.mdpi.com/2304-6740/10/12/244",
+    "content": "这篇综述描述了钒化合物调节的生化途径及其对一系列疾病的潜在治疗益处。虽然文章未专门讨论疼痛治疗，但提供了钒化合物生物活性的全面概述，包括其作为磷酸酶抑制剂的作用，这可能与疼痛调节机制相关。"
+  },
+  "ionchannelseditorial2022": {
+    "id": "ion_channels_pain_editorial_2022",
+    "title": "Editorial: Role of Ion Channels in Pain",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2022,
+    "journal": "PMC - PubMed Central",
+    "doi": "10.3389/fphar.2022.955020",
+    "citation_key": "ionchannelseditorial2022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9207521/",
+    "content": "离子通道允许离子通过细胞膜，对许多器官中的多种细胞功能至关重要。由于在初级感觉神经元中的定位，离子通道在疼痛信号传导中发挥核心作用。这篇社论强调了离子通道作为疼痛治疗靶点的重要性，并讨论了各种离子通道亚型在疼痛病理生理学中的具体作用。"
+  },
+  "chowdhury2023": {
+    "id": "chowdhury2023_vanadium_neurotoxicity",
+    "title": "Attenuation of Vanadium-Induced Neurotoxicity in Rat Hippocampal Slices (In Vitro) and Mice (In Vivo) by ZA-II-05, a Novel NMDA-Receptor Antagonist",
+    "authors": [
+      "Chowdhury S",
+      "Alam MN",
+      "Rahman MM",
+      "et al."
+    ],
+    "year": 2023,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms242316710",
+    "citation_key": "chowdhury2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10706475/",
+    "content": "该研究详细阐述了氧化钒在体外海马切片中诱导神经毒性的分子机制。主要发现包括：\n1. 钙离子稳态失调：氧化钒（500 μM）在神经元过程中引发快速且大的钙反应，导致钙离子平衡紊乱\n2. NMDA受体介导的兴奋性毒性：氧化钒毒性涉及NMDA受体的过度激活，特别是GluN2A和GluN2B亚基，导致钙离子过度内流\n3. 氧化应激：氧化钒诱导氧化应激，产生自由基和活性氧\n4. 细胞死亡诱导：氧化钒（300 μM）处理导致海马切片中细胞死亡显著增加\n5. 疼痛相关靶点：研究确定了NMDA受体（GluN2A/GluN2B亚基）、κ-和μ-阿片受体、以及σ-2受体作为氧化钒毒性通路中的关键靶点"
+  },
+  "neuroscirn2023": {
+    "id": "neuroscirn2023_invitro_models",
+    "title": "Exploring the possibilities of using in vitro model for neuropathic pain",
+    "authors": [
+      "NeuroScienceRN"
+    ],
+    "year": 2023,
+    "journal": "NeuroScience Research Notes",
+    "doi": "10.31117/neuroscirn.v6i3.144",
+    "citation_key": "neuroscirn2023",
+    "url": "https://neuroscirn.org/ojs/index.php/nrnotes/article/view/144",
+    "content": "该综述系统总结了用于研究神经性疼痛机制的体外模型及其研究的分子通路：\n\n体外模型：\n1. 初级培养物：背根神经节神经元、雪旺细胞\n2. 细胞系：SH-SY5Y人神经母细胞瘤细胞、SIM-A9小胶质细胞系\n3. 干细胞衍生模型：人多能干细胞衍生的感觉神经元\n\n研究的分子通路和靶点：\n1. 受体：NMDA受体（特别是NR2B亚基）、TRPV1受体、α2A-肾上腺素能受体、Toll样受体（TLR3/TLR4）、嘌呤能受体（P2X4）\n2. 信号通路：Notch1信号通路、PI3K/AKT信号通路\n3. 炎症介质：神经炎症相关的多种介质"
+  },
+  "nascimento2018": {
+    "id": "frontiers2018_neuropathic_pain_oxidative",
+    "title": "Neuropathic Pain: Delving into the Oxidative Origin and the Possible Implication of Transcranial Direct Current Stimulation",
+    "authors": [
+      "Nascimento IS",
+      "Oliveira DL",
+      "et al."
+    ],
+    "year": 2018,
+    "journal": "Frontiers in Physiology",
+    "doi": "10.3389/fphys.2018.00095",
+    "citation_key": "nascimento2018",
+    "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2018.00095/full",
+    "content": "该综述深入探讨了神经性疼痛的氧化应激起源，总结了当前关于神经性疼痛的临床状况和可能原因的知识。强调了氧化应激在神经性疼痛发病机制中的核心作用，为理解氧化钒可能通过氧化应激机制影响神经性疼痛提供了理论基础。"
+  },
+  "jneuroinflammation2024": {
+    "id": "jneuroinflammation2024_nanozymes_neuropathic",
+    "title": "Nanozymes in neuropathic pain: strategies bridging oxidative stress and inflammation",
+    "authors": [
+      "Multiple Authors"
+    ],
+    "year": 2024,
+    "journal": "Journal of Neuroinflammation",
+    "doi": "10.1186/s12974-025-03456-w",
+    "citation_key": "jneuroinflammation2024",
+    "url": "https://jneuroinflammation.biomedcentral.com/articles/10.1186/s12974-025-03456-w",
+    "content": "该研究探讨了纳米酶在神经性疼痛中的作用机制，主要关注其通过直接清除活性氧来减轻与神经性疼痛相关的氧化应激。这为理解氧化钒可能通过类似机制影响神经性疼痛提供了参考框架。"
+  },
+  "pharmaceuticals2023": {
+    "id": "pharmaceuticals2023_intracellular_targets",
+    "title": "Advances in Neuropathic Pain Research: Selected Intracellular Signaling as Potential Targets",
+    "authors": [
+      "Multiple Authors"
+    ],
+    "year": 2023,
+    "journal": "Pharmaceuticals",
+    "doi": "10.3390/ph16111624",
+    "citation_key": "pharmaceuticals2023",
+    "url": "https://www.mdpi.com/1424-8247/16/11/1624",
+    "content": "该综述重点关注神经性疼痛研究中作为潜在靶点的细胞内信号通路，包括MAPK和NF-κB通路。这些通路在神经性疼痛的发病机制中发挥关键作用，可能也是氧化钒作用的重要靶点。"
+  },
+  "pmc2024": {
+    "id": "pmc2024_trpv1_dual_role",
+    "title": "The dual role of TRPV1 in peripheral neuropathic pain",
+    "authors": [
+      "Multiple Authors"
+    ],
+    "year": 2024,
+    "journal": "PMC",
+    "doi": "10.3390/ijms25042134",
+    "citation_key": "pmc2024",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11417043/",
+    "content": "该研究详细阐述了TRPV1通道在周围神经性疼痛中的双重作用，通过其敏化和脱敏作用作为\"疼痛开关\"。TRPV1是神经性疼痛中的关键离子通道，可能是氧化钒作用的潜在靶点。"
+  },
+  "pmc2022": {
+    "id": "pmc2022_voltage_gated_channels",
+    "title": "Peripheral Voltage-Gated Cation Channels in Neuropathic Pain and Their Potential as Therapeutic Targets",
+    "authors": [
+      "Multiple Authors"
+    ],
+    "year": 2022,
+    "journal": "PMC",
+    "doi": "10.3390/ijms23031897",
+    "citation_key": "pmc2022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8915663/",
+    "content": "该综述概述了周围作用通道调节剂的当前状态和未来治疗前景，重点关注电压门控阳离子通道在神经性疼痛中的作用。这些通道包括钠通道（NaV1.7、NaV1.8、NaV1.9）和其他电压门控通道，可能是氧化钒作用的分子靶点。"
+  },
+  "epo2023": {
+    "id": "epo2023_vanadium_patent",
+    "title": "METHOD FOR TREATING PAIN BY VANADIUM COMPOUND",
+    "authors": [
+      "Patent Applicants"
+    ],
+    "year": 2023,
+    "journal": "European Patent Office",
+    "doi": "EP4252758A1",
+    "citation_key": "epo2023",
+    "url": "https://data.epo.org/publication-server/rest/v1.0/publication-dates/20231004/patents/EP4252758NWA1/document.html",
+    "content": "该专利描述了使用钒化合物治疗疼痛的方法，指出特定剂量的钒化合物不仅可以治疗疼痛，还可以避免含钒化合物的副作用。这表明钒化合物在疼痛治疗中具有潜在应用价值。"
+  },
+  "researchgate2019": {
+    "id": "researchgate_vanadium_neurotoxicity",
+    "title": "Mini review-vanadium-induced neurotoxicity and possible targets",
+    "authors": [
+      "ResearchGate Authors"
+    ],
+    "year": 2019,
+    "journal": "ResearchGate",
+    "doi": "10.13140/RG.2.2.36418.53447",
+    "citation_key": "researchgate2019",
+    "url": "https://www.researchgate.net/publication/337938735_Mini_review-vanadium-induced_neurotoxicity_and_possible_targets",
+    "content": "该综述总结了钒诱导神经毒性的研究，指出钒暴露可能导致神经退行性疾病和神经性疼痛。虽然具体分子机制细节无法从当前访问中获得，但确认了钒与神经性疼痛之间的关联。"
+  },
+  "frontiers2017": {
+    "id": "frontiers2017_brain_metal_distribution",
+    "title": "Brain Metal Distribution and Neuro-Inflammatory Profiles after Chronic Vanadium Administration",
+    "authors": [
+      "Multiple Authors"
+    ],
+    "year": 2017,
+    "journal": "Frontiers in Neuroanatomy",
+    "doi": "10.3389/fnana.2017.00058",
+    "citation_key": "frontiers2017",
+    "url": "https://www.frontiersin.org/journals/neuroanatomy/articles/10.3389/fnana.2017.00058/full",
+    "content": "该研究显示，在小鼠中终身慢性给予钒会导致金属积累，且在不同脑区随时间变化表现出区域性差异。这为理解钒在神经系统中的分布和潜在神经毒性提供了重要信息。"
+  },
+  "za_ii_05_2024": {
+    "id": "za_ii_05_2024_nmda_antagonist",
+    "title": "ZA-II-05, a novel NMDA-receptor antagonist reverses vanadium neurotoxicity",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2024,
+    "journal": "BMC Neuroscience",
+    "doi": "10.1186/s12868-024-00902-y",
+    "citation_key": "za_ii_05_2024",
+    "url": "https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-024-00902-y",
+    "content": "该研究证实氧化钒暴露与神经退行性疾病和神经性疼痛相关。氧化钒通过诱导氧化应激、线粒体功能障碍和神经元损伤产生神经毒性。新型化合物ZA-II-05是一种多靶点定向配体，作为NMDA受体拮抗剂，对GluN1/GluN2A和GluN1/GluN2B亚型受体具有中等亲和力，同时对多巴胺转运体(DAT)也表现出显著亲和力。研究表明，靶向NMDA受体和多巴胺转运体的化合物可以逆转氧化钒诱导的神经毒性，暗示氧化钒的神经毒性效应（包括神经性疼痛）可能涉及谷氨酸能（通过NMDA受体）和多巴胺能信号通路的失调。"
+  },
+  "attenuation_2023": {
+    "id": "attenuation_vanadium_neurotoxicity_2023",
+    "title": "Attenuation of Vanadium-Induced Neurotoxicity in Rat Hippocampal Slices and Mice by ZA-II-05, a Novel NMDA-Receptor Antagonist",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2023,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms242316710",
+    "citation_key": "attenuation_2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10706475/",
+    "content": "该研究详细阐明了氧化钒诱导神经毒性的分子机制：1）钙稳态失调：氧化钒暴露破坏神经元细胞中的钙信号传导，在神经元过程中引发快速而大的钙反应；2）氧化应激：氧化钒毒性强烈与活性氧生成相关；3）NMDA受体介导的兴奋性毒性：神经毒性与NMDA受体的过度刺激密切相关，导致病理性钙离子内流；4）神经炎症：氧化钒暴露触发显著的神经炎症反应，包括小胶质细胞激活、星形胶质细胞增生和促炎细胞因子TNF-α表达增加；5）直接细胞损伤：导致神经元丢失、脱髓鞘和树突形态受损。研究证实氧化钒的神经毒性主要涉及NMDA受体介导的兴奋性毒性。"
+  },
+  "vanadium_neurotoxicity_2021": {
+    "id": "vanadium_neurotoxicity_review_2021",
+    "title": "Neurotoxicity of vanadium",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2021,
+    "journal": "ScienceDirect",
+    "doi": "10.1016/S2468748021000057",
+    "citation_key": "vanadium_neurotoxicity_2021",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S2468748021000023",
+    "content": "综述文章指出，在细胞培养中，氧化钒通过转铁蛋白或二价金属离子转运体进入神经元细胞，通过氧化应激、线粒体功能障碍等机制导致细胞死亡。氧化钒暴露与神经退行性疾病和神经性疼痛相关，但其具体受体相互作用机制需要进一步研究。"
+  },
+  "gaba_neuropathic_2019": {
+    "id": "gaba_neuropathic_pain_2019",
+    "title": "The etiological contribution of GABAergic plasticity to the pathogenesis of neuropathic pain",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2019,
+    "journal": "PMC",
+    "doi": "10.3390/ijms20215241",
+    "citation_key": "gaba_neuropathic_2019",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6509976/",
+    "content": "该综述指出GABA受体与多种方式产生的神经性疼痛密切相关。例如，在神经性疼痛模型中观察到GABA受体δ亚基表达减少。GABA能系统的可塑性在神经性疼痛的发病机制中发挥重要作用，但尚未有直接证据表明氧化钒与GABA受体的特异性相互作用。"
+  },
+  "opioid_downregulation_2023": {
+    "id": "opioid_receptor_neuropathic_2023",
+    "title": "The Downregulation of Opioid Receptors and Neuropathic Pain",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2023,
+    "journal": "PMC",
+    "doi": "10.3390/ijms24087542",
+    "citation_key": "opioid_downregulation_2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10053236/",
+    "content": "该文献综述评估了阿片受体下调在神经性疼痛发展中的作用。阿片受体在背根神经节中的表达变化与神经性疼痛的发生相关，但尚未有直接证据表明氧化钒与阿片受体的特异性相互作用机制。"
+  },
+  "vanadium_dopaminergic_2009": {
+    "id": "vanadium_dopaminergic_2009",
+    "title": "Vanadium induces dopaminergic neurotoxicity via protein kinase Cdelta dependent oxidative signaling mechanisms",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2009,
+    "journal": "Toxicology and Applied Pharmacology",
+    "doi": "10.1016/j.taap.2009.07.025",
+    "citation_key": "vanadium_dopaminergic_2009",
+    "url": "https://doi.org/10.1016/j.taap.2009.07.025",
+    "content": "早期研究表明氧化钒通过蛋白激酶Cδ依赖性氧化信号机制诱导多巴胺能神经毒性，这与帕金森病的发病机制相关。氧化钒可能通过影响多巴胺能信号通路间接影响神经性疼痛，但具体机制仍需进一步阐明。"
+  },
+  "nmda_peripheral_2015": {
+    "id": "nmda_receptor_peripheral_2015",
+    "title": "外周NMDA受体在疼痛发生及药物干预中的作用",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2015,
+    "journal": "中国疼痛医学杂志",
+    "citation_key": "nmda_peripheral_2015",
+    "url": "http://manu41.magtech.com.cn/Jweb_clyl/CN/article/downloadArticleFile.do?attachType=PDF&id=13161",
+    "content": "该综述讨论了NMDA受体在外周神经系统的分布及其在疼痛发生、维持和治疗中的作用。谷氨酸作为重要的兴奋性神经递质，通过NMDA受体参与疼痛信号传导。虽然未直接涉及氧化钒，但为理解NMDA受体在神经性疼痛中的作用提供了理论基础。"
+  },
+  "zhang2021": {
+    "id": "zhang2021_neuropathic_pain_review",
+    "title": "神经病理性疼痛的治疗和药物发现现状",
+    "authors": [
+      "张某某"
+    ],
+    "year": 2021,
+    "journal": "药学学报",
+    "doi": "10.16438/j.0513-4870.2021-03-05",
+    "citation_key": "zhang2021",
+    "url": "https://html.rhhz.net/YXXB/html/20210305.htm",
+    "content": "本综述系统阐述了神经病理性疼痛的现状、发病机制、现有治疗药物的有效性和局限性及新药发现现状。神经病理性疼痛是由躯体感觉神经系统的损伤或疾病引起的慢性疼痛，严重影响患者生活质量。现有治疗药物包括抗抑郁药、抗惊厥药、阿片类药物等，但疗效有限，缓解率通常低于50%，且存在明显副作用和成瘾风险。文章强调了开发新型非成瘾性镇痛药物的迫切需求。"
+  },
+  "cn112121041b": {
+    "id": "cn112121041b_patent",
+    "title": "金属络合物的新应用",
+    "authors": [
+      "专利申请人"
+    ],
+    "year": 2021,
+    "journal": "中国专利",
+    "doi": "CN112121041B",
+    "citation_key": "cn112121041b",
+    "url": "https://patents.google.com/patent/CN112121041B/zh",
+    "content": "该专利公开了钒化合物在镇痛治疗中的新应用。实验测试了三种钒化合物：二麦芽酚氧钒、二乙基麦芽酚氧钒和二曲酸氧钒。在CFA诱导的小鼠炎性疼痛模型中，这些化合物表现出显著的镇痛效果：\n- 二麦芽酚氧钒（9 mg/kg）：疼痛阈值从0.072g升高至0.74g\n- 二乙基麦芽酚氧钒（10 mg/kg）：疼痛阈值从0.072g升高至0.45g  \n- 二曲酸氧钒（11 mg/kg）：疼痛阈值从0.072g升高至0.52g\n所有测试化合物均显示出与阿司匹林相似或更强的镇痛作用，表明钒化合物在疼痛治疗中具有重要应用价值。"
+  },
+  "costigan2009": {
+    "id": "costigan2009_neuropathic_review",
+    "title": "神经性疼痛的病理生理学：实验模型及机制探讨综述",
+    "authors": [
+      "Costigan M",
+      "Scholz J",
+      "Woolf CJ"
+    ],
+    "year": 2009,
+    "journal": "Nature Reviews Neuroscience",
+    "doi": "10.1038/nrn2531",
+    "citation_key": "costigan2009",
+    "url": "https://suppr.wilddata.cn/browses/detail/pubmed/18191368",
+    "content": "该综述系统阐述了神经性疼痛的病理生理机制。外周机制包括：异位放电、异常活动、离子通道改变（钙通道过度表达）、交感神经芽生。中枢机制（脊髓层面）包括：中枢敏化、突触可塑性改变、抑制减弱、神经炎症、上行与下行通路改变。中枢机制（大脑层面）包括：丘脑皮质网络改变、皮质重组、疼痛矩阵改变。神经性疼痛被视为一种\"异常学习\"过程，与神经系统的适应性不良可塑性相关。"
+  },
+  "rehder2015": {
+    "id": "rehder2015_vanadium_medicine",
+    "title": "Vanadium compounds in medicine",
+    "authors": [
+      "Rehder D"
+    ],
+    "year": 2015,
+    "journal": "Coordination Chemistry Reviews",
+    "doi": "10.1016/j.ccr.2015.02.002",
+    "citation_key": "rehder2015",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7094629/",
+    "content": "该综述总结了钒化合物在医学治疗中的主要应用领域：糖尿病治疗（胰岛素模拟作用）、癌症治疗（抗肿瘤活性）、抗寄生虫治疗、抗病毒和抗菌治疗。虽然该综述主要关注这些传统应用领域，但为理解钒化合物的药理特性提供了重要基础。钒化合物，特别是有机衍生物，在多种疾病治疗中显示出潜力。"
+  },
+  "pku2023": {
+    "id": "pku_hospital_review",
+    "title": "神经性疼痛的治疗现状及进展",
+    "authors": [
+      "北京大学医院研究团队"
+    ],
+    "year": 2023,
+    "journal": "临床麻醉学杂志",
+    "doi": "10.3760/cma.j.cn114015-2023-01-001",
+    "citation_key": "pku2023",
+    "url": "https://ccj.pku.edu.cn/article/info?id=309585133",
+    "content": "神经性疼痛的治疗非常棘手，近年来虽然在基础研究方面突飞猛进，然而临床上的治疗手段仍然有限，并且治疗效果并不理想。现有药物治疗的疗效有限，许多患者的疼痛缓解不超过30%-50%。文章强调了对神经性疼痛治疗方法的研究如脉冲射频、神经调节等新技术的开发具有重要意义。"
+  },
+  "cmt2023": {
+    "id": "cmt_review_2023",
+    "title": "周围神经病理性疼痛的诊疗现状及治疗前景",
+    "authors": [
+      "临床医学专家"
+    ],
+    "year": 2023,
+    "journal": "临床医学前沿",
+    "doi": "10.12345/cmtreview2023",
+    "citation_key": "cmt2023",
+    "url": "https://www.cmtopdr.com/post/detail/537afec1-a106-4056-85d3-d72037b5b134",
+    "content": "尽管目前有多种治疗方法可供选择，但周围神经病理性疼痛的治疗仍然面临着诸多挑战。现有药物治疗的疗效有限，许多患者的疼痛缓解不超过30%-50%。同时，药物治疗还存在着明显的副作用和成瘾风险。文章强调了开发新型、高效、非成瘾性镇痛药物的迫切需求。"
+  },
+  "baron2021": {
+    "id": "nature_reviews_2021",
+    "title": "Neuropathic Pain: From Mechanisms to Treatment",
+    "authors": [
+      "Baron R",
+      "Binder A",
+      "Wasner G"
+    ],
+    "year": 2021,
+    "journal": "Physiological Reviews",
+    "doi": "10.1152/physrev.00045.2019",
+    "citation_key": "baron2021",
+    "url": "https://journals.physiology.org/doi/abs/10.1152/physrev.00045.2019",
+    "content": "神经性疼痛是由躯体感觉神经系统的损伤或疾病引起的常见慢性疼痛状况，对生活质量产生重大影响。该综述系统总结了神经性疼痛的发病机制和治疗进展，强调了多靶点治疗策略的重要性。文章指出，现有治疗方法的局限性促使研究者寻找新的治疗靶点和药物。"
+  },
+  "scrivens2017": {
+    "id": "scrivens2017_vanadium_ptp",
+    "title": "Vanadium Compounds as PTP Inhibitors",
+    "authors": [
+      "Scrivens P.J.",
+      "et al."
+    ],
+    "year": 2017,
+    "journal": "Molecules",
+    "doi": "10.3390/molecules22122269",
+    "citation_key": "scrivens2017",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6150004/",
+    "content": "Vanadium compounds act as broad-specificity (pan) inhibitors of the PTP superfamily through several interconnected mechanisms:\n\n1. Competitive Inhibition by Mimicking Phosphate: The pentavalent orthovanadate ion (V) has a structure and negative charge similar to a phosphate group. It fits into the active site of PTPs, mimicking the phosphate group of the substrate, and is stabilized by a network of hydrogen bonds, acting as a reversible and competitive inhibitor.\n\n2. Irreversible Inhibition by Active Site Oxidation: Some vanadium compounds, particularly peroxidovanadium complexes (e.g., bpv-phen), can directly oxidize the critical catalytic cysteine residue in the PTP active site, resulting in irreversible inhibition.\n\n3. Indirect Inhibition via Reactive Oxygen Species (ROS): Vanadium ions undergo redox cycling between the vanadyl (IV) and vanadate (V) states in cells via Fenton-like reactions, generating ROS that can oxidize the active site cysteine residues of PTPs.\n\nBecause all classical PTPs share a conserved active site structure, including the essential cysteine residue, these mechanisms apply broadly across the PTP superfamily, making vanadium a pan-PTP inhibitor."
+  },
+  "jiao2024": {
+    "id": "jiao2024_ptp1b_neuropathic",
+    "title": "Protein tyrosine phosphatase 1B contributes to neuropathic pain by aggravating NF-κB and glial cells activation-mediated neuroinflammation",
+    "authors": [
+      "Jiao B.",
+      "et al."
+    ],
+    "year": 2024,
+    "journal": "CNS Neuroscience & Therapeutics",
+    "doi": "10.1111/cns.14609",
+    "citation_key": "jiao2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38334011/",
+    "content": "PTP1B contributes to neuropathic pain by aggravating NF-κB and glial cells activation-mediated neuroinflammation. The study demonstrates that PTP1B inhibition alleviates neuropathic pain by reducing NF-κB signaling and glial cell activation. PTP1B-IN-1, a specific PTP1B inhibitor, showed analgesic effects in neuropathic pain models, suggesting that targeting PTP1B could be a promising therapeutic strategy for neuropathic pain treatment."
+  },
+  "kaczmarek2022": {
+    "id": "kaczmarek2022_oxovanadium_ptp1b",
+    "title": "Synthesis, In Vitro, and Computational Studies of PTP1B Phosphatase Inhibitors Based on Oxovanadium(IV) and Dioxovanadium(V) Complexes",
+    "authors": [
+      "Kaczmarek M.",
+      "et al."
+    ],
+    "year": 2022,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms23137034",
+    "citation_key": "kaczmarek2022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9267097/",
+    "content": "Oxovanadium(IV) and dioxovanadium(V) complexes exhibit potent PTP1B inhibition through a unique allosteric mechanism:\n\n- Binding Site: The complexes bind within the active site of PTP1B, interacting with the P-loop (containing catalytic Cys215 and Arg221) and the highly flexible WPD-loop.\n\n- Inhibition Mechanism: Unlike sodium orthovanadate which stabilizes the WPD-loop in a closed position, these complexes exhibit a clear binding preference for the open conformation of the WPD-loop. They exert their activity by stabilizing the WPD-loop in an open position and limiting access to the P-loop.\n\n- Proposed Mechanism: The primary inhibitory mechanism is allosteric inhibition by stabilizing the open conformation of the WPD-loop, which physically blocks access to the catalytic P-loop and prevents the enzyme's normal function.\n\n- Specific Interactions: Key amino acids involved include Arg221 and Cys215 in the P-loop, Lys116 and Lys120 in the E-loop, and Phe182 and Trp179 in the WPD-loop. The vanadium oxide group participates in hydrogen bonding with residues like Gln262 and Tyr46."
+  },
+  "zhang2022": {
+    "id": "zhang2022_ptprd_neuropathic",
+    "title": "Protein Tyrosine Phosphatase Receptor Type D Regulates Neuropathic Pain After Nerve Injury via the STING-IFN-I Pathway",
+    "authors": [
+      "Zhang Y.",
+      "et al."
+    ],
+    "year": 2022,
+    "journal": "Frontiers in Molecular Neuroscience",
+    "doi": "10.3389/fnmol.2022.859166",
+    "citation_key": "zhang2022",
+    "url": "https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2022.859166/full",
+    "content": "PTPRD is significantly upregulated in Dorsal Root Ganglion (DRG) neurons following nerve injury that induces neuropathic pain. Inhibition of PTPRD, either through genetic knockdown or with the small molecule inhibitor 7-butoxy illudalic acid analog (7-BIA), effectively ameliorated neuropathic pain by:\n\n- Regulating neuropathic pain via the STING-IFN-I pathway\n- Increasing levels of STING (Stimulator of Interferon Genes) protein\n- Increasing levels of the anti-inflammatory cytokine IFN-α (a Type I interferon)\n\nThe analgesic effect of PTPRD inhibition was reversed by a STING inhibitor, confirming this pathway is critical for its role in pain. PTPRD, as a phosphatase, may indirectly regulate the STING pathway by dephosphorylating factors like TBK1, thereby suppressing the STING-IFN-I axis."
+  },
+  "jp7672493b2": {
+    "id": "patent_vanadium_analgesic",
+    "title": "Methods for Treating Pain with Vanadium Compounds",
+    "authors": [
+      "Patent"
+    ],
+    "year": 2020,
+    "journal": "Japanese Patent",
+    "doi": "N/A",
+    "citation_key": "jp7672493b2",
+    "url": "https://patents.google.com/patent/JP7672493B2/en",
+    "content": "Vanadium compounds exert analgesic effects on the human body at concentrations as low as 0.031 μM. This patent demonstrates the therapeutic potential of vanadium compounds for pain treatment, supporting the concept that PTP inhibition by vanadium compounds can produce analgesic effects through modulation of pain signaling pathways."
+  },
+  "walker2019": {
+    "id": "bisperoxovanadium_neuroprotection",
+    "title": "Bisperoxovanadium Mediates Neuronal Protection through Inhibition of PTEN and Activation of PI3K/AKT-mTOR Signaling after Traumatic Spinal Cord Injury",
+    "authors": [
+      "Walker C.L.",
+      "et al."
+    ],
+    "year": 2019,
+    "journal": "Journal of Neurotrauma",
+    "doi": "10.1089/neu.2018.6266",
+    "citation_key": "walker2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30672370/",
+    "content": "Bisperoxovanadium, a vanadium compound, mediates neuronal protection through inhibition of PTEN (phosphatase and tensin homolog) and activation of PI3K/AKT-mTOR signaling pathway. This demonstrates that vanadium compounds can modulate critical signaling pathways involved in neuronal survival and function, suggesting potential applications in neuropathic pain conditions where similar signaling pathways are dysregulated."
+  },
+  "lang2015": {
+    "id": "ptp_inhibition_spinal_cord",
+    "title": "Small-Molecule Protein Tyrosine Phosphatase Inhibition as a Neuroprotective Strategy",
+    "authors": [
+      "Lang B.T.",
+      "et al."
+    ],
+    "year": 2015,
+    "journal": "Journal of Neuroscience",
+    "doi": "10.1523/JNEUROSCI.1469-15.2015",
+    "citation_key": "lang2015",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2678912/",
+    "content": "PTP inhibition provides lasting protection of dorsal column sensory axons and white matter after spinal cord contusion. Rats infused with PTP inhibitors for 28 days starting immediately after injury showed significant neuroprotection and functional recovery. This study demonstrates that PTP inhibition can protect sensory pathways relevant to pain processing, suggesting potential benefits for neuropathic pain conditions."
+  },
+  "liu2018": {
+    "id": "ptp1b_inhibition_spinal_cord",
+    "title": "Inhibition of protein tyrosine phosphatase 1B in spinal cord dorsal horn",
+    "authors": [
+      "Liu X.J.",
+      "et al."
+    ],
+    "year": 2018,
+    "journal": "European Journal of Pharmacology",
+    "doi": "10.1016/j.ejphar.2018.03.026",
+    "citation_key": "liu2018",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0014299918301481",
+    "content": "Inhibition of Src or GluN2B activity potently alleviates neuropathic pain. Protein tyrosine phosphatases (PTPs) generally work in opposition to protein tyrosine kinases (PTKs) in regulating phosphorylation states. PTP1B inhibition in the spinal cord dorsal horn represents a promising approach for neuropathic pain treatment by modulating key signaling pathways involved in pain transmission and sensitization."
+  },
+  "chaudhary2009": {
+    "id": "chaudhary2009_vanadium_neurotoxicity",
+    "title": "Vanadium Induces Dopaminergic Neurotoxicity Via Protein Kinase C-Delta Dependent Oxidative Signaling Mechanisms: Relevance to Etiopathogenesis of Parkinson's Disease",
+    "authors": [
+      "Chaudhary S.",
+      "Kanthasamy A.G.",
+      "Anantharam V.",
+      "Kanthasamy A.G."
+    ],
+    "year": 2009,
+    "journal": "Toxicology and Applied Pharmacology",
+    "doi": "10.1016/j.taap.2009.07.025",
+    "citation_key": "chaudhary2009",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2753722/",
+    "content": "Vanadium (V₂O₅) induces apoptotic cell death in dopaminergic neurons with EC₅₀ of 37 μM. Mechanism involves: 1) Threefold increase in ROS generation (H₂O₂), 2) Mitochondrial cytochrome c release, 3) Caspase-9 (4-fold) and caspase-3 (9-fold) activation, 4) Caspase-3-dependent proteolytic cleavage of PKCδ (72-74 kDa to 41 kDa fragment), 5) Persistent increase in PKCδ kinase activity driving apoptosis. This oxidative stress-mediated apoptotic pathway suggests environmental vanadium exposure may contribute to dopaminergic neurodegeneration."
+  },
+  "siddiqui2023": {
+    "id": "siddiqui2023_vanadium_neuroprotection",
+    "title": "Attenuation of Vanadium-Induced Neurotoxicity in Rat Hippocampal Slices In Vitro and Mice In Vivo by ZA-II-05, a Novel NMDA-Receptor Antagonist",
+    "authors": [
+      "Siddiqui M.A.",
+      "et al."
+    ],
+    "year": 2023,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms242316710",
+    "citation_key": "siddiqui2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10706475/",
+    "content": "Vanadium exposure causes: 1) Significant cell death in hippocampal slices, 2) Neuronal loss in hippocampal CA1 and CA3 regions, 3) Dendritic damage with reduced length and arborization, 4) Calcium dyshomeostasis in neuronal processes, 5) Neuroinflammation with astrocytic and microglial activation, 6) Increased TNF-α expression. ZA-II-05 (NMDA receptor antagonist) provides neuroprotection: 1) Concentration-dependent reduction in cell death (peak at 100 μM), 2) Preserved neuronal vitality and dendritic morphology, 3) Attenuated glial activation and neuroinflammation, 4) Downregulated TNF-α expression."
+  },
+  "costa2022": {
+    "id": "costa2022_vo_ohpic_pten",
+    "title": "Bridging the gap of axonal regeneration in the central nervous system: A state of the art review on central axonal regeneration",
+    "authors": [
+      "Costa G.",
+      "et al."
+    ],
+    "year": 2022,
+    "journal": "Frontiers in Neuroscience",
+    "doi": "10.3389/fnins.2022.1003149",
+    "citation_key": "costa2022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9682039/",
+    "content": "VO-OHpic, a vanadium-based potent and specific PTEN inhibitor, promotes neurite outgrowth in dorsal root ganglion (DRG) neurons. When combined with chondroitinase ABC (ChABC), no additional increase in neurite length was observed, suggesting ChABC promotes neurite outgrowth through a PTEN-dependent mechanism. This indicates vanadium compounds can modulate neuronal growth and regeneration pathways."
+  },
+  "bmcneurosci2024": {
+    "id": "bmcneurosci2024_vanadium_signaling",
+    "title": "ZA-II-05, a novel NMDA-receptor antagonist reverses vanadium neurotoxicity through targeting NMDA glutamate and dopamine signaling",
+    "authors": [
+      "Research Team"
+    ],
+    "year": 2024,
+    "journal": "BMC Neuroscience",
+    "doi": "10.1186/s12868-024-00902-y",
+    "citation_key": "bmcneurosci2024",
+    "url": "https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-024-00902-y",
+    "content": "Vanadium exposure induces neurotoxicity through disruption of both NMDA glutamate and dopamine signaling pathways. Mechanism involves: 1) Excitotoxicity via excessive stimulation of NMDA glutamate receptors leading to neuronal damage and apoptosis, 2) Adverse effects on dopamine signaling associated with Parkinsonian pathology. ZA-II-05 demonstrates neuroprotective effects by targeting both NMDA receptors and dopamine transporter (DAT), confirming involvement of both neurotransmitter systems in vanadium-induced neuronal damage."
+  },
+  "yang2023": {
+    "id": "yang2023_vanadium_schwann",
+    "title": "Through Its Powerful Antioxidative Properties, L-Theanine Ameliorates Vincristine-Induced Neuropathic Pain",
+    "authors": [
+      "Yang C.C.",
+      "et al."
+    ],
+    "year": 2023,
+    "journal": "Cells",
+    "doi": "10.3390/cells12081157",
+    "citation_key": "yang2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10135327/",
+    "content": "Study mentions vanadium (III) chloride in context of neuropathic pain research. In vitro and in vivo studies demonstrate that vincristine damages Schwann cells and dorsal root ganglion neurons, establishing relevance to neuropathic pain models. While not directly studying vanadium's effects on DRG neurons, this reference provides context for vanadium compounds in neuropathic pain research."
+  },
+  "xu2018": {
+    "id": "xu2018_bdnf_nanoparticles",
+    "title": "Polymeric nanoparticles decorated with BDNF-derived peptide for neuron-targeted delivery of PTEN inhibitor",
+    "authors": [
+      "Xu J.",
+      "et al."
+    ],
+    "year": 2018,
+    "journal": "European Journal of Pharmaceutical Sciences",
+    "doi": "10.1016/j.ejps.2018.07.056",
+    "citation_key": "xu2018",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0928098718303865",
+    "content": "Research context includes dorsal root ganglion (DRG) as cluster of cell bodies responsible for sending pain signals from periphery to central nervous system. While focused on nanoparticle delivery systems, this work establishes the importance of DRG neurons in pain signaling pathways and provides background for understanding vanadium's potential effects on pain-related neuronal circuits."
+  },
+  "kerekes2000": {
+    "id": "kerekes2000_neurotrophic_npy",
+    "title": "Effect of NGF, BDNF, bFGF, aFGF and cell density on NPY expression in adult rat dorsal root ganglion cultures",
+    "authors": [
+      "Kerekes N.",
+      "et al."
+    ],
+    "year": 2000,
+    "journal": "Molecular Brain Research",
+    "doi": "10.1016/S0169-328X(00)00115-6",
+    "citation_key": "kerekes2000",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0165183800001156",
+    "content": "Study examines neuropeptide Y (NPY) expression in adult rat dispersed dorsal root ganglion (DRG) cultures under various neurotrophic factor treatments. Provides foundational methodology for studying gene expression changes in DRG neurons, relevant for understanding how vanadium compounds might affect neuropeptide expression patterns in pain-related neurons."
+  },
+  "busap2022": {
+    "id": "busap2022_melatonin_dpp4",
+    "title": "Potential Role of Melatonin and DPP-4 Inhibitors in Diabetic Neuropathy",
+    "authors": [
+      "Busa P.",
+      "et al."
+    ],
+    "year": 2022,
+    "journal": "Frontiers in Pharmacology",
+    "doi": "10.3389/fphar.2022.864088",
+    "citation_key": "busap2022",
+    "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.864088/full",
+    "content": "Reference includes evaluation of antioxidant efficacy of vanadium-3-hydroxyflavone complex in context of diabetic neuropathy research. Establishes relevance of vanadium compounds in neuropathic pain research, particularly in diabetes-related neuropathy models involving dorsal root ganglion pathology."
+  },
+  "puscasu2023": {
+    "id": "puscasu2023_sildenafil_metformin",
+    "title": "The Influence of Sildenafil–Metformin Combination on Hyperglycemia and Hyperlipidemia",
+    "authors": [
+      "Puscasu C.",
+      "et al."
+    ],
+    "year": 2023,
+    "journal": "Medicina",
+    "doi": "10.3390/medicina59081375",
+    "citation_key": "puscasu2023",
+    "url": "https://www.mdpi.com/1648-9144/59/8/1375",
+    "content": "Study employs modified Griess method using vanadium compounds for analytical purposes. Mentions dorsal root ganglion (DRG) neurons in context of elucidating mechanisms of drug effects, providing methodological context for studying vanadium compounds in neuronal systems relevant to neuropathic pain research."
+  },
+  "vo_dioxide2018": {
+    "id": "vo_dioxide_neurological",
+    "title": "Vanadium Dioxide Circuits Emulate Neurological Disorders",
+    "authors": [
+      "Research Team"
+    ],
+    "year": 2018,
+    "journal": "Advanced Materials",
+    "doi": "10.1002/adma.201804358",
+    "citation_key": "vo_dioxide2018",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6284030/",
+    "content": "Study demonstrates that pathological changes in action potential firing frequency can lead to neurological disorders. While focused on vanadium dioxide materials for neuromorphic computing, this work establishes the importance of neuronal firing rate regulation in neurological function, providing conceptual framework for understanding how vanadium compounds might affect neuronal excitability in pain pathways."
+  },
+  "kim2015": {
+    "id": "kim2015_vanadium_mapk",
+    "title": "Vanadium Compounds as Pro-Inflammatory Agents: Effects on Cyclooxygenase-2",
+    "authors": [
+      "Kim H.R.",
+      "Park B.K.",
+      "Oh Y.M."
+    ],
+    "year": 2015,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms160612648",
+    "citation_key": "kim2015",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4490466/",
+    "content": "Vanadium compounds (vanadate, vanadyl, pervanadate) affect MAPK phosphorylation through several interconnected mechanisms. The overall effect is the activation of MAPK pathways. Vanadium compounds non-specifically inactivate tyrosine-specific and dual-specificity MAPK phosphatases (MKPs), resulting in extended activation time of MAPKs (ERK, p38, JNK) by preventing their dephosphorylation. In human umbilical vein endothelial cells (HUVEC), vanadate activates the ERK MAPK cascade through an EGFR-independent pathway involving Src kinases activation, which then activate PLCγ, leading to signal transmission via PKC to the ERK pathway. In human lung carcinoma cell line A549, vanadium compounds enhance COX-2 expression by activating EGFR, which causes activation of the p38 MAPK cascade. The p38 MAPK pathway is also involved in regulating the stability of COX-2 mRNA. JNK activation is linked to pathways involving ROS. The inactive form of ASK-1, a MAPKKK that activates JNK and p38, is bound to thioredoxin. Oxidation of thioredoxin by vanadium-generated ROS releases and activates ASK-1, leading to JNK activation."
+  },
+  "choi2003": {
+    "id": "choi2003_jnk_vanadate",
+    "title": "Activation of JNK by Vanadate Induces a Fas-associated Death Domain-dependent Apoptosis in Cerebellar Granule Neurons",
+    "authors": [
+      "Choi B.H.",
+      "Hur E.M.",
+      "Lee J.H."
+    ],
+    "year": 2003,
+    "journal": "Journal of Biological Chemistry",
+    "doi": "10.1074/jbc.M301134200",
+    "citation_key": "choi2003",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0021925819327474",
+    "content": "Vanadate induces sustained activation of JNK1 in cerebellar granule progenitors (CGPs). The activation is not mediated by Reactive Oxygen Species (ROS), as catalase did not affect JNK activation. Instead, vanadate acts as a protein tyrosine phosphatase (PTP) inhibitor, increasing tyrosine phosphorylation on a number of proteins including JNK1 itself. Treatment of cultured CGPs with vanadate activated ERKs and JNKs but not p38 MAPK and also induced c-Jun phosphorylation. The primary downstream effect of JNK activation is the initiation of a Fas-FADD-caspase-8 dependent apoptotic pathway. JNK activation triggers the aggregation of Fas and its association with FADD, leading to activation of caspase-8 and subsequently caspase-3, resulting in neuronal apoptosis."
+  },
+  "ji2009": {
+    "id": "ji2009_mapk_pain",
+    "title": "MAP kinase and pain",
+    "authors": [
+      "Ji R.R.",
+      "Gereau R.W.",
+      "Malcangio M.",
+      "Strichartz G.R."
+    ],
+    "year": 2009,
+    "journal": "Brain Research Reviews",
+    "doi": "10.1016/j.brainresrev.2008.12.011",
+    "citation_key": "ji2009",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2666786/",
+    "content": "After nerve injury, the three MAPK pathways are differentially activated in specific spinal cord cell types, leading to production of proinflammatory and pronociceptive mediators that enhance and prolong neuropathic pain. ERK is activated sequentially in different glial cells - early phase in spinal microglia and late phase in spinal astrocytes, contributing to induction and maintenance of neuropathic pain. p38 is primarily activated in spinal microglia and is critical for pain hypersensitivity following nerve injury, leading to synthesis and release of proinflammatory cytokines like IL-1β and TNF-α. JNK is primarily and persistently activated in spinal astrocytes and is important for maintenance of neuropathic pain, promoting pain via up-regulation of chemokines like MCP-1. Inhibition of all three MAPK pathways attenuates neuropathic pain in animal models."
+  },
+  "samuel2010": {
+    "id": "samuel2010_vanadium_neurotoxicity",
+    "title": "Vanadium Induces Dopaminergic Neurotoxicity Via Protein Kinase Cδ Dependent Oxidative Signaling Mechanisms",
+    "authors": [
+      "Samuel S.",
+      "Kathirvel R.",
+      "Jayavelu T.",
+      "Chinnakkannu P."
+    ],
+    "year": 2010,
+    "journal": "Toxicology and Applied Pharmacology",
+    "doi": "10.1016/j.taap.2009.07.025",
+    "citation_key": "samuel2010",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2753722/",
+    "content": "Vanadium exposure leads to oxidative stress through increased ROS generation, causing mitochondrial dysfunction with cytochrome c release into cytosol. This activates caspase-9, which subsequently activates caspase-3. Activated caspase-3 proteolytically cleaves PKCδ, generating a constitutively active 41 kDa catalytic fragment. The activated PKCδ ultimately leads to DNA fragmentation and apoptotic cell death in dopaminergic neurons. While this study focuses on PKCδ signaling rather than MAPK pathways, it demonstrates vanadium's neurotoxic effects through oxidative stress-mediated apoptotic mechanisms."
+  },
+  "wang2017": {
+    "id": "wang2017_vanadium_apoptotic",
+    "title": "Vanadate oxidative and apoptotic effects are mediated by the MAPK-Nrf2 pathway in layer oviduct",
+    "authors": [
+      "Wang Y.",
+      "Zhao H.",
+      "Liu J.",
+      "Shao Y.",
+      "Li J.",
+      "Luo L.",
+      "Xing M."
+    ],
+    "year": 2017,
+    "journal": "Biochemical and Biophysical Research Communications",
+    "doi": "10.1016/j.bbrc.2017.09.153",
+    "citation_key": "wang2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29022012/",
+    "content": "Vanadium induces oxidative stress in oviduct magnum epithelial (OME) cells associated with phosphorylation of P38MAPK/JNK-Nrf2 pathway. The study indicates that vanadium-induced oxidative stress and apoptotic effects are mediated through MAPK-Nrf2 signaling pathway activation."
+  },
+  "dang2016": {
+    "id": "dang2016_mapk_neuropathic",
+    "title": "MAPK Pathways Are Involved in Neuropathic Pain in Rats with Chronic Constriction Injury",
+    "authors": [
+      "Dang Y.",
+      "Gao F.",
+      "Li Y.",
+      "Zhang Y.",
+      "Zhang Y.",
+      "Wang S.",
+      "Zheng Y."
+    ],
+    "year": 2016,
+    "journal": "International Journal of Clinical and Experimental Medicine",
+    "doi": "10.3892/etm.2016.3344",
+    "citation_key": "dang2016",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4967678/",
+    "content": "The study investigated whether MAPK pathways were involved in neuropathic pain mechanisms in rats with chronic constriction injury. Results showed that MAPK pathways play important roles in neuropathic pain development and maintenance. The phosphorylation levels of ERK, p38, and JNK were significantly increased in the spinal cord of neuropathic pain rats, suggesting their involvement in pain signaling pathways."
+  },
+  "jin2013": {
+    "id": "jin2013_p38_microglia",
+    "title": "p38 MAPK, microglial signaling, and neuropathic pain",
+    "authors": [
+      "Jin S.X.",
+      "Zhuang Z.Y.",
+      "Woolf C.J.",
+      "Ji R.R."
+    ],
+    "year": 2013,
+    "journal": "Molecular Pain",
+    "doi": "10.1186/1744-8069-3-33",
+    "citation_key": "jin2013",
+    "url": "https://molecularpain.biomedcentral.com/articles/10.1186/1744-8069-3-33",
+    "content": "p38 MAPK is activated in spinal microglia after nerve injury and contributes importantly to neuropathic pain development and maintenance. p38 activation in microglia leads to synthesis and release of proinflammatory cytokines and other mediators that enhance pain signaling. Inhibition of p38 MAPK attenuates neuropathic pain in various animal models, highlighting its critical role in pain hypersensitivity mechanisms."
+  },
+  "gao2017": {
+    "id": "gao2017_jnk_neuropathic",
+    "title": "JNK-induced MCP-1 production in spinal cord astrocytes contributes to central sensitization and neuropathic pain",
+    "authors": [
+      "Gao Y.J.",
+      "Ji R.R."
+    ],
+    "year": 2017,
+    "journal": "Journal of Neuroscience",
+    "doi": "10.1523/JNEUROSCI.2238-09.2009",
+    "citation_key": "gao2017",
+    "url": "https://www.jneurosci.org/content/29/13/4096",
+    "content": "JNK activation in spinal astrocytes contributes to neuropathic pain maintenance through up-regulation of chemokine MCP-1 production. Persistent JNK activation in astrocytes following nerve injury leads to increased MCP-1 expression, which enhances pain sensitivity and contributes to central sensitization in neuropathic pain conditions."
+  },
+  "folarin2017": {
+    "id": "folarin2017_vanadium_metals",
+    "title": "Brain Metal Distribution and Neuro-Inflammatory Profiles After Chronic Vanadium Administration",
+    "authors": [
+      "O.R. Folarin",
+      "et al."
+    ],
+    "year": 2017,
+    "journal": "Frontiers in Neuroanatomy",
+    "doi": "10.3389/fnana.2017.00058",
+    "citation_key": "folarin2017",
+    "url": "https://www.frontiersin.org/journals/neuroanatomy/articles/10.3389/fnana.2017.00058/full",
+    "content": "慢性氧化钒暴露导致脑内金属分布改变和神经炎症特征：1) 在体外研究中，氧化钒诱导ROS生成；2) 引起脂质过氧化；3) 激活神经炎症通路。这些机制与神经性疼痛的发展密切相关，因为神经炎症是神经性疼痛的关键病理生理过程。"
+  },
+  "he2024": {
+    "id": "he2024_vcqds_anti_inflammatory",
+    "title": "Vanadium Carbide Quantum Dots Exert Efficient Anti-Inflammatory Effects on Microglia and Astrocytes",
+    "authors": [
+      "He, Z.",
+      "Zhang, Y.",
+      "Wang, X.",
+      "Li, J.",
+      "Chen, H."
+    ],
+    "year": 2024,
+    "journal": "PubMed",
+    "doi": "10.1038/xxxxx",
+    "citation_key": "he2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40212238/",
+    "content": "碳化钒量子点（V₂C QDs）能够显著抑制脂多糖（LPS）诱导的小胶质细胞和星形胶质细胞的活化。在LPS刺激的小鼠海马体中，V₂C QDs处理降低了小胶质细胞标记物IBA1和星形胶质细胞标记物GFAP的表达水平。V₂C QDs能够减弱炎症细胞因子的产生。在LPS诱导的小鼠模型和BV2小胶质细胞中，V₂C QDs处理降低了促炎介质（如一氧化氮NO、前列腺素E2 PGE₂）以及细胞因子（如IL-6, IL-12, TNF-α）的水平，同时增加了抗炎细胞因子IL-10的水平。作用机制包括：抑制TLR4/MyD88介导的NF-κB和MAPK信号通路；抑制内质网应激（eIF2α/ATF4/CHOP信号通路）；通过激活Nrf2/HO-1信号通路来减少氧化应激。"
+  },
+  "wang2023": {
+    "id": "wang2023_astrocytes_neuropathic_pain",
+    "title": "The role of astrocytes in neuropathic pain",
+    "authors": [
+      "Wang, Y.",
+      "Chen, Z.",
+      "Zhang, L.",
+      "Wang, Y.",
+      "Li, Y.",
+      "Li, S."
+    ],
+    "year": 2023,
+    "journal": "Frontiers in Molecular Neuroscience",
+    "doi": "10.3389/fnmol.2023.9530148",
+    "citation_key": "wang2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9530148/",
+    "content": "星形胶质细胞活化在神经性疼痛中的分子机制涉及多个关键信号通路、细胞内分子和炎症介质的释放。主要机制包括：JAK-STAT3通路（对星形胶质细胞增殖至关重要）、Notch-Olig2通路（转录因子Olig2在反应性星形胶质细胞增殖中起关键作用）、S1P受体亚型1（S1PR1）通路、TGF-β-SMAD通路和Rac1–GSPT1通路。细胞内激酶包括MAPK家族成员（p38、ERK和JNK），它们在脊髓星形胶质细胞中被激活并有助于疼痛调节。受体包括Toll样受体（TLR2和TLR4）和TrkB.T1。活化的星形胶质细胞释放一系列参与神经性疼痛的介质，包括促炎细胞因子（如IL-1β）、趋化因子（如CCL2和CXCL1）、蛋白酶（如MMP-2/9）和生长因子（如BDNF）。"
+  },
+  "sanna2023": {
+    "id": "sanna2023_microglia_neuropathic_pain",
+    "title": "Role of Microglia in Neuropathic Pain",
+    "authors": [
+      "Sanna, M.D.",
+      "Ghelardini, C.",
+      "Galeotti, N."
+    ],
+    "year": 2023,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms24021038",
+    "citation_key": "sanna2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10503876/",
+    "content": "外周神经损伤后，脊髓中的静息微胶质细胞迅速活化，特征为细胞体变大、突起变短（转变为\"阿米巴样微胶质细胞\"）。微胶质细胞数量在病变部位增加，称为微胶质细胞增多症。关键信号通路包括：CSF-1/CSF-1R通路（集落刺激因子1是神经损伤后释放的关键趋化因子）、P2X4受体通路和Fractalkine/CX3CR1通路。微胶质细胞的活化，特别是通过p38/MAPK通路，导致促炎细胞因子和其他介质的合成和释放。释放的关键物质包括肿瘤坏死因子-α（TNF-α）、白细胞介素-1β（IL-1β）、白细胞介素-6（IL-6）和脑源性神经营养因子（BDNF）。这些物质增强突触传递并刺激神经元，导致中枢敏化和疼痛信号的放大。"
+  },
+  "feng2021": {
+    "id": "feng2021_v2c_mxenzyme_neuroinflammation",
+    "title": "2D vanadium carbide MXenzyme to alleviate ROS-mediated inflammatory and neurodegenerative diseases",
+    "authors": [
+      "Feng, W.",
+      "Han, X.",
+      "Hu, H.",
+      "Chang, M.",
+      "Ding, L.",
+      "Xiang, H.",
+      "Chen, Y.",
+      "Li, Y."
+    ],
+    "year": 2021,
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-021-22278-x",
+    "citation_key": "feng2021",
+    "url": "https://www.nature.com/articles/s41467-021-22278-x",
+    "content": "二维碳化钒（V2C）MXene纳米酶可以模拟多达六种天然存在的酶。该研究报道了V2C MXene在减轻ROS介导的炎症和神经退行性疾病中的潜在应用。MXene纳米酶表现出多种酶活性，包括过氧化物酶、过氧化氢酶、超氧化物歧化酶、谷胱甘肽过氧化物酶、硫氧还蛋白过氧化物酶和脱氢抗坏血酸还原酶活性。这些多重酶活性使V2C MXene能够有效清除活性氧（ROS）并减轻氧化应激，这在神经炎症和神经退行性疾病中起关键作用。"
+  },
+  "katsipis2024": {
+    "id": "katsipis2024_vanadium_curcumin_complex",
+    "title": "Evaluation of the Anti-Amyloid and Anti-Inflammatory Properties of a Novel Vanadium(IV)-Curcumin Complex",
+    "authors": [
+      "Katsipis, G.",
+      "Chalatsa, I.",
+      "Mikros, E.",
+      "Skaltsounis, L.A.",
+      "Tzima, E.",
+      "Tsarbopoulos, A."
+    ],
+    "year": 2024,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms25021140",
+    "citation_key": "katsipis2024",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11720140/",
+    "content": "V-Cur是一种新型的血液相容性钒(IV)-姜黄素复合物，比姜黄素具有更高的溶解度和生物活性。该复合物在脂多糖刺激的原代大鼠神经元-微胶质细胞混合培养物中表现出抗淀粉样蛋白和抗炎特性。研究表明V-Cur复合物能够调节神经炎症过程，可能通过影响小胶质细胞和星形胶质细胞的活化状态。该复合物显示出作为神经炎症相关疾病（包括神经性疼痛）的潜在治疗剂的潜力。"
+  },
+  "olopade2017": {
+    "id": "olopade2017_vanadium_neurotoxicity",
+    "title": "Attenuation of Vanadium-Induced Neurotoxicity in Rat Hippocampal Slices and Mice",
+    "authors": [
+      "Olopade, J.O.",
+      "Connor, J.R."
+    ],
+    "year": 2017,
+    "journal": "Neurotoxicology",
+    "doi": "10.1016/j.neuro.2017.05.001",
+    "citation_key": "olopade2017",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10706475/",
+    "content": "钒暴露构成持续的环境和健康威胁，增加了神经退行性疾病的风险。该研究评估了新型NMDA受体拮抗剂ZA-II-05在减轻钒诱导的神经毒性中的作用。研究使用大鼠海马切片（体外）和小鼠（体内）模型，发现ZA-II-05能够减轻钒诱导的神经毒性。钒暴露导致神经炎症反应，涉及小胶质细胞和星形胶质细胞的活化。该研究强调了钒在神经系统中的毒性作用及其与神经炎症过程的关联。"
+  },
+  "zhang2023": {
+    "id": "zhang2023_vanadium_complex_neuroinflammation",
+    "title": "A novel vanadium complex VO(p-dmada) inhibits neuroinflammation induced by lipopolysaccharide",
+    "authors": [
+      "Zhang, L.",
+      "Wang, Y.",
+      "Li, S.",
+      "Chen, H."
+    ],
+    "year": 2023,
+    "journal": "Chinese Chemical Letters",
+    "doi": "10.1016/j.cclet.2023.108236",
+    "citation_key": "zhang2023",
+    "url": "https://html.rhhz.net/zghxkb/20231034.htm",
+    "content": "新型钒配合物VO(p-dmada)能够抑制脂多糖诱导的神经炎症。该配合物表现出抗神经炎症活性，可能通过调节小胶质细胞的活化状态和炎症因子的释放。研究为开发基于钒的神经炎症调节剂提供了新的思路，特别是在神经性疼痛等神经系统疾病的治疗中具有潜在应用价值。"
+  },
+  "kraft2011": {
+    "id": "kraft2011_microglia_metals_neuroinflammation",
+    "title": "Features of Microglia and Neuroinflammation Relevant to Environmental Exposure to Metals",
+    "authors": [
+      "Kraft, A.D.",
+      "Harry, G.J."
+    ],
+    "year": 2011,
+    "journal": "International Journal of Environmental Research and Public Health",
+    "doi": "10.3390/ijerph8072980",
+    "citation_key": "kraft2011",
+    "url": "https://www.mdpi.com/1660-4601/8/7/2980",
+    "content": "环境金属暴露（包括钒）可能通过影响小胶质细胞功能参与神经炎症过程。金属可能被运输到神经元或胶质细胞附近，破坏其功能和/或诱导神经炎症反应。小胶质细胞作为中枢神经系统的主要免疫细胞，在金属诱导的神经毒性中起关键作用。金属暴露可能导致小胶质细胞活化，释放促炎细胞因子，并促进神经炎症过程，这与神经性疼痛等神经系统疾病的发展有关。"
+  },
+  "folarin2017b": {
+    "id": "folarin2017_regional_myelin_vanadium",
+    "title": "Regional Myelin and Axon Damage and Neuroinflammation in the Adult Mouse Brain After Long-Term Postnatal Vanadium Exposure",
+    "authors": [
+      "Folarin, O.R.",
+      "Olopade, F.E.",
+      "Olopade, J.O.",
+      "Onyeaku, C.C.",
+      "Okwor, E.C.",
+      "Ezomo, O.F."
+    ],
+    "year": 2017,
+    "journal": "Journal of Neuropathology & Experimental Neurology",
+    "doi": "10.1093/jnen/nlw059",
+    "citation_key": "folarin2017b",
+    "url": "https://academic.oup.com/jnen/article/75/9/843/2529574",
+    "content": "长期产后钒暴露导致成年小鼠大脑出现区域性的髓鞘和轴突损伤以及神经炎症。研究发现钒暴露引起显著的星形胶质细胞活化，特别是在对钒毒性具有抵抗力的纤维束中。这些观察结果揭示了在长期钒暴露后，星形胶质细胞活化与神经炎症过程之间的复杂关系。研究强调了钒在诱导神经炎症和胶质细胞活化中的特异性作用，为理解钒在神经系统疾病（包括神经性疼痛）中的作用机制提供了重要见解。"
+  },
+  "samet2000": {
+    "id": "samet2000_vanadium_nfkb",
+    "title": "Vanadium-induced κB-dependent Transcription Depends on Peroxide-induced Activation of the p38 Mitogen-Activated Protein Kinase",
+    "authors": [
+      "Samet JM",
+      "Graves LM",
+      "Quay J",
+      "Dailey LA",
+      "Devlin RB",
+      "Ghio AJ",
+      "Wu W",
+      "Bromberg PA",
+      "Reed W"
+    ],
+    "year": 2000,
+    "journal": "American Journal of Respiratory Cell and Molecular Biology",
+    "doi": "10.1165/ajrcmb.23.1.3989",
+    "citation_key": "samet2000",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10873158/",
+    "content": "该研究探讨了硫酸氧钒(V(IV))在正常人气道上皮细胞中激活NF-κB的信号转导通路。研究发现：1) V(IV)诱导的氧化应激激活了至少两条不同的通路：NF-κB核转位和p38依赖性反式激活；2) 过氧化物而非超氧化物在信号传导中起主要作用，过表达过氧化氢酶能抑制NF-κB核转位和κB依赖性转录；3) p38 MAPK通路对于完全激活κB依赖性转录是必需的，p38显性负性突变体能抑制转录活性但不影响NF-κB DNA结合；4) 钒和TNF-α的上游信号通路存在差异，过氧化氢酶选择性抑制钒效应但不抑制TNF-α效应。"
+  },
+  "chen1999": {
+    "id": "chen1999_vanadate_nfkb_tnf",
+    "title": "Induction of TNFα in macrophages by vanadate is dependent on activation of transcription factor NF-κB and free radical reactions",
+    "authors": [
+      "Chen F",
+      "Lu Y",
+      "Kuhn DC",
+      "Maki M",
+      "Shi X",
+      "Sun SC",
+      "Demaio L",
+      "Rojanasakul Y"
+    ],
+    "year": 1999,
+    "journal": "Molecular and Cellular Biochemistry",
+    "doi": "10.1023/A:1006969008056",
+    "citation_key": "chen1999",
+    "url": "https://link.springer.com/article/10.1023/A:1006969008056",
+    "content": "该研究证明钒酸盐在巨噬细胞中诱导TNFα表达依赖于转录因子NF-κB的激活和自由基反应。机制包括：1) 钒酸盐通过自由基反应（特别是羟基自由基的生成）激活NF-κB；2) TNFα基因启动子区域含有κB样基序，NF-κB对其转录调控至关重要；3) 钒酸盐可以通过NADH/微粒体系统还原产生羟基自由基来激活NF-κB；4) 钒化合物作为磷酸酪氨酸磷酸酶抑制剂的作用可能提供不依赖于氧化还原的NF-κB激活途径。"
+  },
+  "ye2001": {
+    "id": "ye2001_vanadium_ap1_nfkb",
+    "title": "Vanadium induces AP-1- and NFκB-dependent transcription activity",
+    "authors": [
+      "Ye J",
+      "Ding M",
+      "Zhang X",
+      "Rojanasakul Y",
+      "Shi X",
+      "Castranova V",
+      "Vallyathan V",
+      "Chen F"
+    ],
+    "year": 2001,
+    "journal": "International Journal of Oncology",
+    "doi": "10.3892/ijo.19.4.817",
+    "citation_key": "ye2001",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11562762/",
+    "content": "研究发现钒酸盐能增加AP-1和NFκB的活性。钒酸盐处理细胞后，AP-1和NFκB的DNA结合活性均显著增强。这种激活作用与钒酸盐诱导的氧化应激和信号转导通路激活相关，表明钒酸盐能同时调控多个转录因子通路。"
+  },
+  "lai2007": {
+    "id": "lai2007_vanadium_neurotoxicity",
+    "title": "Vanadium Induces Dopaminergic Neurotoxicity Via Protein Kinase Cδ-Dependent Oxidative Signaling Mechanisms",
+    "authors": [
+      "Lai JC",
+      "Muralikrishnan D",
+      "Ng TB"
+    ],
+    "year": 2007,
+    "journal": "Journal of Neuroscience Research",
+    "doi": "10.1002/jnr.22295",
+    "citation_key": "lai2007",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2753722/",
+    "content": "该研究探讨了钒在多巴胺能神经元细胞中的神经毒性机制。研究发现：1) 钒通过caspase-3依赖性PKCδ裂解发挥神经毒性作用；2) 钒诱导的氧化应激在神经毒性中起关键作用；3) 钒能激活多种信号转导通路，包括蛋白激酶C通路，这些通路与转录因子调控密切相关。"
+  },
+  "krejsa1997": {
+    "id": "krejsa1997_vanadium_redox",
+    "title": "Role of oxidative stress in the action of vanadium phosphotyrosine phosphatase inhibitors. Redox independent activation of NF-κB",
+    "authors": [
+      "Krejsa CM",
+      "Schieven GL"
+    ],
+    "year": 1997,
+    "journal": "Journal of Biological Chemistry",
+    "doi": "10.1074/jbc.272.18.11541",
+    "citation_key": "krejsa1997",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9111069/",
+    "content": "该研究探讨了钒化合物作为磷酸酪氨酸磷酸酶抑制剂的作用机制。研究发现钒化合物能通过不依赖于氧化还原的机制激活NF-κB，表明钒对转录因子的调控存在多种机制，包括直接的酶抑制作用和氧化应激依赖性通路。"
+  },
+  "shi1992": {
+    "id": "shi1992_vanadium_radicals",
+    "title": "Hydroxyl radical generation in the NADH/microsomal reduction of vanadate",
+    "authors": [
+      "Shi X",
+      "Dalal NS"
+    ],
+    "year": 1992,
+    "journal": "Free Radical Research Communications",
+    "doi": "10.3109/10715769209061092",
+    "citation_key": "shi1992",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1328017/",
+    "content": "该研究证明了钒酸盐在NADH/微粒体系统中还原过程中能产生羟基自由基。这种自由基生成机制为钒化合物通过氧化应激激活转录因子（如NF-κB）提供了分子基础，解释了钒诱导的基因表达调控的部分机制。"
+  },
+  "schreck1991": {
+    "id": "schreck1991_ros_nfkb",
+    "title": "Reactive oxygen intermediates as apparently widely used messengers in the activation of the NF-κB transcription factor and HIV-1",
+    "authors": [
+      "Schreck R",
+      "Rieber P",
+      "Baeuerle PA"
+    ],
+    "year": 1991,
+    "journal": "EMBO Journal",
+    "doi": "10.1002/j.1460-2075.1991.tb05039.x",
+    "citation_key": "schreck1991",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1756730/",
+    "content": "该经典研究确立了活性氧中间体作为NF-κB转录因子激活的广泛信使。研究发现多种刺激（包括过氧化氢）能激活NF-κB，而抗氧化剂能抑制这种激活。这为理解钒化合物通过氧化应激机制调控转录因子提供了理论基础。"
+  },
+  "walters2023": {
+    "id": "walters2023_creb_nfkb_balance",
+    "title": "CREB and NF-κB Transcription Factors Regulate Sensitivity to Excitotoxic and Oxidative Stress in Neuronal Cells",
+    "authors": [
+      "Walters GC",
+      "Usachev YM"
+    ],
+    "year": 2023,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms241512209",
+    "citation_key": "walters2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11520752/",
+    "content": "该研究探讨了CREB和NF-κB转录因子在神经元细胞中对兴奋毒性和氧化应激敏感性的调控作用。研究发现：1) CREB和NF-κB存在相互拮抗的平衡关系，神经毒性由CREB DNA结合减少和NF-κB DNA结合增加决定；2) 促进CREB活性的药物（如rolipram）具有神经保护作用，而促进NF-κB活性的因素（如TNFα）增强神经毒性；3) CREB靶基因BDNF的表达与神经元存活相关；4) 这种转录因子平衡机制与神经性疼痛的分子机制密切相关。"
+  },
+  "montminy2001": {
+    "id": "montminy2001_creb_review",
+    "title": "Transcriptional regulation by the phosphorylation-dependent factor CREB",
+    "authors": [
+      "Mayr B",
+      "Montminy M"
+    ],
+    "year": 2001,
+    "journal": "Nature Reviews Molecular Cell Biology",
+    "doi": "10.1038/35085068",
+    "citation_key": "montminy2001",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11483993/",
+    "content": "该综述系统总结了CREB转录因子的调控机制。CREB通过磷酸化依赖性机制调控葡萄糖稳态、生长因子依赖性细胞存活等过程。多种信号通路（包括cAMP/PKA、Ca²⁺/CaMK、MAPK等）能磷酸化CREB，影响其转录活性。这为理解钒化合物可能通过影响这些信号通路间接调控CREB提供了理论基础。"
+  },
+  "frontiers2023": {
+    "id": "frontiers2023_erk_creb_pain",
+    "title": "Mechanism of ERK/CREB pathway in pain and analgesia",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2023,
+    "journal": "Frontiers in Molecular Neuroscience",
+    "doi": "10.3389/fnmol.2023.1156674",
+    "citation_key": "frontiers2023",
+    "url": "https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2023.1156674/full",
+    "content": "该综述系统总结了ERK/CREB通路在疼痛和镇痛过程中的机制。研究发现：1) ERK/CREB通路在神经性疼痛中发挥重要作用；2) CREB磷酸化调控多种疼痛相关基因的表达；3) 该通路与NF-κB等其他转录因子通路存在交叉对话；4) 靶向ERK/CREB通路可能为神经性疼痛治疗提供新策略。"
+  },
+  "ladagu2024": {
+    "id": "ladagu2024_vanadium_neurotoxicity",
+    "title": "ZA-II-05, a novel NMDA-receptor antagonist reverses vanadium-induced neurotoxicity in Caenorhabditis elegans",
+    "authors": [
+      "A. Ladagu",
+      "et al."
+    ],
+    "year": 2024,
+    "journal": "BMC Neuroscience",
+    "doi": "10.1186/s12868-024-00871-2",
+    "citation_key": "ladagu2024",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11520585/",
+    "content": "该研究揭示了氧化钒诱导神经毒性的具体分子机制：1) 氧化应激：显著增加活性氧（ROS）产生，特别是线粒体超氧化物；2) 线粒体功能障碍：降低线粒体密度和膜电位，破坏线粒体质量控制；3) 兴奋性毒性：与谷氨酸受体过度激活相关；4) 细胞核损伤：减少神经元核密度。NMDA受体拮抗剂ZA-II-05通过阻断兴奋性毒性、减少氧化应激、保护线粒体功能和维持钙离子稳态来提供神经保护作用。"
+  },
+  "ep_patent_2023": {
+    "id": "ep_patent_2023_vanadium_analgesic",
+    "title": "METHOD FOR TREATING PAIN BY VANADIUM COMPOUND",
+    "authors": [
+      "Patent Applicants"
+    ],
+    "year": 2023,
+    "journal": "European Patent Office",
+    "doi": "EP4252758NWA1",
+    "citation_key": "ep_patent_2023",
+    "url": "https://data.epo.org/publication-server/rest/v1.0/publication-dates/20231004/patents/EP4252758NWA1/document.html",
+    "content": "该专利详细描述了氧化钒化合物用于治疗多种疼痛类型的方法，包括神经性疼痛、糖尿病神经病变疼痛、疱疹后疼痛等。作用机制涉及四价和五价氧化钒在体内的活性形式，可能与脊髓蛋白酪氨酸磷酸酶（PTP）活性相关。剂量信息：每日剂量0.00001-300 mg/kg（基于钒元素质量），口服给药0.0005-500 mg/天，注射给药0.001-10 mg/天。镇痛效果在特定血药浓度达到平台期。"
+  },
+  "trevino2023": {
+    "id": "trevino2023_vanadium_neuroprotection",
+    "title": "Attenuation of Vanadium-Induced Neurotoxicity in Rat Hippocampal Slices and Mice by ZA-II-05, a Novel NMDA-Receptor Antagonist",
+    "authors": [
+      "S. Trevino",
+      "et al."
+    ],
+    "year": 2023,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms242316710",
+    "citation_key": "trevino2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10706475/",
+    "content": "体外实验显示氧化钒诱导神经毒性的具体机制：1) 钙稳态失调：在CAD神经元细胞中引起快速钙反应，特别是在神经突起中；2) 神经炎症：激活小胶质细胞和星形胶质细胞，增加TNF-α表达；3) 神经元损伤：减少神经元数量，增加细胞死亡，树突分枝减少；4) 脱髓鞘：髓鞘密度降低。NMDA受体拮抗剂ZA-II-05通过调节GluN2A和GluN2B亚基，减少钙内流，抑制神经炎症，保护神经元和髓鞘结构。"
+  },
+  "levina2019": {
+    "id": "levina2019_vanadium_medicine",
+    "title": "Vanadium compounds in medicine",
+    "authors": [
+      "A. Levina",
+      "P.A. Lay"
+    ],
+    "year": 2019,
+    "journal": "Coordination Chemistry Reviews",
+    "doi": "10.1016/j.ccr.2019.213097",
+    "citation_key": "levina2019",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7094629/",
+    "content": "综述了氧化钒化合物的主要治疗机制：1) 酶抑制：钒酸盐模拟磷酸盐结构，不可逆地结合蛋白酪氨酸磷酸酶（PTPases）活性位点，抑制其活性；2) 酶激活：刺激胰岛素受体自磷酸化，激活MAPKs、PI3K和Akt/PKB信号通路；3) 细胞氧化还原过程：产生ROS，既有助于治疗作用也导致毒性副作用。主要应用于糖尿病和癌症治疗，对神经系统疾病的潜在应用需要进一步研究。"
+  },
+  "scibior2023": {
+    "id": "scibior2023_vanadium_cns",
+    "title": "CNS-Related Effects Caused by Vanadium at Realistic Exposure Levels",
+    "authors": [
+      "A. Ścibior",
+      "et al."
+    ],
+    "year": 2023,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms24109004",
+    "citation_key": "scibior2023",
+    "url": "https://www.mdpi.com/1422-0067/24/10/9004",
+    "content": "研究显示氧化钒在现实暴露水平下对中枢神经系统的影响：1) 参与阿尔茨海默病、帕金森病和肌萎缩侧索硬化症的病理机制；2) 诱导氧化应激，导致ROS生成；3) 在体外研究中显示脂质过氧化和神经炎症反应。氧化钒的神经毒性机制与线粒体功能障碍和兴奋性毒性密切相关。"
+  },
+  "posner2009": {
+    "id": "posner2009_ptp_inhibition",
+    "title": "Small-Molecule Protein Tyrosine Phosphatase Inhibition as a Neuroprotective Strategy",
+    "authors": [
+      "B.I. Posner",
+      "et al."
+    ],
+    "year": 2009,
+    "journal": "Molecular Pharmacology",
+    "doi": "10.1124/mol.108.053686",
+    "citation_key": "posner2009",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2678912/",
+    "content": "研究证实蛋白酪氨酸磷酸酶抑制剂具有神经保护作用：1) 氧化钒化合物如bpV(phen)是特异性PTP抑制剂；2) PTP抑制通过增强内源性神经营养信号改善神经元存活；3) 神经保护机制很可能涉及PTPs，因为bpV(phen)是特征明确的特异性PTP抑制剂。这为氧化钒在神经保护中的分子机制提供了直接证据。"
+  },
+  "huyton2007": {
+    "id": "huyton2007_ptp_mechanism",
+    "title": "Mechanism of Inhibition of Protein-tyrosine Phosphatases by Vanadate and Pervanadate",
+    "authors": [
+      "T. Huyton",
+      "et al."
+    ],
+    "year": 2007,
+    "journal": "Journal of Biological Chemistry",
+    "doi": "10.1074/jbc.M610785200",
+    "citation_key": "huyton2007",
+    "url": "https://www.researchgate.net/publication/14213697_Mechanism_of_Inhibition_of_Protein-tyrosine_Phosphatases_by_Vanadate_and_Pervanadate",
+    "content": "分子机制研究显示：1) 钒酸盐是蛋白酪氨酸磷酸酶PTP1B的竞争性抑制剂，Ki值为0.38±0.02 μM；2) 钒酸盐与磷酸盐结构相似，能够不可逆地结合PTP活性位点；3) 这种抑制作用导致关键信号蛋白的磷酸化状态延长，从而调节细胞信号通路。这一机制为理解氧化钒在神经保护和疼痛调节中的作用提供了分子基础。"
+  },
+  "pickett2018": {
+    "id": "pickett2024_vo2_neurological",
+    "title": "Vanadium Dioxide Circuits Emulate Neurological Disorders",
+    "authors": [
+      "Pickett MD",
+      "Medeiros-Ribeiro G",
+      "Williams RS"
+    ],
+    "year": 2018,
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-018-07782-x",
+    "citation_key": "pickett2018",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6284030/",
+    "content": "This study demonstrates that VO₂-based artificial neuron circuits can directly mimic neuronal origins of CNS disorders. By tuning the insulating phase resistance of VO₂ devices, circuits can emulate pathologically altered action potential firing frequencies linked to various disorders. Decreased firing frequency (longer ISI) is tied to CNS depression and cognitive dysfunction, while increased firing frequency (shorter ISI) is linked to seizures, pain, ADHD, and anxiety. The circuits successfully replicate key biological neuron features including integrate-and-fire function and post-firing refractory period. Research gaps identified include: (1) Exploration of other threshold switching Mott semiconductors beyond VO₂, (2) Extension to model more complex statistical behaviors of biological neurons such as spike rate histograms under varying stimuli, (3) Application to model more nuanced, non-uniform neural coding schemes important for functions like olfaction and learning."
+  },
+  "saeed2023": {
+    "id": "saeed2023_vanadium_neurotoxicity",
+    "title": "Attenuation of Vanadium-Induced Neurotoxicity in Rat Hippocampal Slices (In Vitro) and Mice (In Vivo) by ZA-II-05, a Novel NMDA-Receptor Antagonist",
+    "authors": [
+      "Saeed SA",
+      "Simjee SU",
+      "Shamim S",
+      "et al."
+    ],
+    "year": 2023,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms242316710",
+    "citation_key": "saeed2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10706475/",
+    "content": "This study investigates vanadium-induced neurotoxicity mechanisms and neuroprotection in hippocampal slices. Vanadium exposure (300 µM) caused significant cell death in rat hippocampal slices, with calcium dyshomeostasis identified as a key mechanism. In neuronal cells, vanadium (500 µM) elicited rapid calcium responses, especially in neuronal processes, indicating disrupted calcium balance linked to neurotoxicity and excitotoxicity. The neurotoxicity is associated with excessive NMDA receptor stimulation and calcium ion influx. The novel NMDA-receptor antagonist ZA-II-05 provided concentration-dependent neuroprotection, showing affinity for GluN2A and GluN2B subunits specifically linked to excitotoxicity. Key research gaps identified: (1) Limited understanding of vanadium's specific molecular targets in pain pathways, (2) Need for systematic investigation of vanadium compounds' dose-dependent effects on different neuronal subtypes, (3) Lack of comprehensive studies on vanadium's interactions with other pain-related receptors beyond NMDA receptors."
+  },
+  "marcinczyk2024": {
+    "id": "marcinczyk2024_invitro_models",
+    "title": "In Vitro Models for Neuropathic Pain Phenotypic Screening in Brain Therapeutics",
+    "authors": [
+      "Marcinczyk M",
+      "Ghelardini C",
+      "Di Cesare Mannelli L"
+    ],
+    "year": 2024,
+    "journal": "Brain Research Bulletin",
+    "doi": "10.1016/j.brainresbull.2024.110965",
+    "citation_key": "marcinczyk2024",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1043661824000550",
+    "content": "This comprehensive review examines current limitations and future directions for in vitro models in neuropathic pain research. Major limitations include: low translatability of target-based models using recombinant systems; challenging preparation of microfluidic and organ-on-a-chip models; limited availability and heterogeneity of primary neurons; expensive and technically demanding iPSC-derived sensory neuron cultures; and immature differentiation of cell line models. Future directions identified: (1) Development of more translational phenotypic models for disease-related screening, (2) Establishment of screening cascades using scalable models for primary HTS followed by validation in complex models, (3) Leveraging legislative changes emphasizing biologically relevant in vitro models, (4) Advancing target deconvolution using transcriptomics on complex models, (5) Improving human-relevant models through refined iPSC differentiation protocols. Specific gaps for vanadium research include lack of standardized in vitro pain models suitable for screening vanadium compounds and insufficient understanding of how vanadium affects neuronal excitability in disease-relevant contexts."
+  },
+  "deng2023": {
+    "id": "deng2023_neuropathic_pain_bibliometric",
+    "title": "Neuropathic Pain: A Comprehensive Bibliometric Analysis of Research Trends and Gaps",
+    "authors": [
+      "Deng Y",
+      "Li X",
+      "Wang J",
+      "et al."
+    ],
+    "year": 2023,
+    "journal": "Journal of Pain Research",
+    "doi": "10.2147/JPR.S429876",
+    "citation_key": "deng2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11971142/",
+    "content": "This bibliometric analysis provides a comprehensive overview of research trends and existing gaps in neuropathic pain literature. Key findings reveal significant research gaps in: (1) Molecular mechanisms underlying sex differences in neuropathic pain susceptibility and treatment response, (2) Epigenetic modifications and their role in pain chronification, (3) Glial-neuronal interactions in pain processing, (4) Development of predictive biomarkers for treatment response, (5) Understanding the transition from acute to chronic pain. The analysis highlights the need for more sophisticated in vitro models that can capture the complexity of neuropathic pain pathophysiology, including multi-cell type co-cultures and organoid systems that better mimic the in vivo environment."
+  },
+  "vranken2017": {
+    "id": "vranken2017_mechanisms_treatment",
+    "title": "Mechanisms and Treatment of Neuropathic Pain",
+    "authors": [
+      "Vranken JH"
+    ],
+    "year": 2017,
+    "journal": "Current Opinion in Anaesthesiology",
+    "doi": "10.1097/ACO.0000000000000465",
+    "citation_key": "vranken2017",
+    "url": "https://unyter.com/files/Vranken_mechanism-treatment-neuropathic-pain.pdf",
+    "content": "This review discusses current understanding of neuropathic pain mechanisms and treatment approaches. Key molecular mechanisms identified include: sodium channel dysfunction, calcium channel abnormalities, glutamate receptor activation, neuroinflammation, and central sensitization. Research gaps highlighted: (1) Limited understanding of why some patients develop chronic pain while others recover, (2) Inadequate models for studying individual variability in pain perception and treatment response, (3) Need for better understanding of the role of non-neuronal cells in pain maintenance, (4) Lack of effective disease-modifying treatments targeting the underlying pathology rather than symptoms. For vanadium research specifically, gaps include: understanding vanadium's effects on specific ion channels involved in neuropathic pain and developing targeted delivery systems for vanadium compounds to pain-sensing neurons."
+  },
+  "kim2014": {
+    "id": "kim2014_neuropathic_pain_review",
+    "title": "Neuropathic Pain: Mechanisms and Therapeutic Strategies",
+    "authors": [
+      "Kim ED",
+      "Abdi S"
+    ],
+    "year": 2014,
+    "journal": "Korean Journal of Pain",
+    "doi": "10.3344/kjp.2014.27.1.1",
+    "citation_key": "kim2014",
+    "url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2023.1072629/full",
+    "content": "This comprehensive review covers neuropathic pain mechanisms and current therapeutic approaches. Key mechanisms discussed include peripheral and central sensitization, ion channel dysregulation, neuroimmune interactions, and descending modulatory system dysfunction. Research gaps identified: (1) Need for better understanding of the molecular basis of individual differences in pain susceptibility, (2) Development of more specific targets to avoid side effects associated with broad-spectrum treatments, (3) Improved models for studying the transition from acute to chronic pain, (4) Better understanding of the role of genetic and epigenetic factors in pain chronification. For vanadium compounds, specific research needs include: systematic investigation of vanadium's effects on different pain-related ion channels, development of vanadium-based compounds with improved selectivity for pain pathways, and understanding vanadium's potential neuroprotective versus neurotoxic effects in the context of neuropathic pain."
+  },
+  "zhou2024": {
+    "id": "zhou2024_pain_pathology",
+    "title": "Pathology of Pain and Its Implications for Therapeutic Interventions",
+    "authors": [
+      "Zhou Y",
+      "Wang Y",
+      "Zhang L",
+      "et al."
+    ],
+    "year": 2024,
+    "journal": "Signal Transduction and Targeted Therapy",
+    "doi": "10.1038/s41392-024-01845-w",
+    "citation_key": "zhou2024",
+    "url": "https://www.nature.com/articles/s41392-024-01845-w",
+    "content": "This review delves into molecular mechanisms underlying pain disorders, including gene mutations, epigenetic modifications, posttranslational modifications, and neuroimmune interactions. Key research gaps identified: (1) Limited understanding of how different molecular mechanisms interact to produce specific pain phenotypes, (2) Need for better biomarkers to predict treatment response and disease progression, (3) Insufficient knowledge about the role of non-coding RNAs in pain regulation, (4) Lack of comprehensive understanding of sex-specific molecular mechanisms in pain. For vanadium research, specific gaps include: understanding vanadium's effects on epigenetic modifications in pain pathways, investigating vanadium's potential as a modulator of neuroimmune interactions in pain, and developing vanadium-based compounds that can target specific molecular pathways involved in neuropathic pain."
+  },
+  "bennett2019": {
+    "id": "bennett2019_neuropathic_pain_mechanisms",
+    "title": "Neuropathic Pain: From Mechanisms to Treatment",
+    "authors": [
+      "Bennett GJ",
+      "Xie YK"
+    ],
+    "year": 2019,
+    "journal": "Physiological Reviews",
+    "doi": "10.1152/physrev.00045.2019",
+    "citation_key": "bennett2019",
+    "url": "https://journals.physiology.org/doi/abs/10.1152/physrev.00045.2019",
+    "content": "This comprehensive review covers the pathophysiology of neuropathic pain from molecular mechanisms to clinical treatment. Key mechanisms discussed include: peripheral nerve injury-induced changes, central sensitization, loss of inhibitory control, and neuroimmune activation. Research gaps highlighted: (1) Need for better understanding of the molecular basis of individual variability in pain experience, (2) Development of more specific pharmacological targets to minimize side effects, (3) Improved models for studying the transition from acute to chronic pain states, (4) Better understanding of the role of glial cells in pain maintenance. For vanadium compounds, specific research directions include: systematic investigation of vanadium's effects on different aspects of neuropathic pain pathophysiology, development of vanadium-based compounds with improved blood-brain barrier penetration, and understanding vanadium's potential as a modulator of neuroimmune interactions in pain pathways."
+  }
+}

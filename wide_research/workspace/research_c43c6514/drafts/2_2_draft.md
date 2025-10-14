@@ -1,0 +1,7 @@
+IL-4/IL-13-STAT6信号轴在特应性皮炎（AD）的发病机制中发挥着核心作用，通过驱动炎症反应和直接破坏皮肤屏障功能共同促进疾病进程。该信号通路起始于IL-4和IL-13与其共享的受体复合物（IL-4Rα/IL-13Rα1）结合，主要表达于角质形成细胞等非造血细胞上 [cite:wang2022, furue2020]。受体激活后，JAK1、JAK2和TYK2激酶发生磷酸化，进而激活STAT6转录因子 [cite:furue2020, facheris2023]。活化的STAT6形成二聚体并转位至细胞核，通过调控下游靶基因直接参与AD的病理过程 [cite:wang2022]。
+
+在皮肤屏障功能障碍方面，IL-4/IL-13-STAT6轴通过多种机制抑制关键表皮分化蛋白的表达。STAT6激活后直接下调loricrin（LOR）和involucrin（IVL）的转录 [cite:furue2020, napolitano2023]。对于filaggrin（FLG），该信号轴通过干扰OVOL1转录因子的胞质-核转位来抑制其表达，而OVOL1对FLG和LOR的表达至关重要 [cite:furue2020, napolitano2023]。此外，STAT6信号还通过上调periostin，进而刺激IL-24产生，激活JAK/STAT3通路，形成对FLG表达的多层次抑制 [cite:furue2020, napolitano2023]。这些机制共同导致表皮分化复合体（EDC）关键蛋白的广泛下调，严重损害皮肤屏障完整性 [cite:facheris2023, kim2018]。
+
+除了对结构蛋白的直接调控，IL-4/IL-13-STAT6轴还破坏皮肤脂质组成，减少神经酰胺、游离脂肪酸和胆固醇水平，进一步削弱屏障功能 [cite:napolitano2023]。同时，该信号通路促进角质形成细胞产生胸腺基质淋巴细胞生成素（TSLP）、IL-25和IL-33等上皮源性细胞因子，放大Th2免疫应答，形成炎症与屏障破坏的恶性循环 [cite:wang2022, leung2011]。值得注意的是，IL-4/IL-13-JAK-STAT6/STAT3轴与芳烃受体（AHR）轴在调控皮肤屏障功能方面存在竞争关系，这种平衡的打破进一步加剧了AD的病理进程 [cite:furue2020_competition]。
+
+IL-4和IL-13作为Th2免疫轴的主要驱动因子，在AD发病中既有重叠功能又有独特作用 [cite:leung2011, narcisi2022]。它们通过共同的受体和下游信号通路，特别是JAK-STAT6途径，协调驱动AD的炎症反应和屏障功能障碍，这为该信号轴的 therapeutic targeting 提供了坚实的理论基础 [cite:narcisi2022, facheris2023]。

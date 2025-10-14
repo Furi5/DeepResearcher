@@ -1,0 +1,16 @@
+{
+  "total_tokens": 932173,
+  "total_searches": 158,
+  "clarifier_tokens": 1420,
+  "planner_tokens": 2725,
+  "searcher_tokens": 878206,
+  "writer_tokens": 49822,
+  "search_counts": {
+    "google_search": 0,
+    "scholar_search": 0,
+    "news_search": 0,
+    "web_qa": 47,
+    "image_search": 0,
+    "search": 111
+  }
+}

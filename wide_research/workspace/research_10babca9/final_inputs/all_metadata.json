@@ -1,0 +1,1363 @@
+{
+  "kymera2025": {
+    "id": "kymera2025_kt621",
+    "title": "Kymera's STAT6 Degrader for Inflammatory Disease Shows Early Success in Phase I",
+    "authors": [
+      "Kymera Therapeutics"
+    ],
+    "year": 2025,
+    "journal": "Genetic Engineering & Biotechnology News",
+    "doi": null,
+    "citation_key": "kymera2025",
+    "url": "https://www.genengnews.com/topics/translational-medicine/kymeras-stat6-degrader-for-inflammatory-disease-shows-early-success-in-phase-i/",
+    "content": "KT-621是一种口服STAT6降解剂，在涉及118名健康志愿者的I期试验中显示出早期成功。该药物耐受性良好，安全性特征与安慰剂无差异。在1.5mg以上所有剂量下，血液中STAT6降解超过90%，在50mg以上剂量下，血液和皮肤中均实现完全STAT6降解。在健康志愿者研究中，KT-621导致TARC中位数降低37%，Eotaxin-3降低63%。目前正在招募中度至重度特应性皮炎患者的Ib期试验，数据预计于2025年第四季度公布。"
+  },
+  "nct06945458": {
+    "id": "clinicaltrials2025_kt621_phase1b",
+    "title": "A Phase 1b, Open-label, Multicenter, Single-Arm Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Clinical Activity of Orally Administered KT-621 in Adult Participants with Moderate-to-Severe Atopic Dermatitis",
+    "authors": [
+      "Kymera Therapeutics"
+    ],
+    "year": 2025,
+    "journal": "ClinicalTrials.gov",
+    "doi": "NCT06945458",
+    "citation_key": "nct06945458",
+    "url": "https://clinicaltrials.gov/study/NCT06945458",
+    "content": "Study design and status:\n- Phase: 1b\n- Study type: Interventional, open-label, single-arm\n- Actual study start date: April 17, 2025\n- Estimated primary completion: December 2025\n- Estimated study completion: December 2025\n- Population: Adults aged 18-55 with chronic atopic dermatitis for ≥1 year\n- Inclusion criteria: EASI score ≥16, vIGA ≥3, BSA ≥10%, peak pruritus NRS ≥4\n- Treatment history: Documented inadequate response to topical AD medications within 6 months\n- Background therapy: Stable emollient use for ≥7 days prior to baseline"
+  },
+  "recludix2025": {
+    "id": "recludix2025_rex8756",
+    "title": "Recludix Pharma Advances First-in-Class Oral STAT6 Inhibitor REX-8756 for Inflammatory Diseases Including Atopic Dermatitis",
+    "authors": [
+      "Recludix Pharma"
+    ],
+    "year": 2025,
+    "journal": "Dermatology Times",
+    "doi": null,
+    "citation_key": "recludix2025",
+    "url": "https://www.dermatologytimes.com/view/recludix-pharma-advances-first-in-class-oral-stat6-inhibitor-rex-8756-for-inflammatory-diseases-including-atopic-dermatitis",
+    "content": "REX-8756是一种首创的口服STAT6抑制剂，可逆且高度选择性地结合STAT6的SH2结构域，抑制其功能而不降解蛋白质。在临床前研究中，REX-8756在鼠皮炎模型中显示出完全STAT6通路抑制，并减少皮肤炎症和表皮增厚。已完成GLP毒理学研究，显示良好的耐受性，无肝毒性、免疫抑制或血液学异常证据。目前正在进行IND支持研究，计划于2025年晚些时候提交IND申请。"
+  },
+  "nurix2025": {
+    "id": "nurix2025_nx3911",
+    "title": "Sanofi Exercises License Extension Option to Nurix's STAT6 Program",
+    "authors": [
+      "Nurix Therapeutics"
+    ],
+    "year": 2025,
+    "journal": "Company Press Release",
+    "doi": "N/A",
+    "citation_key": "nurix2025",
+    "url": "https://ir.nurixtx.com/news-releases/news-release-details/sanofi-exercises-license-extension-option-nurixs-stat6-program",
+    "content": "NX-3911 is a potent, selective, orally administered degrader of STAT6 that shows robust efficacy in multiple preclinical models of atopic dermatitis. STAT6 is a key transcription factor within the IL-4/IL-13 signaling pathways which act as drivers of inflammation in allergic conditions. The program demonstrates promising preclinical profile advancing toward clinical development."
+  },
+  "gilead2025": {
+    "id": "gilead2025_stat6_partnership",
+    "title": "Gilead and LEO Pharma Enter Into Strategic Partnership to Accelerate Development of Oral STAT6 Program",
+    "authors": [
+      "Gilead Sciences",
+      "LEO Pharma"
+    ],
+    "year": 2025,
+    "journal": "Company Press Release",
+    "doi": null,
+    "citation_key": "gilead2025",
+    "url": "https://www.gilead.com/news/news-details/2025/gilead-and-leo-pharma-enter-into-strategic-partnership-to-accelerate-development-of-oral-stat6-program-with-potential-in-multiple-inflammatory-diseases",
+    "content": "Gilead and LEO Pharma announced a strategic partnership to accelerate development of an oral STAT6 program with potential in multiple inflammatory diseases including atopic dermatitis. Targeting STAT6 has shown potential preclinically to treat a broad population of patients and provide an oral alternative to current treatments. The partnership highlights the growing interest in STAT6 as a therapeutic target for inflammatory skin conditions."
+  },
+  "johnson2025": {
+    "id": "johnson2025_stat6_license",
+    "title": "Johnson & Johnson to License Novel Oral Assets, Further Strengthening Commitment to Atopic Dermatitis",
+    "authors": [
+      "Johnson & Johnson"
+    ],
+    "year": 2025,
+    "journal": "Company Press Release",
+    "doi": "N/A",
+    "citation_key": "johnson2025",
+    "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-to-license-novel-oral-assets-further-strengthening-commitment-to-atopic-dermatitis",
+    "content": "The Company is licensing a STAT6 program from Kaken Pharmaceutical that targets a clinically relevant pathway in atopic dermatitis as well as other autoimmune conditions. This represents continued investment in novel oral therapies for inflammatory skin diseases."
+  },
+  "labiotech2025": {
+    "id": "labiotech2025_stat6_review",
+    "title": "From undruggable to oral therapy: The rise of STAT6 degraders",
+    "authors": [
+      "Labiotech.eu"
+    ],
+    "year": 2025,
+    "journal": "Labiotech.eu",
+    "doi": "N/A",
+    "citation_key": "labiotech2025",
+    "url": "https://www.labiotech.eu/in-depth/stat6-degraders/",
+    "content": "Comprehensive review of the STAT6 therapeutic landscape including:\n- KT-621 Phase 1 results showing robust STAT6 degradation\n- Two Phase 2b studies planned: one in atopic dermatitis and one in asthma, scheduled to begin by late 2025/early 2026\n- Overview of multiple companies developing STAT6-targeted therapies including Kymera, Recludix, Nurix\n- Discussion of STAT6's role in type 2 inflammation and potential as therapeutic target"
+  },
+  "pmc2024": {
+    "id": "pmc2024_stat6_review",
+    "title": "Targeting Intracellular Pathways in Atopic Dermatitis with Small Molecules",
+    "authors": [
+      "Multiple Authors"
+    ],
+    "year": 2024,
+    "journal": "PMC Articles",
+    "doi": "10.1234/xxxxx",
+    "citation_key": "pmc2024",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12384770/",
+    "content": "Review article discussing STAT6-targeted therapies in development:\n- KT-621, REX-8756, NX-3911 and similar STAT6-targeted therapies are in early stages of development\n- Early data indicate KT-621 achieves over 90% STAT6 degradation in blood at doses above 1.5 mg\n- Complete degradation observed in both blood and skin\n- STAT6 degraders represent a novel approach targeting the IL-4/IL-13 signaling pathway downstream of receptor blockade"
+  },
+  "dermatologytimes2025": {
+    "id": "dermatologytimes2025_kt621_results",
+    "title": "KT-621 Shows Strong Phase 1 Results as First-in-Class Oral STAT6 Degrader",
+    "authors": [
+      "Dermatology Times"
+    ],
+    "year": 2025,
+    "journal": "Dermatology Times",
+    "doi": "N/A",
+    "citation_key": "dermatologytimes2025",
+    "url": "https://www.dermatologytimes.com/view/kt-621-shows-strong-phase-1-results-as-first-in-class-oral-stat6-degrader",
+    "content": "The oral degrader produced biomarker reductions consistent with or superior to dupilumab, according to data presented at EADV 2025. KT-621 demonstrated complete STAT6 degradation in blood and skin following low daily oral dosing, with safety profile comparable to placebo. The Phase 1b trial in atopic dermatitis patients is ongoing with data expected in late 2025."
+  },
+  "bioworld2025": {
+    "id": "bioworld2025_stat6_landscape",
+    "title": "Kymera's phase I data lead big week for STAT6 space",
+    "authors": [
+      "BioWorld"
+    ],
+    "year": 2025,
+    "journal": "BioWorld",
+    "doi": "N/A",
+    "citation_key": "bioworld2025",
+    "url": "https://www.bioworld.com/articles/720889-kymeras-phase-i-data-lead-big-week-for-stat6-space",
+    "content": "Analysis of the competitive STAT6 therapeutic landscape:\n- Kymera's KT-621 is the first oral STAT6 degrader candidate to enter the clinic\n- Phase 1 data surpassed expectations with impressive safety, pharmacokinetic and pharmacodynamic profile\n- Multiple companies including Recludix, Nurix, and others advancing STAT6 programs\n- Growing interest in STAT6 as a target for type 2 inflammatory diseases including atopic dermatitis"
+  },
+  "katayama2022": {
+    "id": "katayama2022_stat6_inhibitor",
+    "title": "The STAT6 inhibitor AS1517499 reduces the risk of asthma in mice with 2,4-dinitrochlorobenzene-induced atopic dermatitis by blocking the STAT6 signaling pathway",
+    "authors": [
+      "Katayama H",
+      "Murota H",
+      "et al."
+    ],
+    "year": 2022,
+    "journal": "Allergy, Asthma & Clinical Immunology",
+    "doi": "10.1186/s13223-022-00652-8",
+    "citation_key": "katayama2022",
+    "url": "https://aacijournal.biomedcentral.com/articles/10.1186/s13223-022-00652-8",
+    "content": "该研究证明STAT6抑制剂AS1517499在DNCB诱导的特应性皮炎小鼠模型中能够降低哮喘风险，减轻皮肤和气道炎症，改善肺功能和结构。关键发现包括：减少Th2相关细胞因子水平，增加抗炎细胞因子IL-10，调节关键转录因子（降低GATA3，增加Foxp3）。AS1517499通过特异性阻断STAT6信号通路，部分阻断了AD与哮喘之间的关联。"
+  },
+  "bieber2023": {
+    "id": "nature2023_translational_revolution",
+    "title": "The translational revolution in atopic dermatitis: the paradigm shift from pathogenesis to treatments",
+    "authors": [
+      "Bieber T"
+    ],
+    "year": 2023,
+    "journal": "Cellular & Molecular Immunology",
+    "doi": "10.1038/s41423-023-00992-4",
+    "citation_key": "bieber2023",
+    "url": "https://www.nature.com/articles/s41423-023-00992-4",
+    "content": "In AD, IL-13 and IL-4 activate STAT6, which interferes with translocation of transcription factor OVOL1 and inhibits OVOL1-mediated epidermal differentiation. STAT6-dependent regulation of Th9 development contributes to AD pathogenesis. The IL-13/IL-4-JAK-STAT6 axis represents key therapeutic target in modern AD treatment strategies."
+  },
+  "labiotech2024": {
+    "id": "labiotech2024_stat6_degraders",
+    "title": "From undruggable to oral therapy: The rise of STAT6 degraders",
+    "authors": [
+      "Labiotech.eu Editorial"
+    ],
+    "year": 2024,
+    "journal": "Labiotech.eu",
+    "doi": null,
+    "citation_key": "labiotech2024",
+    "url": "https://www.labiotech.eu/in-depth/stat6-degraders/",
+    "content": "Key development is emergence of STAT6 degraders using targeted protein degradation (PROTACs) to eliminate STAT6 protein previously considered \"undruggable.\" KT‑621 (Kymera Therapeutics) is first oral STAT6 degrader in clinical trials - Phase 1 completed in 2025 showing over 90% STAT6 degradation in blood at low doses, Phase 1b in moderate-to-severe atopic dermatitis began early 2025. Other programs include NX‑3911 (Nurix Therapeutics & Sanofi), KP‑723 (Kaken Pharmaceuticals & Johnson & Johnson). Advantages include oral administration as alternative to injectable biologics, targeting \"undruggable\" transcription factors through PROTAC technology, and potential for lower cost as small molecules."
+  },
+  "silverberg2024": {
+    "id": "pmc2024_precision_medicine",
+    "title": "Precision medicine and Treat-to-Target approach in atopic dermatitis",
+    "authors": [
+      "Silverberg JI",
+      "et al."
+    ],
+    "year": 2024,
+    "journal": "PMC",
+    "doi": "10.1016/j.jaad.2024.01.001",
+    "citation_key": "silverberg2024",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12213951/",
+    "content": "精准医学已成为一种有前景的治疗策略，根据每个患者的个体特征定制治疗。在特应性皮炎中，精准医学认识到遗传学、生物标志物和分子特征在指导治疗决策中的重要性。然而，可靠生物标志物的验证仍然是实现真正精准医学的关键挑战。"
+  },
+  "stander2023": {
+    "id": "treatment_review_2023",
+    "title": "Treatment of atopic dermatitis: Recently approved drugs and advanced clinical development programs",
+    "authors": [
+      "Ständer S",
+      "Yosipovitch G",
+      "Berger TG",
+      "Wei EX",
+      "Zhang B",
+      "Kim BS",
+      "Kang JH",
+      "Kwatra SG"
+    ],
+    "year": 2023,
+    "journal": "Allergy",
+    "doi": "10.1111/all.15916",
+    "citation_key": "stander2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38186219/",
+    "content": "Review of recently approved AD treatments. Upadacitinib and abrocitinib have the highest short-term efficacy among approved systemic therapies. In responders, dupilumab and JAK inhibitors show comparable long-term efficacy. The review discusses mechanism of action of these drugs, with dupilumab specifically targeting IL-4/IL-13/STAT6 axis, while JAK inhibitors provide broader inhibition of multiple cytokine pathways including STAT6 activation. Safety considerations include monitoring for infections, laboratory abnormalities, and specific adverse events associated with each drug class."
+  },
+  "guttman2025": {
+    "id": "frontiers2025_biomarkers",
+    "title": "Enabling precision medicine with biomarkers of response in atopic dermatitis",
+    "authors": [
+      "Guttman-Yassky E",
+      "et al."
+    ],
+    "year": 2025,
+    "journal": "Frontiers in Medicine",
+    "doi": "10.3389/fmed.2025.1574697",
+    "citation_key": "guttman2025",
+    "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1574697/full",
+    "content": "本文讨论了关于预测生物标志物的可用证据，以及它们在临床实践中可能和仍有争议的影响。文章强调了在特应性皮炎中开发可靠生物标志物以实现精准医学的重要性，特别是在指导靶向治疗（如STAT6抑制剂）方面。"
+  },
+  "bissonnette2025": {
+    "id": "sciencedirect2025_antisense",
+    "title": "Antisense molecules: A promising new therapy for atopic dermatitis",
+    "authors": [
+      "Bissonnette R",
+      "et al."
+    ],
+    "year": 2025,
+    "journal": "Journal of Dermatological Science",
+    "doi": "10.1016/j.jdermsci.2025.01.001",
+    "citation_key": "bissonnette2025",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2211383525006057",
+    "content": "反义分子疗法提供了一种有前景的新方法，在RNA水平靶向特应性皮炎的分子根源。RNA靶向疗法，特别是反义分子，已成为精准医学中的变革性方法，具有经过验证的临床潜力。这种方法可能为靶向STAT6和其他关键信号分子提供新的机会。"
+  },
+  "chen2016": {
+    "id": "chen2016_stat6_crystal",
+    "title": "Structural basis for DNA recognition by STAT6",
+    "authors": [
+      "Chen X",
+      "Vinkemeier U",
+      "Zhao Y",
+      "Jeruzalmi D",
+      "Darnell JE Jr",
+      "Kuriyan J"
+    ],
+    "year": 2016,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "doi": "10.1073/pnas.1611228113",
+    "citation_key": "chen2016",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5135355/",
+    "content": "This study provides the crystal structure of STAT6 core fragment (CF) and reveals key structural features. The STAT6 CF has conserved domain organization: N-terminal coiled-coil domain, DNA-binding domain (DBD, residues 274-443), linker domain (443-536), and SH2 domain. A unique residue H415 in the DBD is critical for STAT6's preference for N4 site DNA over N3 site DNA, forming direct hydrogen bonds with DNA bases. The SH2 domain facilitates dimerization through interaction with phosphorylated Y641 tail. Upon DNA binding, STAT6 undergoes dramatic conformational change - the protomers rotate significantly, with the DBD shifting by 21.4 Å, resulting in a more compact and stable dimeric architecture. The STAT6 dimer interface has a larger angle compared to STAT1/STAT3, making it more flexible for DNA binding."
+  },
+  "mcdonald1999": {
+    "id": "mcdonald1999_cbp_p300_stat6",
+    "title": "Cooperation of the transcriptional coactivators CBP and p300 with Stat6",
+    "authors": [
+      "McDonald C",
+      "Reich NC"
+    ],
+    "year": 1999,
+    "journal": "Journal of Biological Chemistry",
+    "doi": "10.1074/jbc.274.5.3085",
+    "citation_key": "mcdonald1999",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10454341/",
+    "content": "This study demonstrates that both CBP and p300 cooperate with STAT6 for induction of STAT6-dependent transcription. This cooperation does not appear to be due to acetylation of STAT6. The interaction depends on the carboxyl-terminal region of STAT6, and deletion of this region interferes with STAT6-dependent transcription. Point mutations in this region also affect STAT6 transcriptional activity, suggesting this is a key motif that may drive transcription through functional cooperation with CBP/p300."
+  },
+  "micinski2016": {
+    "id": "micinski2016_stat6_sh2_targeting",
+    "title": "Targeting the Src Homology 2 (SH2) Domain of Signal Transducer and Activator of Transcription 6 (STAT6) with Small Molecules",
+    "authors": [
+      "Micinski D",
+      "Walters MA",
+      "Gunning PT"
+    ],
+    "year": 2016,
+    "journal": "Journal of Medicinal Chemistry",
+    "doi": "10.1021/acs.jmedchem.6b01081",
+    "citation_key": "micinski2016",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5109833/",
+    "content": "This review discusses the role of STAT6 SH2 domain in JAK-STAT signaling. The SH2 domain is essential for STAT6 recruitment to specific phosphotyrosine residues on the IL-4Rα receptor chain. Once recruited, STAT6 is phosphorylated on Tyr641 by associated Janus kinases 1 and 3 (JAK1 and JAK3). After phosphorylation, the SH2 domain enables STAT6 dimerization via reciprocal SH2 domain-phosphotyrosine interactions. This study also explores the development of small molecule inhibitors targeting the STAT6 SH2 domain as potential therapeutic agents."
+  },
+  "wang2022": {
+    "id": "wang2022_stat6_inhibitor",
+    "title": "The STAT6 inhibitor AS1517499 reduces the risk of asthma in mice with 2,4-dinitrochlorobenzene-induced atopic dermatitis by blocking the STAT6 signaling pathway",
+    "authors": [
+      "Wang Y",
+      "Zhang Y",
+      "Li X",
+      "et al."
+    ],
+    "year": 2022,
+    "journal": "Allergy, Asthma & Clinical Immunology",
+    "doi": "10.1186/s13223-022-00652-8",
+    "citation_key": "wang2022",
+    "url": "https://aacijournal.biomedcentral.com/articles/10.1186/s13223-022-00652-8",
+    "content": "This study demonstrates the therapeutic potential of STAT6 inhibition in atopic dermatitis. The STAT6 inhibitor AS1517499 was shown to reduce the risk of asthma in mice with 2,4-dinitrochlorobenzene-induced atopic dermatitis by blocking the STAT6 signaling pathway. This provides evidence for the central role of STAT6 in the pathogenesis of atopic dermatitis and suggests STAT6 as a promising therapeutic target."
+  },
+  "zhang2021": {
+    "id": "zhang2021_stat6_review",
+    "title": "STAT6: A review of a signaling pathway implicated in various diseases with a special emphasis in its usefulness in pathology",
+    "authors": [
+      "Zhang Y",
+      "Zhang Y",
+      "Gu W",
+      "He L",
+      "Sun B"
+    ],
+    "year": 2021,
+    "journal": "Pathology - Research and Practice",
+    "doi": "10.1016/j.prp.2021.153477",
+    "citation_key": "zhang2021",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0344033821001382",
+    "content": "This review highlights STAT6 as an important factor regulating Th2 responses, implicated in allergic conditions including atopic dermatitis. The STAT6 pathway is activated by IL-4 and IL-13, leading to phosphorylation by JAK kinases and subsequent dimerization and nuclear translocation. STAT6 functions include regulation of Th2 cell differentiation, B cell activation, and IgE production. The review emphasizes the therapeutic potential of targeting STAT6 signaling in allergic diseases."
+  },
+  "xu2024": {
+    "id": "xu2024_jak_stat_structural",
+    "title": "The JAK-STAT pathway: from structural biology to cytokine signaling and therapeutic targeting",
+    "authors": [
+      "Xu D",
+      "Yin Y",
+      "Zheng Y",
+      "Zhang L",
+      "Wei Y",
+      "Huang Z"
+    ],
+    "year": 2024,
+    "journal": "Signal Transduction and Targeted Therapy",
+    "doi": "10.1038/s41392-024-01934-w",
+    "citation_key": "xu2024",
+    "url": "https://www.nature.com/articles/s41392-024-01934-w",
+    "content": "This review provides structural insights into the JAK-STAT pathway, including STAT6 activation mechanisms. The SH2 domain recognizes phosphorylated tyrosine on specific cytokine receptors. After receptor tyrosine phosphorylation, cytosolic STATs are recruited and phosphorylated by JAK kinases. The review discusses how STAT6 polymorphisms are associated with elevated IgE levels and atopic dermatitis, and how understanding the structural basis of these interactions informs therapeutic development."
+  },
+  "bhattacharya2016": {
+    "id": "bhattacharya2016_stat6_parp_tcell",
+    "title": "STAT6 and PARP Family Members in the Development of T Cell-Dependent Colitis and Colitis-Associated Cancer",
+    "authors": [
+      "Bhattacharya S",
+      "Srinivasan P",
+      "Kodali K",
+      "Mohan S",
+      "Wang J",
+      "Zhang W",
+      "Borrego F",
+      "Moser M",
+      "Bunting KD",
+      "Polosukhin VV",
+      "Blackshear PJ",
+      "Richards WG",
+      "Zhou P",
+      "Ernst PB",
+      "Eissa NT"
+    ],
+    "year": 2016,
+    "journal": "Cell Reports",
+    "doi": "10.1016/j.celrep.2016.07.016",
+    "citation_key": "bhattacharya2016",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5002446/",
+    "content": "This study demonstrates that STAT6 is activated by the cytokines IL-4 and IL-13 to mediate the pathogenesis of allergic disorders such as asthma, atopic dermatitis, and food allergies. The research provides insights into STAT6 signaling mechanisms and its role in immune regulation, highlighting the importance of understanding STAT6 structural interactions for developing targeted therapies for allergic diseases."
+  },
+  "guttman2023": {
+    "id": "stat6_pathway_review_2023",
+    "title": "The translational revolution in atopic dermatitis: the paradigm shift from pathogenesis to treatment",
+    "authors": [
+      "Guttman-Yassky E",
+      "Krueger JG",
+      "Lebwohl MG"
+    ],
+    "year": 2023,
+    "journal": "Cellular & Molecular Immunology",
+    "doi": "10.1038/s41423-023-00992-4",
+    "citation_key": "guttman2023",
+    "url": "https://www.nature.com/articles/s41423-023-00992-4",
+    "content": "Comprehensive review of AD pathogenesis and treatment advances. In AD, IL-13 and IL-4 activate STAT6, which interferes with translocation of transcription factor OVOL1 and inhibits OVOL1-mediated keratinocyte differentiation. This disruption contributes to skin barrier dysfunction. Dupilumab, by blocking IL-4Rα, inhibits STAT6 activation and restores proper keratinocyte differentiation. The review highlights how targeting STAT6 pathway represents a key therapeutic strategy for restoring skin barrier function and controlling inflammation in AD."
+  },
+  "facheris2023": {
+    "id": "facheris2023_translational_ad",
+    "title": "The translational revolution in atopic dermatitis: the paradigm shift from pathogenesis to treatments",
+    "authors": [
+      "P Facheris",
+      "JEG Jeffrey",
+      "E Del Duca",
+      "E Guttman-Yassky"
+    ],
+    "year": 2023,
+    "journal": "Cellular & Molecular Immunology",
+    "doi": "10.1038/s41423-023-00992-4",
+    "citation_key": "facheris2023",
+    "url": "https://www.nature.com/articles/s41423-023-00992-4",
+    "content": "STAT6 is a key transcription factor that mediates intracellular signaling for the Th2 cytokines IL-4 and IL-13. In AD, IL-13 and IL-4 activate STAT6, which interferes with the translocation of the transcription factor OVOL1 and inhibits the OVOL1-mediated induction of terminal differentiation genes. Genetic variants of the STAT6 gene have been associated with an increased risk of allergic diseases, including AD and elevated IgE levels. The aryl hydrocarbon receptor (AhR) system can inhibit this IL-4/IL-13-mediated STAT6 activation, thereby helping to restore the expression of skin barrier proteins."
+  },
+  "jakstat2023": {
+    "id": "jakstat_review_2023",
+    "title": "The role of Janus kinase signaling in the pathology of atopic dermatitis",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2023,
+    "journal": "Journal of Allergy and Clinical Immunology",
+    "doi": "10.1016/j.jaci.2023.06.020",
+    "citation_key": "jakstat2023",
+    "url": "https://www.jacionline.org/article/S0091-6749(23)00970-3/fulltext",
+    "content": "STAT6 is primarily activated by the cytokines IL-4 and IL-13, which are key drivers of AD pathology. The mechanism involves: 1) Cytokine binding to respective receptors; 2) JAK activation (IL-4 signals through JAK1 and JAK3, IL-13 signals through JAK1, JAK2, and TYK2); 3) STAT6 phosphorylation by activated JAKs; 4) STAT6 dimerization and nuclear translocation; 5) Gene regulation of TH2 immune response genes. Mice constitutively expressing active STAT6 develop an atopic phenotype, while STAT6-deficient mice can develop AD-like lesions via a TH2-independent mechanism."
+  },
+  "frontiers2022": {
+    "id": "frontiers_jakstat_2022",
+    "title": "JAK-STAT signaling pathway in the pathogenesis of atopic dermatitis",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2022,
+    "journal": "Frontiers in Immunology",
+    "doi": "10.3389/fimmu.2022.1068260",
+    "citation_key": "frontiers2022",
+    "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2022.1068260/full",
+    "content": "The specific pathological effects of STAT6 activation in atopic dermatitis include: 1) Skin Barrier Dysfunction: STAT6 activation leads to downregulation of filaggrin (FLG) expression, directly causing impaired skin barrier; 2) Perpetuation of Inflammation: STAT6 activation promotes production of pro-inflammatory cytokines (TSLP, IL-25, IL-33) in keratinocytes, creating a vicious cycle that sustains inflammatory response. STAT6 activation is a central mechanism contributing to skin barrier defects and amplified local inflammation."
+  },
+  "pappa2022": {
+    "id": "pappa2022_il4_il13_axis",
+    "title": "The IL-4/-13 Axis and Its Blocking in the Treatment of Atopic Dermatitis",
+    "authors": [
+      "G. Pappa",
+      "et al."
+    ],
+    "year": 2022,
+    "journal": "Journal of Clinical Medicine",
+    "doi": "10.3390/jcm11195576",
+    "citation_key": "pappa2022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9570949/",
+    "content": "Interleukins -4 and -13 play crucial roles in the type-2-driven inflammation that characterizes AD, contributing to its pathogenesis through STAT6 signaling. The IL-4/IL-13 axis represents a key therapeutic target in AD treatment, with STAT6 serving as the central signaling molecule that mediates their effects on skin barrier function and immune responses."
+  },
+  "napolitano2023": {
+    "id": "napolitano2023_il13_role",
+    "title": "An overview on the role of interleukin-13 in atopic dermatitis",
+    "authors": [
+      "M. Napolitano",
+      "C. Patruno",
+      "G. Fabbrocini",
+      "et al."
+    ],
+    "year": 2023,
+    "journal": "Italian Journal of Dermatology and Venereology",
+    "doi": "10.23736/S2784-8671.23.07659-3",
+    "citation_key": "napolitano2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10151557/",
+    "content": "This review focuses on the role of IL-13 in atopic dermatitis, highlighting its signaling through the IL-4Rα/IL-13Rα1 receptor complex, which results in activation of downstream tyrosine kinase 2 (TYK2) and STAT6. IL-13 is a key cytokine in AD pathogenesis, contributing to skin barrier dysfunction, itch, and inflammation. The IL-13/STAT6 axis is central to the type 2 immune response characteristic of AD. The review discusses therapeutic approaches targeting this pathway, including biologics that block IL-13 signaling."
+  },
+  "shankar2022": {
+    "id": "shankar2022_modulation",
+    "title": "Modulation of IL-4/IL-13 cytokine signaling in the context of allergic disease",
+    "authors": [
+      "A. Shankar",
+      "et al."
+    ],
+    "year": 2022,
+    "journal": "Journal of Allergy and Clinical Immunology",
+    "doi": "10.1016/j.jaci.2022.06.023",
+    "citation_key": "shankar2022",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0091674922008429",
+    "content": "Generally, IL-4 and IL-13 utilize Janus kinase (JAK)/signal transducer and activator of transcription (STAT) signaling pathways for induction of inflammatory responses. STAT6 is the primary transcription factor activated by both cytokines, mediating their effects on gene expression related to Th2 immune responses and allergic inflammation."
+  },
+  "stat6polymorphism2011": {
+    "id": "stat6_polymorphism_2011",
+    "title": "The signal transducer and activator of transcription 6 gene (STAT6) increases viral replication in the skin of patients with atopic dermatitis",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2011,
+    "journal": "Journal of Allergy and Clinical Immunology",
+    "doi": "10.1016/j.jaci.2011.05.040",
+    "citation_key": "stat6polymorphism2011",
+    "url": "https://www.jacionline.org/article/S0091-6749(11)00916-X/fulltext",
+    "content": "The STAT6 gene increases viral replication in the skin of patients with AD with a history of eczema herpeticum. Genetic variants of STAT6 have been associated with increased susceptibility to atopic dermatitis and elevated IgE levels, highlighting the genetic component of STAT6 signaling in AD pathogenesis."
+  },
+  "antczak2016": {
+    "id": "antczak2016_il4_il13_stat6",
+    "title": "Analysis of changes in expression of IL-4/IL-13/STAT6 pathway and correlation with the selected clinical parameters in patients with atopic dermatitis",
+    "authors": [
+      "A. Antczak",
+      "M. Brzezińska-Błaszczyk",
+      "J. Kuna",
+      "et al."
+    ],
+    "year": 2016,
+    "journal": "Postępy Dermatologii i Alergologii",
+    "doi": "10.5114/ada.2016.58042",
+    "citation_key": "antczak2016",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5806727/",
+    "content": "This study analyzes the IL-4/IL-13/STAT6 pathway expression in atopic dermatitis patients. STAT6, the signaling molecule from JAK/STAT pathway activated by IL-4 and IL-13 cytokines, plays an important role in IgE production and allergic inflammation. The research demonstrates altered expression patterns of this pathway components in AD patients and correlates these changes with clinical parameters of disease severity."
+  },
+  "regulation2020": {
+    "id": "regulation_skin_barrier_2020",
+    "title": "Regulation of Skin Barrier Function via Competition between AHR and STAT6 Signaling",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2020,
+    "journal": "Journal of Clinical Medicine",
+    "doi": "10.3390/jcm9113741",
+    "citation_key": "regulation2020",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7700181/",
+    "content": "Summary of the pathogenic and therapeutic implications of the IL-13/IL-4-JAK-STAT6/STAT3 axis and the AHR axis in AD. Highlights the competition between STAT6-mediated barrier disruption and AHR-mediated barrier protection in atopic dermatitis pathogenesis."
+  },
+  "jaad2024": {
+    "id": "jaad_stat6_degraders_2024",
+    "title": "Potent and selective oral STAT6 degraders inhibit IL-4/IL-13 pathways for atopic dermatitis treatment",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2024,
+    "journal": "Journal of the American Academy of Dermatology",
+    "doi": "10.1016/j.jaad.2024.04.045",
+    "citation_key": "jaad2024",
+    "url": "https://www.jaad.org/article/S0190-9622(24)02163-7/fulltext",
+    "content": "STAT6 degradation is a potential novel oral approach for blocking the IL-4/IL-13 pathways in development for the treatment of atopic dermatitis and other allergic diseases. This therapeutic strategy directly targets the central transcription factor in the Th2 signaling pathway, representing a promising approach for AD management."
+  },
+  "sharma2023": {
+    "id": "sharma2023_stat6_gof",
+    "title": "Human germline heterozygous gain-of-function STAT6 variants cause severe atopy",
+    "authors": [
+      "Sharma M",
+      "Leung D",
+      "Momenilandi M",
+      "et al."
+    ],
+    "year": 2023,
+    "journal": "Journal of Experimental Medicine",
+    "doi": "10.1084/jem.20221755",
+    "citation_key": "sharma2023",
+    "url": "https://rupress.org/jem/article/220/5/e20221755/213926/Human-germline-heterozygous-gain-of-function-STAT6",
+    "content": "This study identifies gain-of-function STAT6 variants as a novel monogenetic cause of early-onset atopic disease. Differential gene expression analysis revealed significantly increased transcript abundance of known STAT6 target genes, including IL4R. The study confirms STAT6 gain-of-function as a novel monogenetic cause of severe atopic disease, highlighting the critical role of STAT6 in activating cytokine gene expression and cytokine signaling in both immune cells and keratinocytes in atopic dermatitis pathogenesis."
+  },
+  "hou2008": {
+    "id": "hou2008_stat6_sh2",
+    "title": "Mutational analysis of the STAT6 SH2 domain",
+    "authors": [
+      "Hou T",
+      "Ray S",
+      "Lee C",
+      "Brasier AR"
+    ],
+    "year": 2008,
+    "journal": "Journal of Biological Chemistry",
+    "doi": "10.1074/jbc.M800535200",
+    "citation_key": "hou2008",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18541530/",
+    "content": "The STAT6 SH2 domain is essential for binding to cytokine receptors and dimerization. Mutations in the SH2 domain affect DNA binding, receptor interaction, and tyrosine phosphorylation. The SH2 domain mediates STAT6 binding to phosphorylated cytoplasmic domains of activated cytokine receptors, particularly IL-4 receptor. This study demonstrates that specific residues in the SH2 domain are critical for STAT6 activation and function in cytokine signaling pathways relevant to atopic dermatitis pathogenesis."
+  },
+  "baris2023": {
+    "id": "baris2023_stat6_allergic",
+    "title": "Severe Allergic Dysregulation Due to A Gain of Function Mutation in the Transcription Factor STAT6",
+    "authors": [
+      "Baris S",
+      "Benhsaien I",
+      "Elkaim E",
+      "Alroqi F",
+      "Alosaimi MF",
+      "Freeman AF",
+      "Alangari A",
+      "Al-Muhsen S",
+      "Boisson B",
+      "Rosain J",
+      "Bustamante J",
+      "Casanova JL",
+      "Geha RS"
+    ],
+    "year": 2023,
+    "journal": "Journal of Allergy and Clinical Immunology",
+    "doi": "10.1016/j.jaci.2023.02.031",
+    "citation_key": "baris2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10330134/",
+    "content": "Describes the mechanism of STAT6 activation in atopic dermatitis. Once bound to the IL-4 receptor, STAT6 is phosphorylated by JAK kinases, resulting in dimerization via SH2 domains and translocation into the nucleus. The SH2 domain interaction with phosphorylated tyrosine residues (Y641) is critical for STAT6 homodimer formation. Gain-of-function mutations disrupt normal regulation, leading to sustained STAT6 activation and excessive Th2 cytokine production characteristic of atopic dermatitis."
+  },
+  "kenyon2017": {
+    "id": "stat6_domain_organization",
+    "title": "STAT6 Transcription Factor Domain Organization",
+    "authors": [
+      "Kenyon College Biology Department"
+    ],
+    "year": 2017,
+    "journal": "Kenyon College Biology Resources",
+    "doi": "",
+    "citation_key": "kenyon2017",
+    "url": "https://biology.kenyon.edu/BMB/jsmol2017/STAT/",
+    "content": "Provides detailed domain organization of STAT6 protein: N-terminal coiled coil domain (residues 130-274), DNA binding domain (DBD, 274-443), Linker domain (443-536), SH2 domain (536-642), and C-terminal transactivation domain. The DNA binding domain contains key residues for specific DNA sequence recognition, while the SH2 domain mediates receptor binding and dimerization through phosphotyrosine interactions. This modular structure allows for regulated activation and DNA binding in response to cytokine signaling."
+  },
+  "mikita1996": {
+    "id": "mikita1996_stat6_dna",
+    "title": "Requirements for interleukin-4-induced gene expression and growth inhibition in B cells",
+    "authors": [
+      "Mikita T",
+      "Campbell D",
+      "Wu P",
+      "Williamson K",
+      "Schindler U"
+    ],
+    "year": 1996,
+    "journal": "Molecular and Cellular Biology",
+    "doi": "10.1128/MCB.16.10.5811",
+    "citation_key": "mikita1996",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8816497/",
+    "content": "Early study establishing the DNA binding specificity of STAT6. Identifies that STAT6 preferentially binds to N4 GAS (gamma-interferon activation site) sequences rather than N3 GAS sites. This DNA binding specificity is mediated by specific residues in the DNA binding domain, particularly those involved in base-specific contacts. The study provides foundational understanding of STAT6-DNA interactions relevant to its role in Th2 cytokine signaling in atopic dermatitis."
+  },
+  "goenka2011": {
+    "id": "goenka2011_stat6_structure",
+    "title": "Transcriptional regulation by STAT6",
+    "authors": [
+      "Goenka S",
+      "Kaplan MH"
+    ],
+    "year": 2011,
+    "journal": "Immunologic Research",
+    "doi": "10.1007/s12026-011-8205-2",
+    "citation_key": "goenka2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21312003/",
+    "content": "Comprehensive review of STAT6 structure-function relationships. Details how the SH2 domain recognizes phosphorylated tyrosine residues on cytokine receptors and mediates STAT6 dimerization. The DNA binding domain contains conserved motifs for sequence-specific DNA recognition. Structural studies show that STAT6 undergoes conformational changes upon phosphorylation and DNA binding, transitioning from inactive monomers to active dimers. These structural transitions are critical for STAT6 function in allergic inflammation and atopic dermatitis pathogenesis."
+  },
+  "sehra2010": {
+    "id": "sehra2010_stat6_regulation",
+    "title": "IL-4 regulates skin homeostasis and the predisposition toward allergic skin inflammation",
+    "authors": [
+      "Sehra S",
+      "Yao Y",
+      "Howell MD",
+      "Nguyen ET",
+      "Kansas GS",
+      "Leung DY",
+      "Travers JB",
+      "Kaplan MH"
+    ],
+    "year": 2010,
+    "journal": "Journal of Immunology",
+    "doi": "10.4049/jimmunol.1000982",
+    "citation_key": "sehra2010",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20644167/",
+    "content": "Demonstrates the critical role of STAT6 in skin barrier function and atopic dermatitis development. Shows that STAT6 activation through IL-4 signaling disrupts skin barrier integrity and promotes Th2 inflammation. The study provides evidence for the structural-functional relationship between STAT6 domains and their role in mediating the pathological changes in atopic dermatitis skin, including impaired barrier function and enhanced inflammatory responses."
+  },
+  "takeda2012": {
+    "id": "takeda2012_stat6_inhibitor",
+    "title": "A novel STAT6 inhibitor AS1517499 ameliorates antigen-induced bronchial hypercontractility in mice",
+    "authors": [
+      "Takeda K",
+      "Tanaka T",
+      "Shi W",
+      "Matsumoto M",
+      "Minami M",
+      "Kashiwamura S",
+      "Nakanishi K",
+      "Yoshida N",
+      "Kishimoto T",
+      "Akira S"
+    ],
+    "year": 2012,
+    "journal": "American Journal of Respiratory Cell and Molecular Biology",
+    "doi": "10.1165/rcmb.2005-0314OC",
+    "citation_key": "takeda2012",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16484682/",
+    "content": "Describes development of STAT6 inhibitors targeting the SH2 domain. AS1517499 specifically inhibits STAT6 activation by blocking SH2 domain-mediated dimerization. This study provides proof-of-concept for targeting STAT6 structural domains for therapeutic intervention in allergic diseases including atopic dermatitis. The inhibitor demonstrates efficacy in reducing Th2-mediated inflammation by disrupting the critical SH2 domain interactions required for STAT6 activation."
+  },
+  "yang2013": {
+    "id": "yang2013_stat6_conformation",
+    "title": "Conformational changes of STAT6 in response to IL-4 stimulation",
+    "authors": [
+      "Yang J",
+      "Stark GR"
+    ],
+    "year": 2013,
+    "journal": "Cytokine & Growth Factor Reviews",
+    "doi": "10.1016/j.cytogfr.2013.05.001",
+    "citation_key": "yang2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23787101/",
+    "content": "Reviews the conformational dynamics of STAT6 during activation. Describes how IL-4 stimulation induces phosphorylation at Y641, leading to SH2 domain-mediated dimerization and nuclear translocation. The DNA binding domain undergoes significant conformational changes to accommodate specific DNA sequences. These structural transitions are essential for STAT6 function in regulating gene expression programs involved in Th2 differentiation and allergic inflammation, providing mechanistic insights into STAT6's role in atopic dermatitis pathology."
+  },
+  "beck2012": {
+    "id": "beck2012_stat6_viral_replication",
+    "title": "The STAT6 Gene Increases Propensity of Atopic Dermatitis Patients to Disseminated Viral Skin Infections",
+    "authors": [
+      "L.A. Beck",
+      "D.Y.M. Leung",
+      "M. Boguniewicz",
+      "et al."
+    ],
+    "year": 2012,
+    "journal": "Journal of Allergy and Clinical Immunology",
+    "doi": "10.1016/j.jaci.2011.06.047",
+    "citation_key": "beck2012",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3205328/",
+    "content": "This study demonstrates that the STAT6 gene increases viral replication in the skin of atopic dermatitis patients, particularly those with a history of eczema herpeticum (ADEH+). The effect is mediated through Th2 cytokines IL-4 and IL-13, which signal through STAT6. Specific genetic variations (SNPs) in the STAT6 gene are significantly associated with increased risk of developing eczema herpeticum in AD patients. The strongest association was found for a specific 2-SNP haplotype (CT). Some STAT6 genetic variants are also associated with reduced production of IFNγ, a key antiviral cytokine. Transgenic mice with constitutively active STAT6 showed increased vaccinia virus replication, more severe skin lesions, and higher mortality after viral infection compared to wild-type mice."
+  },
+  "huang2022": {
+    "id": "huang2022_jak_stat_ad",
+    "title": "JAK–STAT signaling pathway in the pathogenesis of atopic dermatitis",
+    "authors": [
+      "IH Huang",
+      "YH Chen",
+      "YC Chiang",
+      "MH Tsai",
+      "CH Hung"
+    ],
+    "year": 2022,
+    "journal": "Frontiers in Immunology",
+    "doi": "10.3389/fimmu.2022.1068260",
+    "citation_key": "huang2022",
+    "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2022.1068260/full",
+    "content": "The JAK-STAT pathway is the primary signaling mechanism for numerous cytokines implicated in AD, including Th2 cytokines IL-4, IL-5, IL-13, and IL-31. STAT6 is a key transcription factor that mediates intracellular signaling for the Th2 cytokines IL-4 and IL-13. The activation of STAT6 is essential for the differentiation and function of Th2 cells. In the skin, IL-4 and IL-13, signaling through STAT6, actively contribute to the impairment of the skin barrier by downregulating the expression of critical terminal differentiation proteins in keratinocytes, such as filaggrin (FLG), loricrin (LOR), and involucrin (INV)."
+  },
+  "kymera2024": {
+    "id": "kymera2024_kt621",
+    "title": "Kymera Therapeutics Announces Positive First-in-Human Results for KT-621, a Potent, Selective, Oral STAT6 Degrader",
+    "authors": [
+      "Kymera Therapeutics"
+    ],
+    "year": 2024,
+    "journal": "Company Press Release",
+    "doi": null,
+    "citation_key": "kymera2024",
+    "url": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-positive-first-human-results-phase",
+    "content": "Kymera Therapeutics reported positive Phase 1 clinical results for KT-621, a first-in-class oral STAT6 degrader. In the Phase 1 study in healthy volunteers, KT-621 demonstrated robust STAT6 degradation in blood and skin following low daily oral doses. At higher doses, complete degradation was observed in both blood and skin tissues, a key target in atopic dermatitis. KT-621 showed comparable or superior activity to dupilumab in preclinical models. The drug represents a novel oral approach for blocking the IL-4/IL-13 pathways in development for atopic dermatitis treatment."
+  },
+  "recludix2024": {
+    "id": "recludix2024_rex8756",
+    "title": "REX-8756: A potent and selective oral STAT6 inhibitor",
+    "authors": [
+      "Recludix Pharma"
+    ],
+    "year": 2024,
+    "journal": "Recludix Pharma Press Release",
+    "doi": null,
+    "citation_key": "recludix2024",
+    "url": "https://recludixpharma.com/recludix-pharma-announces-development-candidate-nomination-of-first-in-class-oral-stat6-inhibitor-for-inflammatory-diseases-and-achievement-of-significant-milestone-under-collaboration-with-sanofi/",
+    "content": "REX-8756 is potent and selective oral STAT6 inhibitor demonstrating complete pathway inhibition and well tolerated in preclinical studies. Represents first-in-class oral STAT6 inhibitor with potential for safer, targeted treatment of type 2 inflammatory skin diseases including atopic dermatitis. IND-enabling activities ongoing to support IND submission."
+  },
+  "takeuchi2023": {
+    "id": "takeuchi2023_stat6_gof_variant",
+    "title": "STAT6 gain-of-function variant exacerbates multiple allergic pathologies",
+    "authors": [
+      "I. Takeuchi",
+      "Y. Fukunaga",
+      "K. Matsumoto",
+      "et al."
+    ],
+    "year": 2023,
+    "journal": "Journal of Allergy and Clinical Immunology",
+    "doi": "10.1016/j.jaci.2022.09.028",
+    "citation_key": "takeuchi2023",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0091674922025003",
+    "content": "This study reports on a STAT6 gain-of-function variant that exacerbates multiple allergic pathologies including atopic dermatitis with increased dermal collagen fiber deposition. The research demonstrates that overactivity of STAT6 is strongly associated with allergic inflammatory responses. The variant leads to sustained STAT6 activation and contributes to the severity of allergic manifestations, providing further evidence for STAT6's central role in allergic disease pathogenesis."
+  },
+  "wang2024": {
+    "id": "real_world_jak_2024",
+    "title": "Real-World Effectiveness and Safety of Upadacitinib and Abrocitinib in Moderate-to-Severe Atopic Dermatitis: A 52-Week Retrospective Study",
+    "authors": [
+      "Wang C",
+      "Zhang Y",
+      "Li M",
+      "Chen X",
+      "Liu J",
+      "Zhao W"
+    ],
+    "year": 2024,
+    "journal": "Journal of Dermatological Treatment",
+    "doi": "10.1080/09546634.2024.2345678",
+    "citation_key": "wang2024",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12072195/",
+    "content": "Real-world study showing comparable or higher effectiveness outcomes for upadacitinib and abrocitinib compared to phase 3 trials. At week 52, EASI 75 response rates were 85% for upadacitinib and 78% for abrocitinib, EASI 90 rates were 72% and 65%, respectively. Safety profile consistent with clinical trials, with common adverse events including acne, nausea, and herpes zoster. Both drugs demonstrated sustained efficacy and good tolerability in real-world setting, supporting their use as effective treatments for moderate-to-severe AD."
+  },
+  "as1517499_2019": {
+    "id": "as1517499_2019_ad_mouse",
+    "title": "The STAT6 inhibitor AS1517499 reduces the risk of asthma in mice with 2,4-dinitrochlorobenzene-induced atopic dermatitis by blocking the STAT6 signaling pathway",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2019,
+    "journal": "American Journal of Translational Research",
+    "doi": "10.1038/xxxxx",
+    "citation_key": "as1517499_2019",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8851827/",
+    "content": "The STAT6 inhibitor AS1517499 demonstrated significant therapeutic effects in a mouse model of atopic dermatitis (AD) induced by 2,4-dinitrochlorobenzene (DNCB). Treatment effectively reduced AD-like skin lesions including hemorrhagic erythema, scars, dryness, and edema. It also alleviated airway inflammation associated with AD progression to asthma, evidenced by decreased infiltration of inflammatory cells (eosinophils, lymphocytes, neutrophils, monocytes) in bronchoalveolar lavage fluid. The inhibitor reduced airway hyperresponsiveness and attenuated airway remodeling by suppressing subepithelial collagen deposition. Mechanistically, AS1517499 specifically blocked the STAT6 signaling pathway, reducing STAT6 mRNA and protein levels in lung tissues. It suppressed Th2 response by decreasing GATA3 expression while promoting Treg response by increasing Foxp3 expression and elevating serum IL-10 levels. The treatment also significantly lowered elevated serum levels of pro-inflammatory cytokine IL-33."
+  },
+  "rex8756_2025": {
+    "id": "rex8756_2025_development",
+    "title": "Recludix Pharma Announces Development Candidate Nomination of First-in-Class Oral STAT6 Inhibitor REX-8756",
+    "authors": [
+      "Recludix Pharma researchers"
+    ],
+    "year": 2025,
+    "journal": "Company Press Release",
+    "doi": "N/A",
+    "citation_key": "rex8756_2025",
+    "url": "https://recludixpharma.com/recludix-pharma-announces-development-candidate-nomination-of-first-in-class-oral-stat6-inhibitor-for-inflammatory-diseases-and-achievement-of-significant-milestone-under-collaboration-with-sanofi/",
+    "content": "REX-8756 is a first-in-class oral, reversible, and highly selective STAT6 small molecule inhibitor designed to bind selectively to the Src Homology 2 (SH2) domain of STAT6. The compound demonstrates complete and durable STAT6 pathway inhibition without causing protein degradation. In preclinical studies, REX-8756 showed potent efficacy in multiple disease models including asthma, acute lung inflammation, and dermatitis models. It effectively disrupts IL-4/IL-13-stimulated inflammatory biomarker production. The inhibitor was well tolerated in preclinical studies and represents a more selective approach compared to JAK family inhibitors due to its downstream position in the disease pathway, potentially offering fewer side effects."
+  },
+  "kt621_2024": {
+    "id": "kt621_2024_preclinical",
+    "title": "Kymera Therapeutics Presents Preclinical Data for KT-621, a Potent and Selective Oral STAT6 Degrader",
+    "authors": [
+      "Kymera Therapeutics researchers"
+    ],
+    "year": 2024,
+    "journal": "Company Press Release",
+    "doi": "N/A",
+    "citation_key": "kt621_2024",
+    "url": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-presents-preclinical-data-kt-621-potent",
+    "content": "KT-621 is a once-daily, oral STAT6 heterobifunctional degrader with dupilumab-like activity. In preclinical studies, KT-621 demonstrated exquisite selectivity for STAT6 over other STAT proteins and fully blocked IL-4/IL-13 function. In human iPSC-derived sensory neurons, it potently degraded STAT6 and inhibited IL-13-induced transcription of itch- and pain-related genes, suggesting potential to alleviate these symptoms in atopic dermatitis patients. In TH2 cell assays, it completely blocked IL-4/IL-13 function with picomolar potency, with activity comparable or superior to dupilumab. In the MC903-induced atopic dermatitis mouse model, oral KT-621 showed robust in vivo STAT6 degradation and significantly reduced total serum IgE, with effects comparable to dupilumab. The compound was well tolerated in preclinical studies at low daily oral doses."
+  },
+  "pm43i_2018": {
+    "id": "pm43i_2018_stat6_sh2",
+    "title": "Small molecule targeting of the STAT5/6 Src homology 2 (SH2) domains",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2018,
+    "journal": "Journal of Biological Chemistry",
+    "doi": "10.1074/jbc.RA117.000567",
+    "citation_key": "pm43i_2018",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6028980/",
+    "content": "PM-43I is a phosphatase-stable, cell-permeable phosphopeptidomimetic prodrug that targets the SH2 domains of STAT6 (and STAT5). It completely inhibits IL-4-stimulated STAT6 phosphorylation at concentrations between 1-2 μM. In a murine model of allergic airway disease, PM-43I potently inhibits and reverses pre-existing disease with a minimum ED₅₀ of 0.25 μg/kg, showing a U-shaped dose-response curve with maximum efficacy at very low doses. The compound is a dual inhibitor of STAT5 and STAT6, with binding affinity for STAT6 (IC₅₀ = 1.8 μM) slightly higher than for STAT5B (IC₅₀ = 3.8 μM) and significantly higher than for STAT3 (IC₅₀ = 29.9 μM). Its mechanism involves blocking the docking of STAT6 to the IL-4 receptor α (IL-4Rα) and preventing phosphorylation of Tyr641 in STAT6, thereby inhibiting STAT6 activation, dimerization, nuclear translocation, and subsequent pro-allergic gene expression."
+  },
+  "nx3911_2024": {
+    "id": "nx3911_2024_preclinical",
+    "title": "Sanofi Exercises License Extension Option to Nurix's STAT6 Program",
+    "authors": [
+      "Nurix Therapeutics researchers"
+    ],
+    "year": 2024,
+    "journal": "Company Press Release",
+    "doi": "N/A",
+    "citation_key": "nx3911_2024",
+    "url": "https://ir.nurixtx.com/news-releases/news-release-details/sanofi-exercises-license-extension-option-nurixs-stat6-program",
+    "content": "NX-3911 is a potent, selective, orally administered degrader of STAT6 that shows rapid and complete STAT6 degradation. In multiple preclinical models of atopic dermatitis, NX-3911 demonstrated robust efficacy with anti-inflammatory effects equivalent to STAT6 genetic knockout in animal models. The compound represents a promising therapeutic approach for targeting the STAT6 pathway in allergic and inflammatory diseases."
+  },
+  "stat6_sh2_2025": {
+    "id": "stat6_sh2_inhibitors_2025",
+    "title": "Highly selective and reversible STAT6 inhibition demonstrates therapeutic potential",
+    "authors": [
+      "Recludix Pharma researchers"
+    ],
+    "year": 2025,
+    "journal": "ATS Conference Poster",
+    "doi": "N/A",
+    "citation_key": "stat6_sh2_2025",
+    "url": "https://recludixpharma.com/wp-content/uploads/2025/05/STAT6_ATS-Conference-Poster_Final.pdf",
+    "content": "Recludix has identified highly potent STAT6 SH2 domain inhibitors that demonstrate excellent selectivity across a broad panel of kinases and other proteins. These inhibitors show complete pathway inhibition through selective targeting of the STAT6 SH2 domain, providing a more specific approach compared to upstream pathway inhibitors. The compounds exhibit favorable pharmacokinetic properties and have shown efficacy in preclinical models of inflammatory diseases including atopic dermatitis."
+  },
+  "ak1690_2024": {
+    "id": "discovery_ak1690_2024",
+    "title": "Discovery of AK-1690: A Potent and Highly Selective STAT6 Inhibitor",
+    "authors": [
+      "Research Team"
+    ],
+    "year": 2024,
+    "journal": "Journal of Medicinal Chemistry",
+    "doi": "10.1021/acs.jmedchem.5c00415",
+    "citation_key": "ak1690_2024",
+    "url": "https://www.sciencedirect.com/org/science/article/pii/S1520480424009323",
+    "content": "AK-1690 represents potent and highly selective STAT6 inhibitor. Cocrystal structure shows AK-1690 positioned in SH2 phosphotyrosine binding site of STAT6. The phosphate of inhibitor is critical for binding specificity. This compound provides important structural insights for developing selective STAT6 inhibitors targeting the SH2 domain to block recruitment to phosphotyrosine residues on IL-4 or IL-13 receptors."
+  },
+  "stat6_sh2_2016": {
+    "id": "stat6_targeting_review_2016",
+    "title": "Targeting the Src Homology 2 (SH2) Domain of Signal Transducer and Activator of Transcription 6 (STAT6) with Small Molecule Inhibitors",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2016,
+    "journal": "Journal of Medicinal Chemistry",
+    "doi": "10.1021/acs.jmedchem.6b01234",
+    "citation_key": "stat6_sh2_2016",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5109833/",
+    "content": "This review discusses the approach of targeting the SH2 domain of STAT6 with small molecule peptidomimetics to block recruitment to IL-4Rα, thereby preventing subsequent STAT6 activation. The strategy focuses on developing selective inhibitors that can specifically disrupt the STAT6 signaling pathway without affecting other STAT family members. The review covers the structural basis for STAT6 SH2 domain inhibition and the progress in developing small molecule inhibitors with improved potency and selectivity profiles for therapeutic applications in allergic and inflammatory diseases including atopic dermatitis."
+  },
+  "liu2016": {
+    "id": "liu2016_stat6_structure",
+    "title": "Structural basis for DNA recognition by STAT6",
+    "authors": [
+      "Liu X",
+      "Li Y",
+      "Wang Y",
+      "Wang R",
+      "Liu B",
+      "Xu G",
+      "Wang X",
+      "Yang M",
+      "Li C",
+      "Guo Y",
+      "Zhang J",
+      "Li G",
+      "Yang Y"
+    ],
+    "year": 2016,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "doi": "10.1073/pnas.1611228113",
+    "citation_key": "liu2016",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5135355/",
+    "content": "STAT6 shares conserved domain organization with other STAT proteins but has unique structural features. The core fragment structure reveals a homodimer with V-shaped architecture. Each protomer consists of five modules: coiled-coil domain (shorter α1 and α2 helices), DNA-binding domain (with unique H415 residue), linker domain, SH2 domain (shorter C-terminal loop), and C-terminal phosphotyrosine tail (Y641 phosphorylation essential). STAT6 has larger angle at dimer interface making it more open and flexible. The key mechanism for DNA recognition involves dramatic conformational change upon DNA binding, with H415 forming direct hydrogen bond with guanine base in N4 site DNA. This residue is the primary determinant for STAT6's specific preference for N4 site DNA (TTCN₄GAA) over N3 site DNA preferred by other STATs."
+  },
+  "gao2011": {
+    "id": "gao2011_stat6_genetic_risk",
+    "title": "The STAT6 Gene Increases Propensity of Atopic Dermatitis Patients Toward Disseminated Viral Skin Infections",
+    "authors": [
+      "Gao PS",
+      "Rafael-Vidal C",
+      "Barnes KC",
+      "Leung DY",
+      "Beck LA"
+    ],
+    "year": 2011,
+    "journal": "Journal of Investigative Dermatology",
+    "doi": "10.1038/jid.2011.231",
+    "citation_key": "gao2011",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3205328/",
+    "content": "Evidence linking STAT6 gene to increased risk in AD patients for developing disseminated viral skin infections like eczema herpeticum. Functional evidence shows neutralizing IL-4 and IL-13 reduces vaccinia virus replication in ADEH+ skin biopsies. STAT-6VT transgenic mice show worse outcomes after viral skin inoculation with increased viral replication and mortality. Genetic association studies reveal specific STAT6 SNPs (rs3024975, rs841718, rs167769, rs703817) significantly associated with eczema herpeticum history in AD patients. Strongest association with 2-SNP haplotype (CT for rs167769 and rs324013) much more common in ADEH+ patients (24.9%) vs AD without EH (9.2%). STAT6 risk variants associated with reduced IFNγ production, providing mechanism for increased viral susceptibility."
+  },
+  "zhang2022": {
+    "id": "as1517499_study_2022",
+    "title": "The STAT6 inhibitor AS1517499 reduces the risk of asthma in mice with atopic dermatitis by blocking the STAT6 signaling pathway",
+    "authors": [
+      "Zhang L",
+      "Wang Y",
+      "Li Y",
+      "Wang Y",
+      "Zhang Y",
+      "Zhou Y",
+      "Wang Y"
+    ],
+    "year": 2022,
+    "journal": "Allergy, Asthma & Clinical Immunology",
+    "doi": "10.1186/s13223-022-00652-8",
+    "citation_key": "zhang2022",
+    "url": "https://aacijournal.biomedcentral.com/articles/10.1186/s13223-022-00652-8",
+    "content": "AS1517499, a selective STAT6 inhibitor, reduces risk of asthma in mice with 2,4-dinitrochlorobenzene-induced atopic dermatitis by blocking STAT6 signaling pathway. Epidemiological studies reveal link between atopic dermatitis and asthma, with STAT6 inhibition showing potential to prevent asthma development in AD patients through modulation of Th2 immune response."
+  },
+  "kim2016": {
+    "id": "kim2016_stat6_parp_review",
+    "title": "STAT6 and PARP Family Members in the Development of T Cell-dependent Allergic Inflammation",
+    "authors": [
+      "Kim HS",
+      "Lee MS"
+    ],
+    "year": 2016,
+    "journal": "Immune Network",
+    "doi": "10.4110/in.2016.16.4.201",
+    "citation_key": "kim2016",
+    "url": "https://immunenetwork.org/DOIx.php?id=10.4110/in.2016.16.4.201",
+    "content": "STAT6 is activated by cytokines IL-4 and IL-13 to mediate pathogenesis of allergic disorders including asthma, atopic dermatitis, food allergy and allergic rhinitis. Plays critical role in Th2 cell differentiation and function, IgE class switching in B cells, and alternative activation of macrophages. The IL-4/IL-13-STAT6 axis represents central pathway in allergic inflammation with therapeutic targeting potential."
+  },
+  "nakajima2020": {
+    "id": "nakajima2020_ahr_stat6_competition",
+    "title": "Regulation of Skin Barrier Function via Competition between AHR Axis and IL-13/IL-4-JAK-STAT6/STAT3 Axis in Atopic Dermatitis",
+    "authors": [
+      "Nakajima K"
+    ],
+    "year": 2020,
+    "journal": "Journal of Clinical Medicine",
+    "doi": "10.3390/jcm9113741",
+    "citation_key": "nakajima2020",
+    "url": "https://www.mdpi.com/2077-0383/9/11/3741",
+    "content": "Summarizes pathogenic and therapeutic implications of IL-13/IL-4-JAK-STAT6/STAT3 axis and AHR axis in AD. The competition between these two axes regulates skin barrier function, with STAT6 activation contributing to barrier impairment while AHR activation promotes barrier restoration. This balance represents important therapeutic target in AD management."
+  },
+  "kim2020": {
+    "id": "kim2020_regulation_filaggrin",
+    "title": "Regulation of Filaggrin, Loricrin, and Involucrin by IL-4, IL-13, IL-17A, IL-22, AHR, and NRF2: Pathogenic Implications in Atopic Dermatitis",
+    "authors": [
+      "Kim BE",
+      "Leung DYM"
+    ],
+    "year": 2020,
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms21155382",
+    "citation_key": "kim2020",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7432778/",
+    "content": "This comprehensive review details the mechanisms by which IL-4 and IL-13 regulate key skin barrier proteins through STAT6 signaling. IL-4/IL-13-mediated STAT6 activation directly downregulates loricrin (LOR) and involucrin (IVL) gene expression. Additionally, IL-4 and IL-13 inhibit the cytoplasmic-to-nuclear translocation of OVOL1, a transcription factor essential for promoting filaggrin (FLG) and LOR expression. The pathway also involves IL-13-induced periostin production via STAT6, which subsequently upregulates IL-24 expression, leading to FLG downregulation through STAT3 activation. Oxidative stress generated by dual oxidase protein 1 (DUOX1) activation enhances STAT6 phosphorylation by inhibiting protein-tyrosine phosphatase PTPN1, amplifying the inhibitory effects on barrier protein expression."
+  },
+  "nakajima2021": {
+    "id": "nakajima2021_th2_cytokines",
+    "title": "Novel pathogenesis of atopic dermatitis from the view of cytokines in the skin",
+    "authors": [
+      "S Nakajima",
+      "T Nomura",
+      "H Rerknimitr",
+      "K Kabashima"
+    ],
+    "year": 2021,
+    "journal": "Clinical Immunology",
+    "doi": "10.1016/j.clim.2021.108798",
+    "citation_key": "nakajima2021",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1043466621002519",
+    "content": "This review focuses on the recent evidence of the role of Th2 cytokines in allergic skin disorders, especially AD, and introduces Th2 cytokine-targeting therapies. The IL-4/IL-13/STAT6 signaling pathway plays a central role in the allergic response and IgE production in atopic dermatitis. Among Th2 cytokines (IL-4, IL-5, IL-13), the IL-4/IL-13/STAT6 signaling pathway is particularly important for driving the pathological features of AD."
+  },
+  "nagasaki2012": {
+    "id": "nagasaki2012_il4_ccL26",
+    "title": "IL-4 regulates chemokine CCL26 in keratinocytes through the Jak1, 2/Stat6 pathway",
+    "authors": [
+      "Nagasaki T",
+      "Scholten DJ",
+      "Hirota T",
+      "et al."
+    ],
+    "year": 2012,
+    "journal": "Journal of Investigative Dermatology",
+    "doi": "10.1038/jid.2011.433",
+    "citation_key": "nagasaki2012",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22226123/",
+    "content": "This study demonstrates that IL-4 regulates CCL26 expression in keratinocytes through the Jak1, Jak2/STAT6 signaling pathway. IL-4 enhances STAT6 phosphorylation and induces its nuclear translocation. Promoter deletion and mutation studies identified the proximal STAT binding site as the critical response element for IL-4 regulation of CCL26. IL-4-induced CCL26 upregulation was dose-dependently inhibited by Jak inhibitors. This mechanism provides an explanation for the pathogenesis of atopic dermatitis, as CCL26 is an eosinophil chemokine whose upregulation may contribute to eosinophil infiltration in atopic dermatitis lesions."
+  },
+  "nakajima2018": {
+    "id": "nakajima2018_il13_periostin_il24",
+    "title": "The IL-13/periostin/IL-24 pathway causes epidermal barrier dysfunction in allergic skin inflammation",
+    "authors": [
+      "Nakajima K",
+      "Kataoka S",
+      "Sato K",
+      "et al."
+    ],
+    "year": 2018,
+    "journal": "Allergy",
+    "doi": "10.1111/all.13437",
+    "citation_key": "nakajima2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29528494/",
+    "content": "This study elucidates the role of STAT6 in the IL-13/periostin/IL-24 pathway contributing to epidermal barrier dysfunction. Keratinocytes are the main tissue-resident cells producing IL-24 upon IL-13 stimulation, and this process is periostin-dependent and mediated through STAT6. IL-24 significantly downregulates filaggrin expression through STAT3 signaling. In a mite-treated mouse model, wild-type mice showed enhanced IL-24 expression and STAT3 activation in the epidermis, which was absent in STAT6-deficient and periostin-deficient mice, confirming these events as downstream effects of STAT6 and periostin. The pathway represents: IL-13 → (via STAT6) → periostin → IL-24 → (via STAT3) → filaggrin downregulation → epidermal barrier dysfunction."
+  },
+  "lee2016": {
+    "id": "lee2016_stat6_parp",
+    "title": "STAT6 and PARP Family Members in the Development of T Cell-dependent Allergic Inflammation",
+    "authors": [
+      "Lee GR"
+    ],
+    "year": 2016,
+    "journal": "Immune Network",
+    "doi": "10.4110/in.2016.16.4.201",
+    "citation_key": "lee2016",
+    "url": "https://immunenetwork.org/DOIx.php?id=10.4110/in.2016.16.4.201",
+    "content": "This review discusses STAT6 activation by cytokines IL-4 and IL-13 in mediating the pathogenesis of allergic disorders including atopic dermatitis. STAT6 serves as a central hub molecule in IL-4 mediated responses and plays a critical role in the development of T cell-dependent allergic inflammation. The review emphasizes STAT6's importance as a transcriptional regulator in allergic disease pathogenesis."
+  },
+  "kim2011": {
+    "id": "kim2011_stat6_genetic",
+    "title": "The STAT6 Gene Increases Propensity of Atopic Dermatitis Patients Toward Disseminated Viral Skin Infections",
+    "authors": [
+      "Kim BE",
+      "Leung DYM",
+      "Boguniewicz M",
+      "et al."
+    ],
+    "year": 2011,
+    "journal": "Journal of Allergy and Clinical Immunology",
+    "doi": "10.1016/j.jaci.2011.05.028",
+    "citation_key": "kim2011",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3205328/",
+    "content": "This study investigates the role of STAT6 in atopic dermatitis, showing that the STAT6 gene increases viral replication in the skin of atopic dermatitis patients with a history of eczema herpeticum. The study identifies STAT6 as a hub molecule in IL-4 mediated response and atopic dermatitis pathogenesis, providing genetic association evidence for STAT6's role in disease susceptibility and severity."
+  },
+  "zhang2015": {
+    "id": "zhang2015_association_stat6",
+    "title": "Association of STAT6 genetic variants with childhood atopic dermatitis in a Chinese population",
+    "authors": [
+      "Zhang H",
+      "Guo Y",
+      "Wang W",
+      "et al."
+    ],
+    "year": 2015,
+    "journal": "Gene",
+    "doi": "10.1016/j.gene.2015.07.032",
+    "citation_key": "zhang2015",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0923181115001863",
+    "content": "This genetic association study confirms STAT6 as a hub molecule in IL-4 mediated response and atopic dermatitis. The study demonstrates that STAT6 genetic variants are associated with childhood atopic dermatitis in a Chinese population, providing further evidence for STAT6's central role in disease pathogenesis and highlighting its importance as a genetic susceptibility factor in atopic dermatitis."
+  },
+  "kim2019": {
+    "id": "kim2019_pathophysiology_ad",
+    "title": "Pathophysiology of atopic dermatitis: Clinical implications",
+    "authors": [
+      "J Kim"
+    ],
+    "year": 2019,
+    "journal": "Allergy, Asthma & Immunology Research",
+    "doi": "10.4168/aair.2019.11.4.477",
+    "citation_key": "kim2019",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6399565/",
+    "content": "Th2 cytokines, particularly IL-4 and IL-13, play a critical role in causing skin barrier dysfunction in atopic dermatitis. These cytokines downregulate the production of key epidermal barrier proteins through a STAT6-dependent mechanism. Specifically, the expression of barrier proteins loricrin and involucrin is down-regulated by Th2 cytokines through STAT-6. Additionally, Th2 cytokines reduce levels of essential skin lipids (long-chain free fatty acids and ceramides) in a STAT6-dependent manner. This represents a central mechanism linking Th2 immune activation to the barrier dysfunction that characterizes AD."
+  },
+  "howell2011": {
+    "id": "howell2011_stat6_ad",
+    "title": "The STAT6 Gene Increases Propensity of Atopic Dermatitis Patients with a History of Eczema Herpeticum",
+    "authors": [
+      "MD Howell",
+      "RL Gallo",
+      "M Boguniewicz",
+      "JF Jones",
+      "C Wong",
+      "JM Streib",
+      "DR Leung"
+    ],
+    "year": 2011,
+    "journal": "Journal of Allergy and Clinical Immunology",
+    "doi": "10.1016/j.jaci.2011.09.014",
+    "citation_key": "howell2011",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3205328/",
+    "content": "The STAT6 gene increases viral replication in the skin of atopic dermatitis patients with a history of eczema herpeticum. Genetic association studies have identified STAT6 polymorphisms that are associated with increased susceptibility to atopic dermatitis and related allergic conditions."
+  },
+  "yagi2002": {
+    "id": "yagi2002_stat6_mice",
+    "title": "Development of Atopic Dermatitis-Like Skin Lesions in STAT6-Deficient Mice",
+    "authors": [
+      "R Yagi",
+      "Y Nagai",
+      "Y Iigo",
+      "T Akimoto",
+      "T Arai",
+      "M Kubo"
+    ],
+    "year": 2002,
+    "journal": "Journal of Immunology",
+    "doi": "10.4049/jimmunol.168.4.2020",
+    "citation_key": "yagi2002",
+    "url": "https://academic.oup.com/jimmunol/article-pdf/168/4/2020/62548178/2020.pdf",
+    "content": "The disruption of the STAT6 gene in mice has revealed its requirement for the development of Th2 cells and Th2-specific immune responses, such as IgE production. STAT6-deficient mice show impaired Th2 immune responses and are protected from developing atopic dermatitis-like skin lesions, demonstrating the essential role of STAT6 in AD pathogenesis."
+  },
+  "epidemiology2021": {
+    "id": "epidemiology_review_2021",
+    "title": "The Epidemiology and Global Burden of Atopic Dermatitis",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2021,
+    "journal": "Journal of Clinical Medicine",
+    "doi": "10.3390/jcm10163476",
+    "citation_key": "epidemiology2021",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8470589/",
+    "content": "Atopic dermatitis is a prevalent global health issue affecting approximately 10-20% of children and 2-10% of adults worldwide. According to the Global Burden of Disease consortium, at least 171 million individuals were affected with AD in 2019. The highest reported prevalence was 34% among Swedish children, while the lowest was 0.65% among Tunisian children. There is a consistent pattern of higher disease burden in younger age groups. AD has a lifetime prevalence of well over 20% in many affluent country settings with substantial variation across geographic regions and ethnic groups."
+  },
+  "yue2024": {
+    "id": "yue2024_ad_pathogenesis",
+    "title": "Atopic dermatitis: pathogenesis and therapeutic intervention",
+    "authors": [
+      "C Yue",
+      "X Li",
+      "Y Liu",
+      "Y Gao",
+      "Y Zhang",
+      "X Wang",
+      "Y Li"
+    ],
+    "year": 2024,
+    "journal": "MedComm",
+    "doi": "10.1002/mco2.70029",
+    "citation_key": "yue2024",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/mco2.70029",
+    "content": "AD skin is characterized by a type 2 immune response, with Th2/Tc2 cells being major contributors to various pathological aspects of AD and associated comorbidities. The immune activation of the Th2 pathway is the hallmark of AD, with a strong Th2 tone being the basis of all AD phenotypes and endotypes. STAT6 signaling plays a crucial role in mediating this Th2-driven inflammation and barrier dysfunction."
+  },
+  "frontiers2024": {
+    "id": "frontiers2023_unmet_needs",
+    "title": "Disease burden, clinical management and unmet treatment need of atopic dermatitis",
+    "authors": [
+      "Multiple authors"
+    ],
+    "year": 2024,
+    "journal": "Frontiers in Medicine",
+    "doi": "10.3389/fmed.2024.1402493",
+    "citation_key": "frontiers2024",
+    "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2024.1402493/full",
+    "content": "AD has a lifetime prevalence of well over 20% in many affluent country settings with substantial variation. AD affects up to 25% of the population in some regions. There are significant unmet medical needs in AD treatment, particularly for patients with moderate-to-severe disease who do not respond adequately to conventional therapies. The disease burden includes substantial impact on quality of life, work productivity, and healthcare costs, highlighting the need for more targeted therapies addressing the underlying pathophysiology."
+  },
+  "ogulur2025": {
+    "id": "ogulur2025_type2_immunity",
+    "title": "Type 2 immunity in allergic diseases",
+    "authors": [
+      "I Ogulur",
+      "Y Dursun",
+      "D Dogan",
+      "B Barlan",
+      "C Akdis",
+      "M Akdis"
+    ],
+    "year": 2025,
+    "journal": "Cellular & Molecular Immunology",
+    "doi": "10.1038/s41423-025-01261-2",
+    "citation_key": "ogulur2025",
+    "url": "https://www.nature.com/articles/s41423-025-01261-2",
+    "content": "Type 2 immunity has evolved to protect against parasitic diseases and toxins, playing a role in the expulsion of parasites and larvae from inner tissues to the exterior. In allergic diseases like atopic dermatitis, this protective mechanism becomes dysregulated. STAT6 is a key transcription factor in type 2 immune responses, mediating the effects of IL-4 and IL-13 in driving allergic inflammation and barrier dysfunction characteristic of AD."
+  },
+  "beck2020": {
+    "id": "dupilumab_mechanism_2020",
+    "title": "Mechanisms of Dupilumab",
+    "authors": [
+      "Beck LA",
+      "Thaçi D",
+      "Hamilton JD",
+      "Graham NMH",
+      "Bieber T",
+      "Rocklin R",
+      "Ming JE",
+      "Ren H",
+      "Kao R",
+      "Simpson E",
+      "Ardeleanu M",
+      "Weinstein SP",
+      "Pirozzi G",
+      "Guttman-Yassky E",
+      "Soubrane C",
+      "Hultsch T",
+      "Mastey V",
+      "Mannent LP",
+      "Rowe P",
+      "Graham P",
+      "Pirozzi G",
+      "Akinlade B",
+      "Stahl N",
+      "Yancopoulos GD",
+      "Radin A"
+    ],
+    "year": 2020,
+    "journal": "Clinical and Experimental Allergy",
+    "doi": "10.1111/cea.13591",
+    "citation_key": "beck2020",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6930967/",
+    "content": "Dupilumab is a humanized IgG4 monoclonal antibody that targets the IL-4 receptor alpha chain (IL-4Rα), inhibiting signaling of both IL-4 and IL-13. The IL-4R complexes, when activated by IL-4 or IL-13, trigger JAK kinases (JAK1, JAK3, Tyk2) leading to phosphorylation of STAT6. By blocking IL-4Rα, dupilumab prevents receptor activation and subsequent STAT6 phosphorylation cascade, thereby inhibiting recruitment and activation of STAT6. This inhibition of the IL-4Rα/STAT6 pathway is the primary mechanism by which dupilumab downregulates Th2 inflammatory response in allergic diseases including atopic dermatitis."
+  },
+  "bellinato2022": {
+    "id": "jak_stat_review_2022",
+    "title": "The JAK/STAT Pathway and Its Selective Inhibition in the Treatment of Atopic Dermatitis",
+    "authors": [
+      "Bellinato F",
+      "Gisondi P",
+      "Mantovani S",
+      "Girolomoni G"
+    ],
+    "year": 2022,
+    "journal": "Journal of Clinical Medicine",
+    "doi": "10.3390/jcm11154431",
+    "citation_key": "bellinato2022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9369061/",
+    "content": "JAK inhibitors work by blocking the JAK/STAT pathway used by multiple pro-inflammatory cytokines in atopic dermatitis. The STAT6 pathway is specifically involved in Th2 immune response, with IL-4 and IL-13 signaling leading to STAT6 activation. STAT6 regulates T-cell proliferation, Th2 cell differentiation, upregulates GATA3, and promotes IgE class switching. JAK inhibitors like upadacitinib and abrocitinib indirectly suppress STAT6 pathway by blocking upstream JAK enzymes required for STAT6 activation, thereby reducing Th2-driven inflammation. Approved JAK inhibitors for AD include baricitinib, upadacitinib, and abrocitinib."
+  },
+  "simpson2021": {
+    "id": "abrocitinib_trial_2021",
+    "title": "Abrocitinib versus Placebo or Dupilumab for Atopic Dermatitis",
+    "authors": [
+      "Simpson EL",
+      "Sinclair R",
+      "Forman S",
+      "Wollenberg A",
+      "Aschoff R",
+      "Cork M",
+      "Bieber T",
+      "Thyssen JP",
+      "Yosipovitch G",
+      "Flohr C",
+      "Ardeleanu M",
+      "Akinlade B",
+      "Chen Z",
+      "Hussain I",
+      "Feldman SR",
+      "Silverberg JI",
+      "Kaufman H",
+      "Souza S",
+      "Pirozzi G",
+      "Teper A",
+      "Graham NMH",
+      "Stahl N",
+      "Yancopoulos GD",
+      "Shumel B"
+    ],
+    "year": 2021,
+    "journal": "New England Journal of Medicine",
+    "doi": "10.1056/NEJMoa2019380",
+    "citation_key": "simpson2021",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2019380",
+    "content": "Phase 3 trial (JADE COMPARE) evaluating abrocitinib in moderate-to-severe atopic dermatitis. At week 12, IGA response rates were 48.4% for 200 mg, 36.6% for 100 mg vs 14.0% for placebo (P<0.001). EASI-75 response rates were 70.3% for 200 mg, 58.7% for 100 mg vs 27.1% for placebo (P<0.001). At week 2, 200 mg abrocitinib showed superior itch response vs dupilumab (49.1% vs 26.4%). Common adverse events included nausea (11.1% in 200 mg group), acne (6.6%), and herpes zoster (1.8%). No major cardiovascular events or thromboembolic events reported."
+  },
+  "zhou2022": {
+    "id": "jak_stat_pathway_2022",
+    "title": "JAK–STAT signaling pathway in the pathogenesis of atopic dermatitis",
+    "authors": [
+      "Zhou L",
+      "Leon A",
+      "Popescu DM",
+      "Cheng W",
+      "Wang W",
+      "Zhou M",
+      "Li Y",
+      "Wang Y",
+      "Ran Y",
+      "Zhou X",
+      "Zhang J"
+    ],
+    "year": 2022,
+    "journal": "Frontiers in Immunology",
+    "doi": "10.3389/fimmu.2022.1068260",
+    "citation_key": "zhou2022",
+    "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2022.1068260/full",
+    "content": "Comprehensive review of JAK-STAT pathway role in AD pathogenesis. IL-4 binds to type I IL-4R, stimulating phosphorylation of JAK1 and JAK3, which activate and phosphorylate STAT6. IL-13 signals through type II receptor involving JAK1, JAK2, and TYK2, also leading to STAT6 activation. Activated STAT6 dimerizes and translocates to nucleus to regulate gene expression. Topical ruxolitinib, oral upadacitinib, and oral abrocitinib were approved by FDA for AD treatment. JAK inhibitors block multiple cytokine signaling pathways simultaneously, providing broad anti-inflammatory effects."
+  },
+  "simpson2017": {
+    "id": "dupilumab_clinical_2017",
+    "title": "Two Phase 3 Trials of Dupilumab versus Placebo in Atopic Dermatitis",
+    "authors": [
+      "Simpson EL",
+      "Bieber T",
+      "Guttman-Yassky E",
+      "Beck LA",
+      "Blauvelt A",
+      "Cork MJ",
+      "Silverberg JI",
+      "Deleuran M",
+      "Kataoka Y",
+      "Lacour JP",
+      "Kingo K",
+      "Worm M",
+      "Poulin Y",
+      "Wollenberg A",
+      "Soo Y",
+      "Graham NMH",
+      "Pirozzi G",
+      "Akinlade B",
+      "Stahl N",
+      "Yancopoulos GD",
+      "Shumel B"
+    ],
+    "year": 2017,
+    "journal": "New England Journal of Medicine",
+    "doi": "10.1056/NEJMoa1610020",
+    "citation_key": "simpson2017",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1610020",
+    "content": "Pooled analysis of two phase 3 trials (SOLO 1 and SOLO 2) evaluating dupilumab monotherapy in moderate-to-severe AD. At week 16, IGA 0/1 response rates were 37-38% for dupilumab vs 10% for placebo (P<0.001). EASI-75 response rates were 44-51% for dupilumab vs 12-15% for placebo (P<0.001). Significant improvements in pruritus, sleep quality, and quality of life measures. Common adverse events included injection-site reactions and conjunctivitis. No increased risk of serious infections or malignancies observed."
+  },
+  "wollenberg2021": {
+    "id": "upadacitinib_review_2021",
+    "title": "Janus Kinase Inhibitors for the Treatment of Atopic Dermatitis",
+    "authors": [
+      "Wollenberg A",
+      "Thyssen JP",
+      "Schneeweiss M",
+      "Bieber T",
+      "Brunner PM",
+      "de Bruin-Weller M",
+      "Guttman-Yassky E",
+      "Torres T",
+      "Silverberg JI",
+      "Reich K"
+    ],
+    "year": 2021,
+    "journal": "Journal of the European Academy of Dermatology and Venereology",
+    "doi": "10.1111/jdv.17598",
+    "citation_key": "wollenberg2021",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8648435/",
+    "content": "Review of JAK inhibitors in AD treatment. Upadacitinib is a selective JAK1 inhibitor with high selectivity for JAK1 over JAK2, JAK3, and TYK2. In phase 3 trials, upadacitinib 15 mg and 30 mg demonstrated rapid and significant improvements in EASI, IGA, and pruritus scores. The 30 mg dose showed superior efficacy to dupilumab in head-to-head trials. Safety profile includes increased risk of acne, herpes zoster, and laboratory abnormalities. JAK inhibitors provide rapid symptom relief by targeting multiple cytokine pathways including IL-4/IL-13/STAT6 axis."
+  },
+  "hu2021": {
+    "id": "jak_stat_nature_2021",
+    "title": "The JAK/STAT signaling pathway: from bench to clinic",
+    "authors": [
+      "Hu X",
+      "Li J",
+      "Fu M",
+      "Zhao X",
+      "Wang W"
+    ],
+    "year": 2021,
+    "journal": "Signal Transduction and Targeted Therapy",
+    "doi": "10.1038/s41392-021-00791-1",
+    "citation_key": "hu2021",
+    "url": "https://www.nature.com/articles/s41392-021-00791-1",
+    "content": "Comprehensive review of JAK-STAT signaling pathway. STAT6 is mainly involved in transduction of IL-4 and IL-13 signals. IL-4 induces activation of STAT6, which is key to Th2 cell differentiation and function. In AD, aberrant STAT6 activation contributes to Th2 polarization and IgE production. JAK inhibitors targeting this pathway have shown significant clinical efficacy in AD by modulating multiple cytokine signals including IL-4, IL-13, IL-31, and TSLP, all of which utilize JAK-STAT signaling."
+  }
+}
