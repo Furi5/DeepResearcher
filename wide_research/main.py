@@ -11,6 +11,8 @@ import traceback
 import re
 import uuid
 import yaml
+import httpx
+import httpcore
 
 from agents import function_tool
 
@@ -139,8 +141,43 @@ def parse_markdown_outline(markdown_text: str) -> dict:
 
 
 class DeepResearchAgent:
-    def __init__(self):
+    def __init__(self, progress_callback=None, clarification_callback=None, chat_callback=None):
         self.table_counter = 0  # 全局表格计数器
+        self.progress_callback = progress_callback
+        self.clarification_callback = clarification_callback
+        self.chat_callback = chat_callback  # 用于发送聊天消息到左侧对话框
+        self.clarification_queue = None  # 澄清答案队列
+        self.report_path = None  # 最终报告路径
+    
+    def _log(self, message: str):
+        """替代 print，通过回调发送到后端（右侧面板）"""
+        if self.progress_callback:
+            asyncio.create_task(self.progress_callback({
+                "type": "progress",
+                "message": message
+            }))
+        else:
+            print(message)  # 降级到普通 print
+    
+    def _log_chat(self, message: str):
+        """发送消息到左侧对话框"""
+        if self.chat_callback:
+            asyncio.create_task(self.chat_callback({
+                "type": "chat",
+                "message": message
+            }))
+        else:
+            print(message)  # 降级到普通 print
+    
+    async def wait_for_clarification(self):
+        """等待澄清答案"""
+        if self.clarification_queue:
+            return await self.clarification_queue.get()
+        return ""
+    
+    def set_clarification_queue(self, queue):
+        """设置澄清答案队列"""
+        self.clarification_queue = queue
         
     async def build(self):
         # 1. 澄清 Agent
@@ -172,27 +209,37 @@ class DeepResearchAgent:
 
     async def _clarify_task(self, task: str) -> str:
         """Helper function to handle the clarification step."""
-        print("🔍 步骤 1: 正在分析并澄清您的调研需求...")
         async with self.clarifier_agent as clarifier:
-            clarification_result = await clarifier.run(task)
-            clarification_questions = clarification_result.get_run_result().final_output
+            clarification_result = clarifier.run_streamed(task)
+            # 澄清阶段的流式输出发送到左侧对话框
+            await AgentsUtils.print_stream_events(
+                    clarification_result.stream_events(),
+                    callback=lambda text: self._log_chat(text) if text.strip() else None
+                )
+            clarification_questions = clarification_result.final_output
 
         if "无需澄清" not in clarification_questions:
-            print(f"\n【澄清问题】:\n{clarification_questions}")
-            user_clarifications = input("\n> 请您回答上述问题以获得更精准的报告 (或直接按回车跳过): ")
+            # 通过回调通知后端需要澄清
+            if self.clarification_callback:
+                await self.clarification_callback({
+                    "type": "clarification_needed",
+                    "questions": clarification_questions
+                })
+            
+            # 等待澄清答案
+            user_clarifications = await self.wait_for_clarification()
+            
             if user_clarifications.strip():
                 # 这是一个示例 prompt，您可能需要根据实际情况调整
                 merge_prompt = PROMPTS["clarifier_merge"].format(task=task, clarification_questions=clarification_questions, user_clarifications=user_clarifications)
                 # 假设有一个简单的Agent或LLM调用来完成整合
                 # 为简化，这里我们直接拼接
                 enhanced_task = merge_prompt
-                print("\n✅ 感谢您的澄清！已更新研究任务。")
             else:
                 enhanced_task = task
-                print("\n⏩ 已跳过澄清，将按原任务执行。")
         else:
             enhanced_task = task
-            print("✅ 任务清晰，无需澄清。")
+            # self._log("✅ 任务清晰，无需澄清。")
         
         return enhanced_task
 
@@ -249,7 +296,7 @@ class DeepResearchAgent:
         
         content = re.sub(table_pattern, replace_table_title, content)
         
-        print(f"  📊 表格重新编号完成: 共 {len(tables)} 个表格")
+        
         return content
 
     async def run_streamed(self, task: str):
@@ -260,23 +307,30 @@ class DeepResearchAgent:
         project_id = f"research_{uuid.uuid4().hex[:8]}"
         workspace_dir = pathlib.Path(__file__).parent / "workspace" / project_id
         workspace_dir.mkdir(parents=True, exist_ok=True)
-        print(f"🚀 初始化成功！为本次研究创建专属工作区: {workspace_dir}")
+        # self._log(f"🚀 初始化成功！为本次研究创建专属工作区: {workspace_dir}")
 
         try:
             # === 步骤 1: 任务澄清 ===
             enhanced_task = await self._clarify_task(task)
 
             # === 步骤 2: 生成研究大纲 ===
-            print("\n📋 步骤 2: 正在生成研究大纲...")
+            self._log("正在撰写研究报告")
             async with self.planner_agent as planner:
                 plan_result = planner.run_streamed(enhanced_task)
-                await AgentsUtils.print_stream_events(plan_result.stream_events())
+                # 使用 callback 将流式输出发送到前端
+                await AgentsUtils.print_stream_events(
+                    plan_result.stream_events(),
+                    # callback=lambda text: self._log(text) if text.strip() else None
+                )
+                # 获取最终输出（如果流式输出没有内容，使用最终输出）
                 markdown_outline = plan_result.final_output
+            
+            # 将完整大纲发送到前端（确保右侧显示完整内容）
+            self._log(f"\n{markdown_outline}\n")
             
             # 持久化大纲
             outline_path = workspace_dir / "outline.md"
             outline_path.write_text(markdown_outline, encoding='utf-8')
-            print(f"  💾 大纲已保存到: {outline_path}")
 
             parsed_outline = parse_markdown_outline(markdown_outline)
             
@@ -284,12 +338,13 @@ class DeepResearchAgent:
             parsed_outline_path = workspace_dir / "outline.json"
             with parsed_outline_path.open('w', encoding='utf-8') as f:
                 json.dump(parsed_outline, f, indent=2, ensure_ascii=False)
-            print(f"  ✅ 大纲规划与解析完成！共规划了 {len(parsed_outline.get('sections', []))} 个章节。")
 
             # === 步骤 3: 迭代式研究与撰写（并行处理） ===
+            
             written_sections = []
             all_sources_metadata = {}
 
+            self._log("\n\n# 开始收集所有子章节\n\n")
             # 收集所有子章节，并为每个章节预先分配表格编号
             all_subsections = []
             for section in parsed_outline.get("sections", []):
@@ -303,17 +358,15 @@ class DeepResearchAgent:
                     
                     all_subsections.append(subsection)
             
-            print(f"\n📊 准备并行处理 {len(all_subsections)} 个章节...")
-            
             # 定义单个子章节的处理函数
             async def process_subsection(subsection, semaphore):
                 async with semaphore:
                     sub_id = subsection['id'].replace('.', '_')
-                    print(f"\n{'='*25} 开始处理章节 {subsection['id']}: {subsection['title']} {'='*25}")
+                    self._log(f"\n开始处理章节 {subsection['title']}")
                     
                     try:
                         # --- 3a. 执行深度搜索 ---
-                        print(f"  🔍 [{subsection['id']}] (3a) 搜索中...")
+                        self._log(f"\n[{subsection['id']}]搜索中...")
                         searcher_prompt = f"""
                         ### **研究焦点 (Research Focus)**:
                         {subsection['research_focus']}
@@ -323,22 +376,48 @@ class DeepResearchAgent:
                         """
                         
                         async with self.searcher_agent as searcher:
-                            result_stream = await searcher.run(searcher_prompt)
-                            markdown_data = result_stream.get_run_result().final_output
+                            # 增加 max_turns 避免复杂搜索时超限
+                            result_stream = searcher.run_streamed(searcher_prompt)
+                            
+                            # 添加重试机制处理网络连接错误
+                            max_retries = 3
+                            retry_count = 0
+                            markdown_data = None
+                            
+                            while retry_count < max_retries:
+                                try:
+                                    await AgentsUtils.print_stream_events(result_stream.stream_events())
+                                    markdown_data = result_stream.final_output
+                                    break
+                                except (httpx.RemoteProtocolError, httpcore.RemoteProtocolError) as e:
+                                    retry_count += 1
+                                    self._log(f"    ⚠️ 网络连接错误 (尝试 {retry_count}/{max_retries}): {str(e)}")
+                                    if retry_count < max_retries:
+                                        await asyncio.sleep(2 ** retry_count)  # 指数退避
+                                        # 重新创建流式连接
+                                        result_stream = searcher.run_streamed(searcher_prompt)
+                                    else:
+                                        self._log(f"    ❌ 网络连接失败，跳过此章节: {subsection['id']}")
+                                        markdown_data = f"【网络连接错误】处理此章节时出错: {str(e)}"
+                                        break
+                                except Exception as e:
+                                    self._log(f"    ❌ 其他错误: {str(e)}")
+                                    markdown_data = f"【处理错误】处理此章节时出错: {str(e)}"
+                                    break
                         
                         (workspace_dir / "data").mkdir(exist_ok=True)
                         search_data_path = workspace_dir / "data" / f"{sub_id}_raw_data.md"
                         search_data_path.write_text(markdown_data, encoding='utf-8')
-                        print(f"    💾 [{subsection['id']}] 原始搜索数据已保存: {search_data_path}")
+                        # self._log(f"    💾 [{subsection['id']}] 原始搜索数据已保存: {search_data_path}")
                         
                         # --- 3b. 解析搜索结果 ---
-                        print(f"  🧩 [{subsection['id']}] (3b) 解析搜索结果...")
+                        # self._log(f"  🧩 [{subsection['id']}] (3b) 解析搜索结果...")
                         
                         raw_posts = [p.strip() for p in re.split(r'----', markdown_data) if p.strip()]
                         context_for_writer = ""
                         
                         if not raw_posts:
-                            print(f"    ⚠️ [{subsection['id']}] 警告: 未找到任何文献。将为此章节生成占位内容。")
+                            # self._log(f"    ⚠️ [{subsection['id']}] 警告: 未找到任何文献。将为此章节生成占位内容。")
                             return {
                                 'sections_id': subsection['sections_id'],
                                 'sections_title': subsection['sections_title'],
@@ -350,20 +429,25 @@ class DeepResearchAgent:
                         
                         count = 0
                         for post_str in raw_posts:
-                            post_str = post_str.replace('----', '')
-                            post = parse_document(post_str)
-                            print('post:',post)
-                            print('-'*100)
                             try:
+                                post_str = post_str.replace('----', '')
                                 post = parse_document(post_str)
+                                
+                                # 检查解析结果是否为字典
+                                if not isinstance(post, dict):
+                                    # self._log(f"[{subsection['id']}] 警告: 解析结果不是字典，跳过")
+                                    continue
+                                
+                                # 检查是否有 citation_key
                                 if (ck := post.get('citation_key')):
                                     all_sources_metadata[ck] = post
                                     context_for_writer += f"### 文献来源: {ck}\n**标题**: {post.get('title', 'N/A')}\n\n{post.get('content', 'N/A')}\n\n"
                                     count += 1
-                            except Exception:
-                                print(f"    - [{subsection['id']}] 解析某篇文献失败，已跳过。")
+                            except Exception as e:
+                                # self._log(f"[{subsection['id']}] 解析某篇文献失败: {str(e)}，已跳过。")
+                                traceback.print_exc()
                         
-                        print(f"    ✅ [{subsection['id']}] 解析完成，处理了 {count} 篇文献。")
+                        # self._log(f"[{subsection['id']}] 解析完成，处理了 {count} 篇文献。")
                         
                         # --- 3c. 撰写章节内容 ---
                         # 获取 planner 的表格建议和编号
@@ -373,8 +457,8 @@ class DeepResearchAgent:
                         # 使用 planner 建议的编号，如果没有则使用预分配的编号
                         assigned_table_number = planner_table_number if planner_table_number else subsection['assigned_table_number']
                         
-                        table_status = f"✅ 建议表格{assigned_table_number}" if table_recommended else "📝 文字为主"
-                        print(f"  ✍️  [{subsection['id']}] (3c) 撰写章节内容... ({table_status})")
+                        # table_status = f"✅ 建议表格{assigned_table_number}" if table_recommended else "📝 文字为主"
+                        # self._log(f"  ✍️  [{subsection['id']}] (3c) 撰写章节内容... ({table_status})")
                         table_instruction = ""
                         
                         if table_recommended:
@@ -408,17 +492,22 @@ class DeepResearchAgent:
                             section_result = writer.run_streamed(writer_prompt)
                             await AgentsUtils.print_stream_events(section_result.stream_events())
                             written_content = section_result.final_output
+                            
                         
                         # 检查是否包含表格
-                        if f"**表 {assigned_table_number}." in written_content:
-                            print(f"    📊 [{subsection['id']}] 已生成表格：表 {assigned_table_number}")
+                        # if f"**表 {assigned_table_number}." in written_content:
+                        #     self._log(f"    📊 [{subsection['id']}] 已生成表格：表 {assigned_table_number}")
                         
                         (workspace_dir / "drafts").mkdir(exist_ok=True)
                         draft_path = workspace_dir / "drafts" / f"{sub_id}_draft.md"
                         draft_path.write_text(written_content, encoding='utf-8')
-                        print(f"    💾 [{subsection['id']}] 章节草稿已保存: {draft_path}")
+                        # self._log(f"    💾 [{subsection['id']}] 章节草稿已保存: {draft_path}")
                         
-                        print(f"✅ [{subsection['id']}] 章节处理完成！")
+                        self._log(f"\n\n[{subsection['id']}] 章节撰写完成！")
+                        
+                        # 将章节内容发送到前端右侧面板显示
+                        # self._log(f"\n### {subsection['title']}\n{written_content}\n")
+                        
                         return {
                             'sections_id': subsection['sections_id'],
                             'sections_title': subsection['sections_title'],
@@ -429,7 +518,7 @@ class DeepResearchAgent:
                         }
                     
                     except Exception as e:
-                        print(f"❌ [{subsection['id']}] 处理出错: {e}")
+                        # self._log(f"❌ [{subsection['id']}] 处理出错: {e}")
                         traceback.print_exc()
                         return {
                             'sections_id': subsection['sections_id'],
@@ -452,7 +541,7 @@ class DeepResearchAgent:
             
 
             # === 步骤 4: 最终整合与审阅 ===
-            print(f"\n{"="*25} 步骤 4: 正在进行最终整合与审阅 {'='*25}")
+            # self._log("\n正在进行最终整合与审阅...")
 
             # 准备最终 prompt 所需的材料
             title = parsed_outline.get("title", "未命名综述")
@@ -493,13 +582,25 @@ class DeepResearchAgent:
             # 持久化最终报告
             final_report_path = workspace_dir / "final_report.md"
             final_report_path.write_text(final_output, encoding='utf-8')
-            print(f"  💾 最终报告已保存: {final_report_path}")
+            # self._log(f"  💾 最终报告已保存: {final_report_path}")
+            
+            # 保存报告路径到实例属性，供 API 服务器使用
+            self.report_path = str(final_report_path.absolute())
 
-            print("\n🎉🎉🎉 研究综述生成完毕！ 🎉🎉🎉")
+            # 发送报告完成通知，包含完整的报告内容
+            if self.progress_callback:
+                print(f"[DEBUG] 准备发送 report_completed，final_output 长度: {len(final_output) if final_output else 0}")
+                print(f"[DEBUG] final_output 预览: {final_output[:200] if final_output else 'None'}...")
+                await self.progress_callback({
+                    "type": "report_completed",
+                    "message": "综述撰写完成！",
+                    "report_content": final_output
+                })
+            
             return final_output
 
         except Exception as e:
-            print(f"\n❌ 在执行过程中发生严重错误: {e}")
+            # self._log(f"\n❌ 在执行过程中发生严重错误: {e}")
             traceback.print_exc()
             return f"任务执行失败。请检查工作区文件夹 '{workspace_dir}' 中的日志和中间文件以进行调试。"
 
@@ -507,10 +608,20 @@ class DeepResearchAgent:
 async def main():
     deep_research = DeepResearchAgent()
     await deep_research.build()
-    query = input("What would you like to research? ")
-    if not query.strip():
-        print("❌ 错误: 请输入研究主题")
-        return
+    
+    # 检查是否在 Web 环境中运行
+    import sys
+    if hasattr(sys, 'ps1') or sys.stdin.isatty():
+        # 交互式环境，可以正常使用 input()
+        query = input("What would you like to research? ")
+        if not query.strip():
+            print("❌ 错误: 请输入研究主题")
+            return
+    else:
+        # Web 环境，使用默认查询或从环境变量获取
+        query = "STAT6 在特应性皮炎中的研究进展"  # 默认查询
+        print(f"Web 环境使用默认查询: {query}")
+    
     print(f"Processing task: {query}")
     result = await deep_research.run_streamed(query)
 

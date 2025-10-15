@@ -284,7 +284,7 @@ class DeepResearchAgent:
             enhanced_task = await self._clarify_task(task)
 
             # === 步骤 2: 生成研究大纲 ===
-            print("\n📋 步骤 2: 正在生成研究大纲...")
+            # print("\n📋 步骤 2: 正在生成研究大纲...")
             async with self.planner_agent as planner:
                 plan_result = planner.run_streamed(enhanced_task)
                 await AgentsUtils.print_stream_events(plan_result.stream_events())
