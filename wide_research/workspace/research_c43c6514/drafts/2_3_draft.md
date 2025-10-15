@@ -1,7 +1,0 @@
-STAT6 在特应性皮炎（AD）的 Th2 免疫应答中扮演着核心角色，主要通过介导 IL-4 和 IL-13 的信号转导来调控 Th2 细胞的分化、功能及长期维持 [cite:howell2011, krishnamurthy2016]。当 IL-4 或 IL-13 与受体结合后，STAT6 发生磷酸化、二聚化并转位至细胞核，直接结合到 Th2 相关基因的启动子区域，启动其转录 [cite:krishnamurthy2016]。这一过程对于 Th2 细胞的分化至关重要，STAT6 缺陷的 T 细胞无法在 IL-4 或 IL-13 刺激下分化为 Th2 细胞 [cite:shimoda2000]。
-
-STAT6 调控 Th2 分化的一个关键机制是诱导并维持 GATA3 的表达，GATA3 是 Th2 细胞分化的主转录因子 [cite:krishnamurthy2016]。研究表明，STAT6 不仅启动 GATA3 的转录，还通过表观遗传机制置换多梳蛋白复合体并招募 Trithorax 复合体，从而建立 GATA3 表达的长期维持，这解释了 Th2 细胞在慢性炎症如 AD 中的持久性 [cite:yamashita2010]。此外，STAT6 的持续活化足以驱动 Th2 极化，在 T 细胞中组成性表达活化 STAT6 的转基因小鼠会自发发展为严重的 AD 样皮肤炎症 [cite:sehra2009]。类似地，通过逆转录病毒引入活化 Stat6 可重编程发育中的 Th1 细胞，使其表达 Th2 特异性细胞因子并抑制 IFNγ 产生 [cite:kurata1999]。STAT6 的功能获得性突变已被确认为早发性严重特应性疾病的单基因病因，进一步凸显了 STAT6 信号通路在 AD 发病机制中的关键作用 [cite:minskaia2023]。
-
-除了直接调控 Th2 细胞分化，STAT6 还通过多种机制优化 Th2 细胞因子的产生。STAT6 与辅助因子如 PARP14 协同作用，后者作为 STAT6 的转录开关，其酶活性对于 IL-4、IL-5 和 IL-13 的最佳产生是必需的 [cite:krishnamurthy2016]。虽然存在 STAT6 非依赖的 Th2 极化途径（如 Notch、mTORC2、STAT5 和 Wnt 信号），但这些途径通常与 STAT6 信号协调作用，共同促进 Th2 表型的建立和维持 [cite:goenka2011]。
-
-在 AD 的病理背景下，STAT6 介导的 Th2 细胞因子表达直接导致了皮肤屏障功能的损害。IL-4 和 IL-13 通过 STAT6 信号通路抑制终末分化蛋白（如丝聚蛋白、兜甲蛋白和外皮蛋白）的表达，从而破坏皮肤屏障完整性 [cite:facheris2023]。同时，STAT6 的过度活化还会抑制抗菌肽等天然免疫应答基因的表达，创造了一个有利于病毒复制的皮肤环境，增加了 AD 患者发生严重病毒性皮肤感染的风险 [cite:howell2011]。STAT6 基因多态性与 AD 易感性及 IgE 水平升高相关 [cite:howell2011, facheris2023]，而 STAT6 抑制剂 AS1517499 在 AD 模型小鼠中能够减轻 Th2 介导的炎症并降低哮喘风险，证实了靶向 STAT6 在特应性疾病中的治疗潜力 [cite:li2022]。

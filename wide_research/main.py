@@ -16,9 +16,8 @@ from agents import function_tool
 
 from utu.agents import SimpleAgent
 from utu.config import ConfigLoader
-from utu.tools import SearchToolkit
-from utu.tools import SerperToolkit
-from utu.utils import AgentsUtils, FileUtils, schema_to_basemodel
+from utu.tools import SearchToolkit, SerperToolkit
+from utu.utils import AgentsUtils, FileUtils
 from utu.utils.Citation import CitationProcessor
 
 PROMPTS = FileUtils.load_yaml(pathlib.Path(__file__).parent / "prompts.yaml")
@@ -54,10 +53,12 @@ def parse_markdown_outline(markdown_text: str) -> dict:
     outline = {"title": "", "sections": []}
     current_section = None
     
-    # Use a regex to find FOCUS and KEYWORDS lines
+    # Use a regex to find FOCUS, KEYWORDS, TABLE_RECOMMENDED and TABLE_NUMBER lines
     focus_regex = re.compile(r"^\s*FOCUS:\s*(.*)", re.IGNORECASE)
     keywords_regex = re.compile(r"^\s*KEYWORDS:\s*(.*)", re.IGNORECASE)
-
+    table_regex = re.compile(r"^\s*TABLE_RECOMMENDED:\s*(.*)", re.IGNORECASE)
+    table_number_regex = re.compile(r"^\s*TABLE_NUMBER:\s*(.*)", re.IGNORECASE)
+     
     for line in lines:
         line = line.strip()
         if not line:
@@ -90,7 +91,9 @@ def parse_markdown_outline(markdown_text: str) -> dict:
                 "title": subsection_title,
                 "id": subsection_title.split(' ')[0],
                 "research_focus": "",
-                "keywords": []
+                "keywords": [],
+                "table_recommended": False,  # 默认不建议表格
+                "table_number": None  # 默认无表格编号
             }
             current_section["subsections"].append(subsection_data)
             continue
@@ -110,11 +113,35 @@ def parse_markdown_outline(markdown_text: str) -> dict:
                 keywords_list = [k.strip() for k in keywords_str.split(',')]
                 current_section["subsections"][-1]["keywords"] = keywords_list
             continue
+        
+        # Table Recommended Line
+        table_match = table_regex.match(line)
+        if table_match:
+            if current_section and current_section["subsections"]:
+                table_value = table_match.group(1).strip().upper()
+                current_section["subsections"][-1]["table_recommended"] = (table_value == "YES")
+            continue
+        
+        # Table Number Line
+        table_number_match = table_number_regex.match(line)
+        if table_number_match:
+            if current_section and current_section["subsections"]:
+                table_num_str = table_number_match.group(1).strip()
+                # 如果是 N/A 或空，则为 None；否则尝试转换为整数
+                if table_num_str.upper() != "N/A" and table_num_str:
+                    try:
+                        current_section["subsections"][-1]["table_number"] = int(table_num_str)
+                    except ValueError:
+                        current_section["subsections"][-1]["table_number"] = None
+            continue
             
     return outline
 
 
 class DeepResearchAgent:
+    def __init__(self):
+        self.table_counter = 0  # 全局表格计数器
+        
     async def build(self):
         # 1. 澄清 Agent
         self.clarifier_agent = SimpleAgent(
@@ -187,6 +214,43 @@ class DeepResearchAgent:
         final_document = f"{processed_content}\n\n## 参考文献 (References)\n\n{reference_list}"
         
         return final_document
+    
+    def renumber_tables(self, content: str) -> str:
+        """
+        重新整理表格编号，确保表格编号连续（表1、表2、表3...）
+        
+        Args:
+            content: 包含表格的文档内容
+            
+        Returns:
+            重新编号后的文档内容
+        """
+        import re
+        
+        # 找出所有表格标题（格式：**表 X. 标题**）
+        table_pattern = r'\*\*表\s+(\d+)\.\s+([^\*]+)\*\*'
+        tables = list(re.finditer(table_pattern, content))
+        
+        if not tables:
+            return content  # 没有表格，直接返回
+        
+        # 创建旧编号到新编号的映射
+        old_to_new = {}
+        for new_num, match in enumerate(tables, 1):
+            old_num = match.group(1)
+            old_to_new[old_num] = str(new_num)
+        
+        # 替换所有表格标题
+        def replace_table_title(match):
+            old_num = match.group(1)
+            title = match.group(2)
+            new_num = old_to_new[old_num]
+            return f"**表 {new_num}. {title}**"
+        
+        content = re.sub(table_pattern, replace_table_title, content)
+        
+        print(f"  📊 表格重新编号完成: 共 {len(tables)} 个表格")
+        return content
 
     async def run_streamed(self, task: str):
         """
@@ -226,12 +290,16 @@ class DeepResearchAgent:
             written_sections = []
             all_sources_metadata = {}
 
-            # 收集所有子章节
+            # 收集所有子章节，并为每个章节预先分配表格编号
             all_subsections = []
             for section in parsed_outline.get("sections", []):
                 for subsection in section.get("subsections", []):
                     subsection['sections_title'] = section['title']
                     subsection['sections_id'] = section['id']
+                    
+                    # 为每个章节预先分配一个潜在的表格编号（避免并行冲突）
+                    self.table_counter += 1
+                    subsection['assigned_table_number'] = self.table_counter
                     
                     all_subsections.append(subsection)
             
@@ -298,23 +366,52 @@ class DeepResearchAgent:
                         print(f"    ✅ [{subsection['id']}] 解析完成，处理了 {count} 篇文献。")
                         
                         # --- 3c. 撰写章节内容 ---
-                        print(f"  ✍️  [{subsection['id']}] (3c) 撰写章节内容...")
-                        writer_prompt = PROMPTS["section_writer"].format(
-                            subsection_title=subsection['title'],
-                            subsection_focus=subsection['research_focus'],
-                            context_for_writer=context_for_writer
-                        )
+                        # 获取 planner 的表格建议和编号
+                        table_recommended = subsection.get('table_recommended', False)
+                        planner_table_number = subsection.get('table_number', None)
                         
-                        # 为每个任务创建独立的 writer 实例
-                        writer = SimpleAgent(
-                            name=f"SectionWriterAgent_{sub_id}",
-                            instructions=PROMPTS["section_writer"],
-                        )
+                        # 使用 planner 建议的编号，如果没有则使用预分配的编号
+                        assigned_table_number = planner_table_number if planner_table_number else subsection['assigned_table_number']
                         
-                        async with writer:
+                        table_status = f"✅ 建议表格{assigned_table_number}" if table_recommended else "📝 文字为主"
+                        print(f"  ✍️  [{subsection['id']}] (3c) 撰写章节内容... ({table_status})")
+                        table_instruction = ""
+                        
+                        if table_recommended:
+                            table_instruction = f"""
+---
+**📊 表格建议**：Planner 建议本章节使用表格来展示对比或汇总信息。
+- **表格编号**：**{assigned_table_number}**
+- **重要**：生成表格时，必须在正文段落中引用表格，使用"如表{assigned_table_number}所示"、"详见表{assigned_table_number}"等表述。
+- 表格应放在正文末尾，作为内容的总结和补充。
+"""
+                        else:
+                            table_instruction = f"""
+---
+**📝 写作建议**：本章节主要使用文字论述即可，通常不需要表格。
+除非遇到特别适合表格展示的密集数据，否则请用清晰的文字表述内容。
+如果确实需要表格，可使用编号：**{assigned_table_number}**，并在正文中引用。
+"""
+                        
+                        writer_prompt = f"""
+### **章节标题**: {subsection['title']}
+
+### **章节焦点**: {subsection['research_focus']}
+
+### **相关研究资料**:
+{context_for_writer}
+{table_instruction}
+"""
+                        
+
+                        async with self.section_writer_agent as writer:
                             section_result = writer.run_streamed(writer_prompt)
                             await AgentsUtils.print_stream_events(section_result.stream_events())
                             written_content = section_result.final_output
+                        
+                        # 检查是否包含表格
+                        if f"**表 {assigned_table_number}." in written_content:
+                            print(f"    📊 [{subsection['id']}] 已生成表格：表 {assigned_table_number}")
                         
                         (workspace_dir / "drafts").mkdir(exist_ok=True)
                         draft_path = workspace_dir / "drafts" / f"{sub_id}_draft.md"
@@ -360,6 +457,12 @@ class DeepResearchAgent:
             # 准备最终 prompt 所需的材料
             title = parsed_outline.get("title", "未命名综述")
             full_content = f"# {title}\n\n"
+            
+            # 先找出最后一个章节的ID
+            last_section_id = None
+            if written_sections:
+                last_section_id = written_sections[-1]['sections_id']
+            
             current_section_id = None # 用于追踪当前的章节ID
 
             for section in written_sections:
@@ -368,12 +471,10 @@ class DeepResearchAgent:
                     full_content += f"# {section['sections_title']}\n\n"
                     current_section_id = section['sections_id'] # 更新当前章节ID
 
-                # 根据是否为第一章，决定如何添加内容
-                if current_section_id == '1':
-                    # 第一章：不添加小标题
+                # 第一章和最后一章不添加小标题，其他章节添加小标题
+                if current_section_id == '1' or current_section_id == last_section_id:
                     full_content += f"{section['content']}\n\n"
                 else:
-                    # 其他章节：添加小标题
                     full_content += f"### {section['title']}\n{section['content']}\n\n"
         
             all_sources_metadata_json = json.dumps(all_sources_metadata, indent=2, ensure_ascii=False)
@@ -383,9 +484,11 @@ class DeepResearchAgent:
             (workspace_dir / "final_inputs" / "full_content.md").write_text(full_content, encoding='utf-8')
             (workspace_dir / "final_inputs" / "all_metadata.json").write_text(all_sources_metadata_json, encoding='utf-8')
 
-            
+            # 处理文献引用
             final_output = self.process_draft(full_content, all_sources_metadata)
-
+            
+            # 重新整理表格编号，确保连续性
+            final_output = self.renumber_tables(final_output)
             
             # 持久化最终报告
             final_report_path = workspace_dir / "final_report.md"
@@ -405,7 +508,9 @@ async def main():
     deep_research = DeepResearchAgent()
     await deep_research.build()
     query = input("What would you like to research? ")
-    query = query.strip() or TASK
+    if not query.strip():
+        print("❌ 错误: 请输入研究主题")
+        return
     print(f"Processing task: {query}")
     result = await deep_research.run_streamed(query)
 

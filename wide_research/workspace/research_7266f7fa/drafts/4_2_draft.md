@@ -1,5 +1,0 @@
-当前国际 STAT6 研究的前沿方向主要集中在三个关键领域：STAT6 功能获得性变异与免疫病理机制、STAT6 靶向治疗新策略的开发，以及 STAT6 在肿瘤发生中的非经典作用 [cite:tolomeo2024]。在重要突破方面，STAT6 功能获得性变异（GOF）的发现为严重过敏性疾病提供了新的遗传学解释 [cite:takeuchi2023, sharma2023]，而 NAB2-STAT6 融合基因的鉴定则揭示了 STAT6 在间充质肿瘤发生中的关键作用 [cite:diamandis2016, chmielecki2013]。特别是 STAT6 降解剂 KT-621 的开发代表了转录因子靶向治疗领域的范式转变，其在临床前研究中显示出比 Dupilumab 强 20 倍的 IL-4/IL-13 信号阻断能力 [cite:kymera2024]。
-
-主要研究机构分布呈现多元化特征，既有传统学术强校如哈佛-麻省理工博德研究所 [cite:diamandis2016] 和不列颠哥伦比亚大学 [cite:sharma2023]，也有新兴生物技术公司如 Kymera Therapeutics、Recludix Pharma 和 Nurix Therapeutics [cite:kymera2024, recludix2024, nurix_sanofi2024]。儿童专科医院如 BC 儿童医院在 STAT6 相关过敏性疾病研究中发挥着引领作用 [cite:bc_childrens2024]。
-
-国际合作现状表现为大型制药企业间的战略联盟日益活跃。吉利德与 LEO Pharma 价值高达 17 亿美元的合作 [cite:gilead_leo2025]，以及 Nurix 与赛诺菲的 STAT6 降解剂开发合作 [cite:nurix_sanofi2024]，体现了全球范围内对 STAT6 靶向治疗的高度重视。这些合作不仅加速了 STAT6 抑制剂的临床开发，也推动了从传统小分子抑制剂到蛋白降解靶向嵌合体（PROTAC）等创新治疗模式的发展 [cite:kaneshige2024, kymera2024]。全球 STAT6 抑制剂市场预计从 2029 年的 345.6 亿美元增长至 2030 年的 527.5 亿美元，目前有 18 家公司和 22 个管线药物处于不同开发阶段 [cite:market2024]，充分反映了该领域的研究活力和商业价值。
