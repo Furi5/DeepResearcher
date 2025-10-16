@@ -71,11 +71,29 @@ class WebSocketManager:
     async def broadcast(self, task_id: str, message: dict):
         """向所有连接广播消息"""
         if task_id in self.active_connections:
+            dead_connections = []
             for connection in self.active_connections[task_id]:
                 try:
-                    await connection.send_json(message)
+                    # 检查连接状态
+                    if connection.client_state.value == 1:  # CONNECTED
+                        await connection.send_json(message)
+                    else:
+                        dead_connections.append(connection)
                 except Exception as e:
-                    print(f"广播消息失败: {e}")
+                    # 连接已关闭，标记为待移除
+                    dead_connections.append(connection)
+                    # print(f"广播消息失败: {e}")  # 减少日志噪音
+            
+            # 清理已关闭的连接
+            for conn in dead_connections:
+                if conn in self.active_connections[task_id]:
+                    self.active_connections[task_id].remove(conn)
+    
+    def has_active_connections(self, task_id: str) -> bool:
+        """检查任务是否还有活跃的连接"""
+        if task_id not in self.active_connections:
+            return False
+        return len(self.active_connections[task_id]) > 0
 
 
 # === 任务管理器 ===
@@ -86,6 +104,7 @@ class TaskManager:
         self.tasks: Dict[str, TaskStatus] = {}
         self.agents: Dict[str, DeepResearchAgent] = {}
         self.clarification_queues: Dict[str, asyncio.Queue] = {}
+        self.cancelled_tasks: set = set()  # 记录已取消的任务
         
     def create_task(self, query: str) -> str:
         """创建新任务"""
@@ -125,6 +144,27 @@ class TaskManager:
         """提供澄清答案"""
         if task_id in self.clarification_queues:
             await self.clarification_queues[task_id].put(answer)
+    
+    def cancel_task(self, task_id: str):
+        """取消任务"""
+        if task_id in self.tasks:
+            self.cancelled_tasks.add(task_id)
+            self.update_task(task_id, status="cancelled", message="任务已取消")
+            print(f"✅ 任务 {task_id} 已标记为取消")
+    
+    def is_task_cancelled(self, task_id: str) -> bool:
+        """检查任务是否已取消"""
+        return task_id in self.cancelled_tasks
+    
+    def cleanup_task(self, task_id: str):
+        """清理任务资源"""
+        if task_id in self.agents:
+            del self.agents[task_id]
+        if task_id in self.clarification_queues:
+            del self.clarification_queues[task_id]
+        if task_id in self.cancelled_tasks:
+            self.cancelled_tasks.remove(task_id)
+        print(f"🧹 任务 {task_id} 资源已清理")
 
 
 # === 全局变量 ===
@@ -270,14 +310,26 @@ async def websocket_endpoint(websocket: WebSocket, task_id: str):
     await websocket.accept()
     await websocket_manager.connect(task_id, websocket)
     
+    print(f"🔌 WebSocket 连接建立: {task_id}")
+    
     try:
         while True:
+            # ✅ 检查连接状态，如果连接已关闭则退出
+            if websocket.client_state.value != 1:  # 1 = CONNECTED
+                print(f"⚠️ WebSocket 连接已关闭，停止轮询: {task_id}")
+                break
+            
             task = task_manager.get_task(task_id)
             if not task:
                 await websocket.send_json({
                     "type": "error",
                     "message": "任务不存在"
                 })
+                break
+            
+            # ✅ 检查任务是否已被取消
+            if task.status == "cancelled" or task_manager.is_task_cancelled(task_id):
+                print(f"⚠️ 任务已取消，停止状态推送: {task_id}")
                 break
             
             await websocket.send_json({
@@ -319,12 +371,26 @@ async def websocket_endpoint(websocket: WebSocket, task_id: str):
             await asyncio.sleep(1)
             
     except WebSocketDisconnect:
+        print(f"🔌 WebSocket 断开连接: {task_id}")
         websocket_manager.disconnect(task_id, websocket)
+        
+        # 检查是否还有其他连接，如果没有则取消任务
+        if task_id in websocket_manager.active_connections:
+            if len(websocket_manager.active_connections[task_id]) == 0:
+                print(f"⚠️ 所有连接已断开，取消任务: {task_id}")
+                task_manager.cancel_task(task_id)
     except Exception as e:
         print(f"WebSocket 错误: {e}")
+        traceback.print_exc()
     finally:
         # 确保连接被清理
         websocket_manager.disconnect(task_id, websocket)
+        
+        # 再次检查连接数
+        if task_id in websocket_manager.active_connections:
+            if len(websocket_manager.active_connections[task_id]) == 0:
+                print(f"⚠️ 所有连接已断开，取消任务: {task_id}")
+                task_manager.cancel_task(task_id)
 
 
 # === 后台任务执行 ===
@@ -335,6 +401,16 @@ async def execute_research_task(task_id: str, query: str):
     # 创建回调函数
     async def progress_callback(data: dict):
         """进度回调函数"""
+        # ✅ 在每次回调时检查任务是否已取消或没有活跃连接
+        if task_manager.is_task_cancelled(task_id):
+            print(f"⚠️ 任务已取消，停止进度回调: {task_id}")
+            raise asyncio.CancelledError(f"任务 {task_id} 已取消")
+        
+        if not websocket_manager.has_active_connections(task_id):
+            print(f"⚠️ 没有活跃连接，取消任务: {task_id}")
+            task_manager.cancel_task(task_id)
+            raise asyncio.CancelledError(f"任务 {task_id} 无活跃连接")
+        
         message_type = data.get("type", "progress")
         message = data.get("message", "")
         
@@ -385,6 +461,11 @@ async def execute_research_task(task_id: str, query: str):
         })
     
     try:
+        # 检查任务是否已被取消
+        if task_manager.is_task_cancelled(task_id):
+            print(f"⚠️ 任务在启动前已被取消: {task_id}")
+            return
+        
         task_manager.update_task(
             task_id,
             status="running",
@@ -400,13 +481,29 @@ async def execute_research_task(task_id: str, query: str):
             clarification_callback=clarification_callback,
             chat_callback=chat_callback
         )
+        
+        # 检查取消状态
+        if task_manager.is_task_cancelled(task_id):
+            print(f"⚠️ 任务在初始化时被取消: {task_id}")
+            return
+        
         await agent.build()
         agent.set_clarification_queue(clarification_queue)
         
+        # 检查取消状态
+        if task_manager.is_task_cancelled(task_id):
+            print(f"⚠️ 任务在构建后被取消: {task_id}")
+            return
+        
         task_manager.update_task(task_id, message="🔍 开始深度研究...")
         
-        # 执行研究
+        # 执行研究（在执行过程中定期检查取消状态）
         result = await agent.run_streamed(query)
+        
+        # 执行完成后检查是否被取消
+        if task_manager.is_task_cancelled(task_id):
+            print(f"⚠️ 任务在执行完成后被取消: {task_id}")
+            return
         
         # 从 agent 实例获取报告路径
         report_path = getattr(agent, 'report_path', None)
@@ -470,8 +567,22 @@ async def execute_research_task(task_id: str, query: str):
         # 再等待一段时间，确保前端接收到最终消息
         await asyncio.sleep(1.0)
         
+    except asyncio.CancelledError as e:
+        # 任务被取消（正常情况，因为连接断开）
+        print(f"✅ 任务被取消: {task_id} - {str(e)}")
+        task_manager.cleanup_task(task_id)
+        return
     except Exception as e:
+        # 检查是否是因为任务被取消
+        if task_manager.is_task_cancelled(task_id):
+            print(f"✅ 任务已取消，清理资源: {task_id}")
+            task_manager.cleanup_task(task_id)
+            return
+        
         error_msg = f"❌ 执行失败：{str(e)}"
+        print(f"❌ 任务执行失败 {task_id}: {error_msg}")
+        traceback.print_exc()
+        
         task_manager.update_task(
             task_id,
             status="failed",
@@ -479,11 +590,17 @@ async def execute_research_task(task_id: str, query: str):
             result=error_msg
         )
         
-        await websocket_manager.broadcast(task_id, {
-            "type": "error",
-            "message": error_msg,
-            "timestamp": datetime.now().isoformat()
-        })
+        # 只在有连接时广播错误消息
+        if websocket_manager.has_active_connections(task_id):
+            await websocket_manager.broadcast(task_id, {
+                "type": "error",
+                "message": error_msg,
+                "timestamp": datetime.now().isoformat()
+            })
+    finally:
+        # 清理任务资源
+        if task_manager.is_task_cancelled(task_id):
+            task_manager.cleanup_task(task_id)
 
 
 def format_statistics(stats: dict) -> dict:

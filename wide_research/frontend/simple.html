@@ -626,6 +626,46 @@
         let isCapturingReport = false;
         let reportingMessageId = null; // 记录"正在撰写研究报告"消息的ID
         
+        // 页面加载时清理之前的任务（刷新即取消）
+        window.addEventListener('load', async function() {
+            const savedTaskId = sessionStorage.getItem('currentTaskId');
+            if (savedTaskId) {
+                console.log('🔄 检测到未完成的任务:', savedTaskId);
+                console.log('⚠️ 页面刷新，清除任务记录（后台任务已自动取消）');
+                // 直接清除，不尝试重连
+                sessionStorage.removeItem('currentTaskId');
+            }
+        });
+        
+        // 页面刷新或关闭时的清理逻辑
+        window.addEventListener('beforeunload', function(event) {
+            // 保存当前任务ID到 sessionStorage（仅在刷新时有效）
+            if (currentTask) {
+                sessionStorage.setItem('currentTaskId', currentTask);
+            }
+            
+            // 如果有正在进行的任务和 WebSocket 连接，关闭连接
+            // WebSocket 断开会触发后端取消任务
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                console.log('⚠️ 页面即将关闭，断开 WebSocket 连接');
+                ws.close();
+            }
+        });
+        
+        // 页面可见性变化时的处理（可选，用于检测标签页切换）
+        document.addEventListener('visibilitychange', function() {
+            if (document.hidden) {
+                console.log('📱 页面隐藏（标签页切换或最小化）');
+                // 不关闭连接，只是记录日志
+            } else {
+                console.log('📱 页面可见');
+                // 检查 WebSocket 连接状态
+                if (currentTask && ws && ws.readyState !== WebSocket.OPEN) {
+                    console.log('⚠️ WebSocket 连接已断开，可能需要重新连接');
+                }
+            }
+        });
+        
         // 标签页切换
         function switchTab(tabName) {
             // 隐藏所有标签页
@@ -704,6 +744,9 @@
                 const data = await response.json();
                 currentTask = data.task_id;
                 currentTaskId = data.task_id;
+                
+                // 保存任务ID到 sessionStorage
+                sessionStorage.setItem('currentTaskId', data.task_id);
                 
                 // 连接中提示已移除，无需处理
                 
@@ -1086,6 +1129,9 @@
                     console.log('收到最终完成消息:', data);
                     console.log('最终完成消息包含报告内容:', data.report_content ? '是' : '否');
                     
+                    // 任务完成，清除 sessionStorage
+                    sessionStorage.removeItem('currentTaskId');
+                    
                     // 如果 report_completed 消息没有正确显示报告，尝试从 final_completed 获取
                     if (data.report_content && data.report_content.trim()) {
                         console.log('从 final_completed 消息显示报告，内容长度:', data.report_content.length);
@@ -1096,6 +1142,10 @@
                     // 不立即关闭连接，等待后端主动关闭
                 } else if (data.type === 'final') {
                     console.log('任务完成:', data);
+                    
+                    // 任务完成，清除 sessionStorage
+                    sessionStorage.removeItem('currentTaskId');
+                    
                     if (data.status === 'completed') {
                         handleTaskCompletion(data);
                     } else if (data.status === 'failed') {
@@ -1104,6 +1154,10 @@
                     // 不关闭 WebSocket，保持连接以便继续生成
                 } else if (data.type === 'task_completed') {
                     console.log('任务完成，可以继续生成:', data);
+                    
+                    // 任务完成，清除 sessionStorage
+                    sessionStorage.removeItem('currentTaskId');
+                    
                     // 显示继续生成选项
                     showContinueOptions();
                 } else if (data.type === 'error') {
