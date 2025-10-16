@@ -403,12 +403,18 @@ async def execute_research_task(task_id: str, query: str):
         """进度回调函数"""
         # ✅ 在每次回调时检查任务是否已取消或没有活跃连接
         if task_manager.is_task_cancelled(task_id):
-            print(f"⚠️ 任务已取消，停止进度回调: {task_id}")
+            # 只打印一次日志，避免重复
+            if not hasattr(progress_callback, '_cancel_logged'):
+                print(f"⚠️ 任务已取消，停止进度回调: {task_id}")
+                progress_callback._cancel_logged = True
             raise asyncio.CancelledError(f"任务 {task_id} 已取消")
         
         if not websocket_manager.has_active_connections(task_id):
-            print(f"⚠️ 没有活跃连接，取消任务: {task_id}")
-            task_manager.cancel_task(task_id)
+            # 只打印一次日志，避免重复
+            if not hasattr(progress_callback, '_cancel_logged'):
+                print(f"⚠️ 没有活跃连接，取消任务: {task_id}")
+                task_manager.cancel_task(task_id)
+                progress_callback._cancel_logged = True
             raise asyncio.CancelledError(f"任务 {task_id} 无活跃连接")
         
         message_type = data.get("type", "progress")
@@ -569,7 +575,7 @@ async def execute_research_task(task_id: str, query: str):
         
     except asyncio.CancelledError as e:
         # 任务被取消（正常情况，因为连接断开）
-        print(f"✅ 任务被取消: {task_id} - {str(e)}")
+        print(f"✅ 任务被取消，开始清理: {task_id}")
         task_manager.cleanup_task(task_id)
         return
     except Exception as e:
