@@ -414,7 +414,28 @@ async def execute_research_task(task_id: str, query: str):
         # 格式化统计信息
         statistics = format_statistics(getattr(agent, 'statistics', {}))
         
-        # 发送报告完成消息，触发前端显示右侧面板
+        # 提取报告前3行作为预览
+        report_preview = ""
+        if result:
+            lines = result.strip().split('\n')
+            # 获取前3行非空内容
+            preview_lines = []
+            for line in lines:
+                if line.strip():  # 只取非空行
+                    preview_lines.append(line.strip())
+                if len(preview_lines) >= 3:
+                    break
+            report_preview = '\n'.join(preview_lines)
+        
+        # 发送报告完成消息，包含报告预览（用于替换左侧的"正在撰写研究报告"）
+        await websocket_manager.broadcast(task_id, {
+            "type": "report_preview",
+            "message": "报告生成完成",
+            "report_preview": report_preview,
+            "timestamp": datetime.now().isoformat()
+        })
+        
+        # 发送显示右侧面板的消息
         await websocket_manager.broadcast(task_id, {
             "type": "show_report_panel",
             "message": "报告生成完成，显示右侧面板",

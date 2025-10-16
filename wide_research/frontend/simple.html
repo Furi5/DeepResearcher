@@ -1,0 +1,1828 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepresearch - 智能研究助手</title>
+    <!-- Marked.js for Markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #ffffff;
+            color: #000000;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header {
+            padding: 7px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: transparent;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            background: #000000;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .logo-text {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .tabs {
+            display: flex;
+            gap: 8px;
+        }
+        
+        .tab {
+            padding: 8px 10px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: none;
+            background: #f4f4f4;
+            color: #666;
+        }
+        
+        .tab.active {
+            background: #000000;
+            color: white;
+        }
+        
+        .tab:hover:not(.active) {
+            background: #e5e5e5;
+        }
+        
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        
+        .chat-container {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            overflow: hidden;
+            gap: 20px;
+            padding: 0px;
+        }
+        
+        .chat-left {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            min-width: 400px;
+        }
+        
+        .chat-right {
+            flex: 1;
+            display: none;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        
+        .chat-right.active {
+            display: flex;
+        }
+        
+        .outline-content {
+            flex: 1;
+            overflow-y: auto;
+            background: #ffffff;
+            padding: 20px;
+            line-height: 1.6;
+            font-size: 14px;
+            color: #333;
+        }
+        
+        /* Markdown 样式 - 通用标题样式 */
+        .outline-content h1,
+        .report-content h1,
+        .draft-content h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin: 20px 0 12px 0;
+            color: #000;
+            border-bottom: 2px solid #e5e5e5;
+            padding-bottom: 8px;
+        }
+        
+        .outline-content h2,
+        .report-content h2,
+        .draft-content h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 18px 0 10px 0;
+            color: #000;
+        }
+        
+        .outline-content h3,
+        .report-content h3,
+        .draft-content h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin: 16px 0 8px 0;
+            color: #333;
+        }
+        
+        /* 中间状态样式 - 无首行缩进 */
+        .outline-content p,
+        .draft-content p {
+            margin: 8px 0;
+            line-height: 1.6;
+            text-indent: 0; /* 中间状态不缩进 */
+        }
+        
+        /* 最终报告样式 - 有首行缩进 */
+        .report-content p {
+            margin: 8px 0;
+            line-height: 1.6;
+            text-indent: 2em; /* 首行缩进 2 个字符 */
+        }
+        
+        /* 参考文献列表不缩进 */
+        .report-content h2 + ul p,
+        .report-content h2 + ol p,
+        .references-section p,
+        .references-section li {
+            text-indent: 0 !important;
+        }
+        
+        .outline-content ul, .outline-content ol,
+        .report-content ul, .report-content ol,
+        .draft-content ul, .draft-content ol {
+            margin: 8px 0;
+            padding-left: 24px;
+        }
+        
+        .outline-content li,
+        .report-content li,
+        .draft-content li {
+            margin: 4px 0;
+        }
+        
+        .outline-content code,
+        .report-content code,
+        .draft-content code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 13px;
+        }
+        
+        .outline-content pre,
+        .report-content pre,
+        .draft-content pre {
+            background: #f4f4f4;
+            padding: 12px;
+            border-radius: 6px;
+            overflow-x: auto;
+            margin: 12px 0;
+        }
+        
+        .outline-content pre code,
+        .report-content pre code,
+        .draft-content pre code {
+            background: none;
+            padding: 0;
+        }
+        
+        .outline-content blockquote,
+        .report-content blockquote,
+        .draft-content blockquote {
+            border-left: 4px solid #e5e5e5;
+            padding-left: 16px;
+            margin: 12px 0;
+            color: #666;
+        }
+        
+        .outline-content strong,
+        .report-content strong,
+        .draft-content strong {
+            font-weight: 600;
+            color: #000;
+        }
+        
+        .outline-content em,
+        .report-content em,
+        .draft-content em {
+            font-style: italic;
+        }
+        
+        .outline-content hr,
+        .report-content hr,
+        .draft-content hr {
+            border: none;
+            border-top: 1px solid #e5e5e5;
+            margin: 16px 0;
+        }
+        
+        /* 中间状态草稿样式 */
+        .draft-content {
+            padding: 10px 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        
+        /* 最终报告额外样式 */
+        .report-content {
+            padding: 10px 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        
+        .report-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+        }
+        
+        .report-content th,
+        .report-content td {
+            border: 1px solid #e5e5e5;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        
+        .report-content th {
+            background: #f4f4f4;
+            font-weight: 600;
+        }
+        
+        /* 参考文献角标样式 */
+        .citation {
+            font-size: 0.75em;
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline;
+            top: -0.5em;
+        }
+        
+        .citation-link {
+            color: #0066cc;
+            text-decoration: none;
+            padding: 0 1px;
+            transition: all 0.2s;
+        }
+        
+        .citation-link:hover {
+            color: #0052a3;
+            text-decoration: underline;
+        }
+        
+        .reference-item {
+            font-weight: 600;
+            color: #0066cc;
+            cursor: pointer;
+        }
+        
+        /* 参考文献列表中的编号 - 期刊风格 */
+        .reference-number {
+            font-weight: 600;
+            color: #333;
+            margin-right: 4px;
+        }
+        
+        /* 参考文献区域样式 */
+        .references-section {
+            margin-top: 20px;
+        }
+        
+        .references-section li {
+            margin-bottom: 12px;
+            line-height: 1.8;
+            white-space: pre-wrap; /* 保留换行 */
+            text-indent: 0 !important;
+        }
+        
+        .references-section p {
+            white-space: pre-wrap; /* 保留换行 */
+            text-indent: 0 !important;
+        }
+        
+        .back-to-text {
+            margin-left: 8px;
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: all 0.2s;
+        }
+        
+        .back-to-text:hover {
+            color: #0052a3;
+            text-decoration: underline;
+        }
+        
+        .messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 0 20px 20px 20px;
+        }
+        
+        .message {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .message.user {
+            justify-content: flex-end;
+        }
+        
+        .message-content {
+            max-width: 70%;
+            padding: 12px 16px;
+            border-radius: 16px;
+            line-height: 1.5;
+            white-space: pre-wrap;
+        }
+        
+        .message.user .message-content {
+            background: #000000;
+            color: white;
+        }
+        
+        .message.assistant .message-content {
+            background: #ffffff;
+            color: #000000;
+            border: 1px solid #e5e5e5;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+        }
+        
+        .input-area {
+            padding: 20px;
+        }
+        
+        
+        .input-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            gap: 12px;
+            align-items: end;
+        }
+        
+        .input-box {
+            flex: 1;
+            background: #f4f4f4;
+            border: 1px solid #d1d1d1;
+            border-radius: 16px;
+            padding: 12px 16px;
+            font-size: 15px;
+            resize: none;
+            outline: none;
+            transition: border-color 0.2s;
+            min-height: 44px;
+            max-height: 120px;
+        }
+        
+        .input-box:focus {
+            border-color: #000000;
+        }
+        
+        .send-btn {
+            width: 44px;
+            height: 44px;
+            background: #000000;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.2s;
+        }
+        
+        .send-btn:hover {
+            background: #333333;
+        }
+        
+        .send-btn:disabled {
+            background: #e5e5e5;
+            color: #999;
+            cursor: not-allowed;
+        }
+        
+        .report-container, .stats-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .stat-card {
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            border: 1px solid #e5e5e5;
+        }
+        
+        .stat-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+        
+        .stat-label {
+            color: #666;
+        }
+        
+        .stat-value {
+            font-weight: 500;
+            font-family: monospace;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+        
+        .empty-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        
+        .loading {
+            display: flex;
+            gap: 4px;
+            align-items: center;
+        }
+        
+        .loading-dot {
+            width: 8px;
+            height: 8px;
+            background: #999;
+            border-radius: 50%;
+            animation: bounce 1.4s infinite ease-in-out;
+        }
+        
+        .loading-dot:nth-child(1) { animation-delay: -0.32s; }
+        .loading-dot:nth-child(2) { animation-delay: -0.16s; }
+        
+        @keyframes bounce {
+            0%, 80%, 100% { transform: scale(0); }
+            40% { transform: scale(1); }
+        }
+        
+        /* 打字机效果 + 闪烁光标 */
+        .progress-text {
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 2s steps(30) infinite;
+        }
+        
+        .progress-text::after {
+            content: '|';
+            position: absolute;
+            right: -2px;
+            animation: blink 0.8s step-end infinite;
+        }
+        
+        @keyframes typing {
+            0%, 100% {
+                width: 0;
+            }
+            50% {
+                width: 100%;
+            }
+        }
+        
+        @keyframes blink {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+        }
+        
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <div class="logo-icon">🔬</div>
+            <div class="logo-text">Deepresearch</div>
+        </div>
+        <button id="downloadBtn" onclick="downloadCurrentReport()" style="display: none; padding: 8px 16px; background: #000; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px;">
+            📥 下载报告
+        </button>
+    </div>
+    
+    <div class="content">
+        <!-- 聊天界面 -->
+        <div id="chat-tab" class="chat-container">
+            <!-- 左侧聊天区域 -->
+            <div class="chat-left">
+                <div class="messages" id="messages">
+                </div>
+                
+                <div class="input-area">
+                <div class="input-container">
+                    <textarea 
+                        id="messageInput" 
+                        class="input-box" 
+                        placeholder="向 Deepresearch 提问..."
+                        rows="1"
+                        onkeypress="handleKeyPress(event)"
+                        oninput="autoResize(this)"
+                    ></textarea>
+                    <button id="sendBtn" class="send-btn" onclick="sendMessage()">
+                        ➤
+                    </button>
+                </div>
+                <p style="text-align: center; font-size: 12px; color: #999; margin-top: 12px;">
+                    Deepresearch 可能会出错。请核实重要信息。
+                </p>
+                </div>
+            </div>
+            
+            <!-- 右侧大纲显示区域 -->
+            <div class="chat-right" id="outlinePanel">
+                <div class="outline-content" id="outlineContent"></div>
+            </div>
+        </div>
+        
+        <!-- 报告界面 -->
+        <div id="report-tab" class="report-container hidden">
+            <div class="report-content" id="reportContent">
+                <div class="empty-state">
+                    <div class="empty-icon">📄</div>
+                    <h3>暂无报告</h3>
+                    <p>请先完成一次研究任务</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 统计界面 -->
+        <div id="stats-tab" class="stats-container hidden">
+            <div class="stats-grid" id="statsContent">
+                <div class="empty-state">
+                    <div class="empty-icon">📊</div>
+                    <h3>暂无统计</h3>
+                    <p>请先完成一次研究任务</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentTask = null;
+        let ws = null;
+        let isWaitingForClarification = false;
+        let lastProgressMessage = '';
+        let isCapturingOutline = false;
+        let isCapturingReport = false;
+        let reportingMessageId = null; // 记录"正在撰写研究报告"消息的ID
+        
+        // 标签页切换
+        function switchTab(tabName) {
+            // 隐藏所有标签页
+            document.getElementById('chat-tab').classList.add('hidden');
+            document.getElementById('report-tab').classList.add('hidden');
+            document.getElementById('stats-tab').classList.add('hidden');
+            
+            // 移除所有活动状态
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            
+            // 显示选中的标签页
+            document.getElementById(tabName + '-tab').classList.remove('hidden');
+            event.target.classList.add('active');
+        }
+        
+        // 自动调整输入框高度
+        function autoResize(textarea) {
+            textarea.style.height = 'auto';
+            textarea.style.height = Math.min(textarea.scrollHeight, 120) + 'px';
+        }
+        
+        // 处理回车键
+        function handleKeyPress(event) {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault();
+                sendMessage();
+            }
+        }
+        
+        // 发送消息
+        async function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const message = input.value.trim();
+            
+            if (!message) return;
+            
+            // 添加用户消息
+            addMessage('user', message);
+            input.value = '';
+            
+            // 如果正在等待澄清，将消息作为澄清答案发送
+            if (isWaitingForClarification) {
+                await submitClarificationAnswer(message);
+                return;
+            }
+            
+            // 如果已有任务且WebSocket连接存在，创建新任务
+            if (currentTask && ws && ws.readyState === WebSocket.OPEN) {
+                await createNewTask(message);
+                return;
+            }
+            
+            try {
+                // 显示连接中提示
+                // const connectingMsgId = addMessage('assistant', '正在连接服务器...');
+                
+                // 发送请求到后端，设置超时
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 10000); // 10秒超时
+                
+                const response = await fetch('http://localhost:8000/api/research', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query: message }),
+                    signal: controller.signal
+                });
+                
+                clearTimeout(timeoutId);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                currentTask = data.task_id;
+                currentTaskId = data.task_id;
+                
+                // 连接中提示已移除，无需处理
+                
+                // 重置进度消息记录
+                lastProgressMessage = '';
+                
+                // 连接 WebSocket
+                connectWebSocket(data.task_id);
+                
+            } catch (error) {
+                console.error('Error:', error);
+                
+                if (error.name === 'AbortError') {
+                    addMessage('assistant', '❌ 连接超时\n\n后端服务器未响应，请检查：\n1. 服务器是否正在运行\n2. 端口 8000 是否被占用\n3. 防火墙设置是否阻止连接');
+                } else if (error.message.includes('Failed to fetch')) {
+                    addMessage('assistant', '❌ 无法连接到服务器\n\n请确认：\n1. 后端服务器已启动 (python wide_research/api_server.py)\n2. 服务器地址正确 (http://localhost:8000)\n3. 没有网络或防火墙问题');
+                } else {
+                    addMessage('assistant', `❌ 请求失败：${error.message}\n\n请刷新页面后重试。`);
+                }
+            }
+        }
+        
+        // 添加消息
+        function addMessage(role, content, isLoading = false) {
+            const messagesContainer = document.getElementById('messages');
+            const messageId = 'msg_' + Date.now();
+            
+            const messageDiv = document.createElement('div');
+            messageDiv.id = messageId;
+            messageDiv.className = `message ${role}`;
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            
+            if (isLoading) {
+                contentDiv.innerHTML = content + '<div class="loading"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div>';
+            } else {
+                contentDiv.textContent = content;
+            }
+            
+            messageDiv.appendChild(contentDiv);
+            messagesContainer.appendChild(messageDiv);
+            
+            // 滚动到底部
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+            
+            return messageId;
+        }
+        
+        // 添加带进度动画的消息
+        function addProgressMessage(role, content) {
+            const messagesContainer = document.getElementById('messages');
+            const messageId = 'msg_' + Date.now();
+            
+            const messageDiv = document.createElement('div');
+            messageDiv.id = messageId;
+            messageDiv.className = `message ${role}`;
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            
+            // 使用 span 包裹文本以应用动画
+            contentDiv.innerHTML = `<span class="progress-text">${content}</span>`;
+            
+            messageDiv.appendChild(contentDiv);
+            messagesContainer.appendChild(messageDiv);
+            
+            // 滚动到底部
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+            
+            return messageId;
+        }
+        
+        // 添加省略号循环动画消息
+        function addDotsAnimationMessage(role, content) {
+            const messagesContainer = document.getElementById('messages');
+            const messageId = 'msg_' + Date.now();
+            
+            const messageDiv = document.createElement('div');
+            messageDiv.id = messageId;
+            messageDiv.className = `message ${role}`;
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            
+            // 添加文本和省略号容器
+            contentDiv.innerHTML = `<span>${content}<span class="dots-animation"></span></span>`;
+            
+            messageDiv.appendChild(contentDiv);
+            messagesContainer.appendChild(messageDiv);
+            
+            // 滚动到底部
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+            
+            // 启动省略号动画
+            const dotsSpan = contentDiv.querySelector('.dots-animation');
+            let dotCount = 0;
+            const dotsInterval = setInterval(() => {
+                dotCount = (dotCount + 1) % 4;
+                dotsSpan.textContent = '.'.repeat(dotCount);
+            }, 500);
+            
+            // 保存 interval ID 到元素上，以便后续可以清除
+            messageDiv.dataset.dotsInterval = dotsInterval;
+            
+            return messageId;
+        }
+        
+        // 更新消息
+        function updateMessage(messageId, role, content) {
+            const messageDiv = document.getElementById(messageId);
+            if (messageDiv) {
+                const contentDiv = messageDiv.querySelector('.message-content');
+                contentDiv.innerHTML = content;
+            }
+        }
+        
+        // 连接 WebSocket
+        function connectWebSocket(taskId) {
+            if (ws) {
+                ws.close();
+            }
+            
+            console.log('连接 WebSocket:', `ws://localhost:8000/ws/${taskId}`);
+            ws = new WebSocket(`ws://localhost:8000/ws/${taskId}`);
+            
+            // 设置连接超时检测
+            let connectionTimeout = setTimeout(() => {
+                if (ws.readyState !== WebSocket.OPEN) {
+                    console.error('WebSocket 连接超时');
+                    ws.close();
+                    addMessage('assistant', '⚠️ WebSocket 连接超时\n\n可能原因：\n- 服务器响应缓慢\n- 网络连接不稳定\n\n请刷新页面重试。');
+                }
+            }, 15000); // 15秒超时
+            
+            ws.onopen = () => {
+                console.log('WebSocket 连接已建立');
+                clearTimeout(connectionTimeout);
+            };
+            
+            ws.onmessage = (event) => {
+                const data = JSON.parse(event.data);
+                console.log('WebSocket 收到消息:', data);
+                console.log('消息类型:', data.type);
+                console.log('是否包含报告内容:', data.report_content ? '是' : '否');
+                
+                // 通用报告内容检测：任何消息如果包含报告内容，都尝试显示
+                console.log('检查报告内容:', {
+                    hasReportContent: !!data.report_content,
+                    reportContentLength: data.report_content ? data.report_content.length : 0,
+                    reportContentTrimmed: data.report_content ? data.report_content.trim().length : 0,
+                    isLongEnough: data.report_content ? data.report_content.trim().length > 100 : false
+                });
+                
+                if (data.report_content && data.report_content.trim() && data.report_content.length > 100) {
+                    console.log('✅ 检测到报告内容，长度:', data.report_content.length);
+                    console.log('✅ 报告内容预览:', data.report_content.substring(0, 200) + '...');
+                    console.log('✅ 调用 displayFinalReport');
+                    displayFinalReport(data.report_content);
+                    return; // 显示报告后直接返回，不处理其他逻辑
+                } else {
+                    console.log('❌ 报告内容检测失败:', {
+                        hasContent: !!data.report_content,
+                        isTrimmed: data.report_content ? data.report_content.trim() !== '' : false,
+                        isLongEnough: data.report_content ? data.report_content.length > 100 : false
+                    });
+                }
+                
+                if (data.type === 'status') {
+                    // 跳过所有 status 类型的消息，不在前端显示
+                    console.log('收到状态更新（已跳过显示）:', data);
+                    return;
+                } else if (data.type === 'progress') {
+                    // 处理进度消息，避免重复显示
+                    console.log('收到进度消息:', data.message);
+                    
+                    // 如果消息包含澄清问题，跳过显示（已经通过clarification_needed显示）
+                    if (data.message.includes('【澄清问题】') || data.message.includes('澄清问题')) {
+                        console.log('跳过澄清问题消息，已通过clarification_needed显示');
+                        return;
+                    }
+                    
+                    // 跳过步骤1的初始化消息
+                    if (data.message.includes('步骤 1: 正在分析并澄清您的调研需求')) {
+                        console.log('跳过步骤1初始化消息');
+                        return;
+                    }
+                    
+                    // 检测到"正在撰写研究报告"，在左侧显示，并开始捕获后续内容到右侧
+                    if (data.message.includes('正在撰写研究报告')) {
+                        console.log('开始捕获内容到右侧');
+                        isCapturingReport = true;
+                        
+                        // 移除流式聊天容器（如果存在）
+                        const chatContainer = document.getElementById('streaming-chat-message');
+                        if (chatContainer) {
+                            chatContainer.remove();
+                        }
+                        // 清理全局变量
+                        window.streamingChatText = '';
+                        if (chatRenderTimer) {
+                            clearTimeout(chatRenderTimer);
+                            chatRenderTimer = null;
+                        }
+                        
+                        // 保存消息ID，后续用于替换
+                        reportingMessageId = addDotsAnimationMessage('assistant', '正在撰写研究报告');
+                        // 显示右侧面板，准备显示内容
+                        showOutlinePanel();
+                        clearOutlineContent();
+                        return;
+                    }
+                    
+                    // 如果正在捕获报告，所有消息都发送到右侧
+                    if (isCapturingReport) {
+                        console.log('捕获报告内容到右侧面板');
+                        
+                        // 检测到"开始处理章节"，保留大纲继续累积内容
+                        if (data.message.includes('开始处理章节')) {
+                            console.log('检测到开始处理章节，继续累积内容');
+                            // 不清空内容，保留之前的大纲，继续累积新内容
+                        }
+                        
+                        // 修复：不要添加额外的换行符，LLM 输出本身已包含正确的换行
+                        updateOutlineContent(data.message);
+                        return;
+                    }
+                    
+                    if (data.message !== lastProgressMessage) {
+                        // 如果消息包含"正在"，使用省略号动画效果
+                        if (data.message.includes('正在')) {
+                            addDotsAnimationMessage('assistant', data.message);
+                        } else {
+                            addMessage('assistant', data.message);
+                        }
+                        lastProgressMessage = data.message;
+                    }
+                } else if (data.type === 'chat') {
+                    // 处理聊天消息（流式输出到左侧对话框）
+                    console.log('收到聊天消息:', data.message);
+                    
+                    // 找到或创建一个聊天消息容器
+                    let chatMessageDiv = document.getElementById('streaming-chat-message');
+                    let chatContentDiv = document.getElementById('streaming-chat-content');
+                    
+                    if (!chatMessageDiv) {
+                        // 创建新的聊天消息容器（带边框）
+                        const messagesDiv = document.getElementById('messages');
+                        
+                        // 外层容器
+                        chatMessageDiv = document.createElement('div');
+                        chatMessageDiv.id = 'streaming-chat-message';
+                        chatMessageDiv.className = 'message assistant';
+                        
+                        // 内层内容容器（有边框和样式）
+                        chatContentDiv = document.createElement('div');
+                        chatContentDiv.id = 'streaming-chat-content';
+                        chatContentDiv.className = 'message-content';
+                        
+                        chatMessageDiv.appendChild(chatContentDiv);
+                        messagesDiv.appendChild(chatMessageDiv);
+                        messagesDiv.scrollTop = messagesDiv.scrollHeight;
+                        
+                        // 初始化累积文本
+                        window.streamingChatText = '';
+                    }
+                    
+                    // 累积文本
+                    window.streamingChatText = (window.streamingChatText || '') + data.message;
+                    
+                    // 使用防抖渲染，避免频繁更新
+                    updateStreamingChat(window.streamingChatText);
+                } else if (data.type === 'report_completed') {
+                    // 处理报告完成消息
+                    console.log('收到报告完成消息:', data.message);
+                    console.log('报告内容长度:', data.report_content ? data.report_content.length : 'undefined');
+                    console.log('报告内容预览:', data.report_content ? data.report_content.substring(0, 200) + '...' : 'undefined');
+                    console.log('完整数据对象:', data);
+                    
+                    // 替换之前的"正在撰写研究报告"消息
+                    if (reportingMessageId) {
+                        const msgDiv = document.getElementById(reportingMessageId);
+                        if (msgDiv) {
+                            // 停止省略号动画
+                            if (msgDiv.dataset.dotsInterval) {
+                                clearInterval(parseInt(msgDiv.dataset.dotsInterval));
+                            }
+                            // 替换消息内容
+                            const contentDiv = msgDiv.querySelector('.message-content');
+                            if (contentDiv) {
+                                contentDiv.textContent = '✅ ' + data.message;
+                            }
+                        }
+                        reportingMessageId = null; // 清空记录
+                    } else {
+                        // 如果没有找到之前的消息，添加新消息
+                        addMessage('assistant', '✅ ' + data.message);
+                    }
+                    
+                    // 在右侧面板显示完整的报告
+                    if (data.report_content && data.report_content.trim()) {
+                        console.log('显示最终报告，内容长度:', data.report_content.length);
+                        displayFinalReport(data.report_content);
+                    } else {
+                        console.warn('报告内容为空或未定义，无法显示');
+                        // 显示错误提示
+                        const content = document.getElementById('outlineContent');
+                        content.innerHTML = `
+                            <div style="text-align: center; padding: 40px 20px; background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 8px; color: #856404;">
+                                <h3>⚠️ 报告内容获取失败</h3>
+                                <p>报告生成完成，但内容未能正确传递到前端。</p>
+                                <p>请尝试刷新页面或重新生成报告。</p>
+                            </div>
+                        `;
+                        showOutlinePanel();
+                    }
+                    
+                    // 停止捕获报告内容
+                    isCapturingReport = false;
+                } else if (data.type === 'clarification_needed') {
+                    // 在对话中显示澄清问题
+                    console.log('需要澄清:', data.questions);
+                    
+                    // 移除流式聊天容器（如果存在）
+                    const chatContainer = document.getElementById('streaming-chat-message');
+                    if (chatContainer) {
+                        chatContainer.remove();
+                    }
+                    // 清理全局变量
+                    window.streamingChatText = '';
+                    if (chatRenderTimer) {
+                        clearTimeout(chatRenderTimer);
+                        chatRenderTimer = null;
+                    }
+                    
+                    // 直接显示原始格式的澄清问题
+                    addMessage('assistant', data.questions);
+                    isWaitingForClarification = true;
+                    // 记录澄清问题，避免重复显示
+                    lastProgressMessage = `clarification_${data.questions}`;
+                } else if (data.type === 'report_preview') {
+                    // 处理报告预览消息（用于替换左侧的"正在撰写研究报告"）
+                    console.log('收到报告预览消息:', data.report_preview);
+                    
+                    // 替换之前的"正在撰写研究报告"消息为报告前3行
+                    if (reportingMessageId) {
+                        const msgDiv = document.getElementById(reportingMessageId);
+                        if (msgDiv) {
+                            // 停止省略号动画
+                            if (msgDiv.dataset.dotsInterval) {
+                                clearInterval(parseInt(msgDiv.dataset.dotsInterval));
+                            }
+                            // 替换消息内容为报告预览
+                            const contentDiv = msgDiv.querySelector('.message-content');
+                            if (contentDiv && data.report_preview) {
+                                contentDiv.innerHTML = `<div style="white-space: pre-wrap; line-height: 1.5; color: #333;">✅ ${data.message}\n\n<strong>报告预览：</strong>\n${data.report_preview}</div>`;
+                            } else {
+                                contentDiv.textContent = '✅ ' + data.message;
+                            }
+                        }
+                        reportingMessageId = null; // 清空记录
+                    }
+                } else if (data.type === 'show_report_panel') {
+                    // 处理显示报告面板的消息
+                    console.log('收到显示报告面板消息:', data.message);
+                    
+                    // 显示右侧面板
+                    showOutlinePanel();
+                    
+                    // 如果当前有报告内容，直接显示
+                    if (window.outlineMarkdown && window.outlineMarkdown.trim()) {
+                        console.log('显示已累积的报告内容');
+                        displayFinalReport(window.outlineMarkdown);
+                    } else {
+                        console.log('没有累积的报告内容，尝试从服务器获取报告');
+                        // 尝试从服务器获取报告内容
+                        fetchReportContentAndDisplay();
+                    }
+                } else if (data.type === 'final_completed') {
+                    console.log('收到最终完成消息:', data);
+                    console.log('最终完成消息包含报告内容:', data.report_content ? '是' : '否');
+                    
+                    // 如果 report_completed 消息没有正确显示报告，尝试从 final_completed 获取
+                    if (data.report_content && data.report_content.trim()) {
+                        console.log('从 final_completed 消息显示报告，内容长度:', data.report_content.length);
+                        displayFinalReport(data.report_content);
+                    } else if (data.statistics) {
+                        displayStatistics(data.statistics);
+                    }
+                    // 不立即关闭连接，等待后端主动关闭
+                } else if (data.type === 'final') {
+                    console.log('任务完成:', data);
+                    if (data.status === 'completed') {
+                        handleTaskCompletion(data);
+                    } else if (data.status === 'failed') {
+                        handleTaskFailure(data);
+                    }
+                    // 不关闭 WebSocket，保持连接以便继续生成
+                } else if (data.type === 'task_completed') {
+                    console.log('任务完成，可以继续生成:', data);
+                    // 显示继续生成选项
+                    showContinueOptions();
+                } else if (data.type === 'error') {
+                    console.log('任务错误:', data);
+                    handleTaskError(data);
+                    ws.close();
+                } else {
+                    console.log('未知消息类型:', data);
+                }
+            };
+            
+            ws.onclose = (event) => {
+                console.log('WebSocket 连接关闭', event);
+                
+                // 检查是否是非正常关闭
+                if (event.code !== 1000 && event.code !== 1001) {
+                    // 非正常关闭，显示警告
+                    addMessage('assistant', `⚠️ 连接已断开 (代码: ${event.code})\n\n可能原因：\n- 后端服务器停止运行\n- 网络连接中断\n- 任务处理超时\n\n请检查服务器状态或刷新页面重试。`);
+                } else {
+                    // 正常关闭（代码 1000 或 1001）
+                    console.log('WebSocket 正常关闭，任务可能已完成');
+                }
+            };
+            
+            ws.onerror = (error) => {
+                console.error('WebSocket 错误:', error);
+                addMessage('assistant', '❌ WebSocket 连接错误\n\n请检查：\n1. 后端服务器是否正在运行\n2. 服务器地址是否正确 (http://localhost:8000)\n3. 网络连接是否正常\n\n刷新页面后重试。');
+            };
+        }
+        
+        // 更新进度
+        function updateProgress(data) {
+            const progress = Math.round(data.progress * 100);
+            const message = `${data.message}\n\n📊 进度: ${progress}%`;
+            
+            console.log('更新进度显示:', message);
+            
+            // 避免重复显示相同的消息
+            if (message === lastProgressMessage) {
+                console.log('跳过重复的进度消息');
+                return;
+            }
+            
+            // 检查是否是新的研究阶段
+            const isNewStage = data.message.includes('步骤 1') || 
+                              data.message.includes('步骤 2') || 
+                              data.message.includes('步骤 3') || 
+                              data.message.includes('步骤 4') ||
+                              data.message.includes('初始化研究') ||
+                              data.message.includes('开始深度研究');
+            
+            if (isNewStage) {
+                // 新阶段，创建新消息
+                console.log('创建新的阶段消息');
+                addMessage('assistant', message, true);
+                lastProgressMessage = message;
+            } else {
+                // 更新最后一条消息
+                const messages = document.getElementById('messages');
+                const lastMessage = messages.lastElementChild;
+                
+                if (lastMessage && lastMessage.classList.contains('assistant')) {
+                    const contentDiv = lastMessage.querySelector('.message-content');
+                    if (contentDiv) {
+                        contentDiv.innerHTML = message + '<div class="loading"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div>';
+                        console.log('已更新现有消息');
+                        lastProgressMessage = message;
+                    }
+                } else {
+                    // 如果没有助手消息，创建一个新的
+                    console.log('创建新的进度消息');
+                    addMessage('assistant', message, true);
+                    lastProgressMessage = message;
+                }
+            }
+        }
+        
+        // 任务完成
+        function handleTaskCompletion(data) {
+            // 不显示完成提示，直接处理报告
+            
+            // 注意：报告内容应该已经通过 report_completed 消息在右侧面板显示了
+            // 这里不需要再次获取报告内容，避免与 displayFinalReport 冲突
+            
+            // 显示统计信息
+            if (data.statistics) {
+                displayStatistics(data.statistics);
+            }
+            
+            // 不自动切换到报告标签页，让用户手动查看
+        }
+        
+        // 任务失败
+        function handleTaskFailure(data) {
+            const messages = document.getElementById('messages');
+            const lastMessage = messages.lastElementChild;
+            if (lastMessage && lastMessage.classList.contains('assistant')) {
+                const contentDiv = lastMessage.querySelector('.message-content');
+                contentDiv.innerHTML = `❌ 研究失败：${data.result || '未知错误'}`;
+            }
+        }
+        
+        // 任务错误
+        function handleTaskError(data) {
+            addMessage('assistant', `❌ 连接错误：${data.message}`);
+        }
+        
+        // 获取报告内容
+        async function fetchReportContent() {
+            if (!currentTask) return;
+            
+            try {
+                const response = await fetch(`http://localhost:8000/api/download/${currentTask}`);
+                if (response.ok) {
+                    const content = await response.text();
+                    displayReport(content);
+                }
+            } catch (error) {
+                console.error('获取报告失败:', error);
+            }
+        }
+        
+        // 获取报告内容并直接显示
+        async function fetchReportContentAndDisplay() {
+            if (!currentTask) {
+                console.error('当前任务ID不存在');
+                return;
+            }
+            
+            try {
+                console.log('从服务器获取报告内容...');
+                const response = await fetch(`http://localhost:8000/api/download/${currentTask}`);
+                if (response.ok) {
+                    const content = await response.text();
+                    console.log('成功获取报告内容，长度:', content.length);
+                    displayFinalReport(content);
+                } else {
+                    console.error('获取报告失败，状态码:', response.status);
+                    // 显示错误提示
+                    const content = document.getElementById('outlineContent');
+                    content.innerHTML = `
+                        <div style="text-align: center; padding: 40px 20px; background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 8px; color: #856404;">
+                            <h3>⚠️ 报告获取失败</h3>
+                            <p>无法从服务器获取报告内容，请稍后重试。</p>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                console.error('获取报告失败:', error);
+                // 显示错误提示
+                const content = document.getElementById('outlineContent');
+                content.innerHTML = `
+                    <div style="text-align: center; padding: 40px 20px; background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 8px; color: #856404;">
+                        <h3>⚠️ 网络错误</h3>
+                        <p>无法连接到服务器，请检查网络连接。</p>
+                    </div>
+                `;
+            }
+        }
+        
+        // 显示报告
+        function displayReport(content) {
+            const reportContent = document.getElementById('reportContent');
+            
+            // 预处理：移除 DOI: N/A
+            content = content.replace(/\s*DOI:\s*N\/A/gi, '');
+            
+            // 使用 marked.js 渲染 Markdown
+            let renderedContent = content;
+            if (typeof marked !== 'undefined') {
+                // 配置 marked，禁用删除线（strikethrough）
+                marked.setOptions({
+                    gfm: true,
+                    breaks: true,
+                    pedantic: false,
+                    smartLists: true,
+                    smartypants: false
+                });
+                
+                // 自定义 renderer，禁用删除线
+                const renderer = new marked.Renderer();
+                renderer.del = function(text) {
+                    // 不渲染为删除线，直接返回原文本（带波浪号）
+                    return '~' + text + '~';
+                };
+                
+                renderedContent = marked.parse(content, { renderer: renderer });
+            }
+            
+            // 处理参考文献引用，转换为角标
+            renderedContent = processReferences(renderedContent);
+            
+            reportContent.innerHTML = `
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                    <h2>研究报告</h2>
+                    <button onclick="downloadReport()" style="padding: 8px 16px; background: #000; color: white; border: none; border-radius: 6px; cursor: pointer;">
+                        📥 下载报告
+                    </button>
+                </div>
+                <div class="report-content">${renderedContent}</div>
+            `;
+            
+            // 添加点击事件监听
+            addReferenceClickListeners();
+        }
+        
+        // 处理参考文献引用
+        function processReferences(html) {
+            // 1. 先找到参考文献部分的位置
+            // 匹配 <h2>参考文献 或 <h2>参考文献 (References)
+            const refSectionMatch = html.match(/(<h2[^>]*>参考文献|<h2[^>]*>References)/i);
+            let refSectionStart = refSectionMatch ? html.indexOf(refSectionMatch[0]) : -1;
+            
+            // 2. 如果找到参考文献部分，分离正文和参考文献
+            let bodyPart = html;
+            let refPart = '';
+            
+            if (refSectionStart !== -1) {
+                bodyPart = html.substring(0, refSectionStart);
+                refPart = html.substring(refSectionStart);
+                
+                // 为参考文献部分的容器添加特殊 class
+                refPart = refPart.replace(/(<h2[^>]*>)(参考文献[^<]*<\/h2>)/i, 
+                    '$1$2<div class="references-section">') + '</div>';
+            }
+            
+            // 3. 只在正文部分转换引用为角标
+            // 匹配 [1], [1,2], [1, 2, 3] 等格式
+            bodyPart = bodyPart.replace(/\[(\d+(?:\s*,\s*\d+)*)\]/g, (match, numbers) => {
+                // 分割数字
+                const nums = numbers.split(',').map(n => n.trim());
+                
+                // 为每个数字创建角标链接
+                const superscripts = nums.map(num => 
+                    `<a href="#ref-${num}" class="citation-link" data-ref="${num}">[${num}]</a>`
+                ).join('');
+                
+                return `<sup class="citation">${superscripts}</sup>`;
+            });
+            
+            // 4. 在参考文献部分，只添加 id 锚点，保持原有格式
+            // 匹配 <li>[数字] 格式
+            refPart = refPart.replace(/(<li>)\[(\d+)\]\s+/g, (match, li, num) => {
+                return `${li}<span id="ref-${num}" class="reference-number">[${num}]</span> `;
+            });
+            
+            // 5. 组合正文和参考文献部分
+            return bodyPart + refPart;
+        }
+        
+        // 添加引用点击事件监听
+        function addReferenceClickListeners() {
+            // 为所有引用链接添加平滑滚动
+            document.querySelectorAll('.citation-link').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        // 高亮显示参考文献所在的列表项
+                        const listItem = targetElement.closest('li');
+                        if (listItem) {
+                            listItem.style.backgroundColor = '#ffffcc';
+                            setTimeout(() => {
+                                listItem.style.backgroundColor = '';
+                            }, 2000);
+                        }
+                    }
+                });
+            });
+        }
+        
+        // 显示统计信息
+        function displayStatistics(stats) {
+            const statsContent = document.getElementById('statsContent');
+            
+            let html = '<h2 style="margin-bottom: 20px;">统计信息</h2>';
+            
+            // Token 统计
+            html += `
+                <div class="stat-card">
+                    <div class="stat-title">📊 Token 消耗统计</div>
+                    <div class="stat-item">
+                        <span class="stat-label">总 Token 数：</span>
+                        <span class="stat-value">${stats.total_tokens?.toLocaleString() || 0}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">总检索次数：</span>
+                        <span class="stat-value">${stats.total_searches || 0}</span>
+                    </div>
+                </div>
+            `;
+            
+            // 成本统计
+            if (stats.cost) {
+                html += `
+                    <div class="stat-card">
+                        <div class="stat-title">💰 成本估算</div>
+                        <div class="stat-item">
+                            <span class="stat-label">美元：</span>
+                            <span class="stat-value">$${stats.cost.usd}</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">人民币：</span>
+                            <span class="stat-value">¥${stats.cost.cny}</span>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            // 详细统计
+            if (stats.token_usage && Object.keys(stats.token_usage).length > 0) {
+                html += `
+                    <div class="stat-card">
+                        <div class="stat-title">🔍 详细统计</div>
+                        ${Object.entries(stats.token_usage).map(([stage, tokens]) => `
+                            <div class="stat-item">
+                                <span class="stat-label">${stage}：</span>
+                                <span class="stat-value">${tokens.toLocaleString()}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            }
+            
+            statsContent.innerHTML = html;
+        }
+        
+        // 下载报告
+        async function downloadReport() {
+            if (!currentTask) return;
+            
+            try {
+                const response = await fetch(`http://localhost:8000/api/download/${currentTask}`);
+                if (response.ok) {
+                    const blob = await response.blob();
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = `research_report_${currentTask}.md`;
+                    document.body.appendChild(a);
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                    document.body.removeChild(a);
+                }
+            } catch (error) {
+                console.error('下载失败:', error);
+                alert('下载失败，请重试');
+            }
+        }
+        // 提交澄清答案
+        async function submitClarificationAnswer(answer) {
+            if (!currentTaskId) {
+                addMessage('assistant', '❌ 任务 ID 不存在');
+                return;
+            }
+            
+            try {
+                // 发送澄清答案到后端
+                const response = await fetch(`/api/clarification/${currentTaskId}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ answer })
+                });
+                
+                if (!response.ok) {
+                    throw new Error('提交澄清失败');
+                }
+                
+                // 重置等待澄清状态
+                isWaitingForClarification = false;
+                
+                // 显示右侧大纲面板
+                showOutlinePanel();
+                clearOutlineContent();
+
+            } catch (error) {
+                console.error('提交澄清失败:', error);
+                addMessage('assistant', '❌ 提交澄清失败，请重试');
+            }
+        }
+        
+        // 显示大纲面板
+        function showOutlinePanel() {
+            const panel = document.getElementById('outlinePanel');
+            panel.classList.add('active');
+            
+            // 注意：不要在这里清空内容，因为 displayFinalReport 可能已经设置了内容
+            // 只有在需要清空时才调用 clearOutlineContent()
+        }
+        
+        // 清空大纲内容（单独的函数）
+        function clearOutlineContent() {
+            const content = document.getElementById('outlineContent');
+            content.innerHTML = '';
+            window.outlineMarkdown = ''; // 重置累积的 markdown
+        }
+        
+        // 处理大纲内容，修复格式但保留所有内容
+        function filterOutlineMetadata(text) {
+            // 清理可能的分词问题（字符之间有空格的情况）
+            // 例如: "S T A T 6" -> "STAT6", "1 . " -> "1. "
+            text = text.replace(/([A-Z])\s+(?=[A-Z0-9])/g, '$1');
+            text = text.replace(/(\d)\s+\.\s+/g, '$1. ');
+            
+            // 清理多余的空行（3个或以上空行合并为2个）
+            text = text.replace(/\n{3,}/g, '\n\n');
+            
+            return text;
+        }
+        
+        // 更新大纲内容（流式追加，带防抖）
+        let renderTimer = null;
+        let hasStartedOutput = false; // 标记是否已开始输出
+        function updateOutlineContent(text) {
+            // 累积 Markdown 文本
+            if (!window.outlineMarkdown) {
+                window.outlineMarkdown = '';
+            }
+            window.outlineMarkdown += text;
+            
+            // 检查是否遇到第一个 # 标题
+            if (!hasStartedOutput) {
+                const firstHeadingIndex = window.outlineMarkdown.indexOf('#');
+                if (firstHeadingIndex !== -1) {
+                    // 找到第一个 # 标题，从该位置开始截取内容
+                    window.outlineMarkdown = window.outlineMarkdown.substring(firstHeadingIndex);
+                    hasStartedOutput = true;
+                    console.log('检测到第一个标题，开始显示内容');
+                } else {
+                    // 还没有遇到第一个 # 标题，不显示内容
+                    return;
+                }
+            }
+            
+            // 清除之前的定时器
+            if (renderTimer) {
+                clearTimeout(renderTimer);
+            }
+            
+            // 使用防抖，避免频繁渲染导致字体闪烁
+            renderTimer = setTimeout(() => {
+                const content = document.getElementById('outlineContent');
+                
+                // 过滤元数据
+                const filteredMarkdown = filterOutlineMetadata(window.outlineMarkdown);
+                
+                // 渲染 Markdown 为 HTML
+                if (typeof marked !== 'undefined') {
+                    // 配置 marked 选项
+                    marked.setOptions({
+                        gfm: true,
+                        breaks: true,
+                        pedantic: false,
+                        smartLists: true,
+                        smartypants: false
+                    });
+                    
+                    try {
+                        // 渲染 Markdown，使用 draft-content 样式（中间状态，无首行缩进）
+                        content.innerHTML = `<div class="draft-content">${marked.parse(filteredMarkdown)}</div>`;
+                    } catch (e) {
+                        // 如果解析失败（可能因为内容不完整），显示纯文本
+                        console.warn('Markdown解析失败，显示纯文本:', e);
+                        content.innerHTML = `<div class="draft-content">${filteredMarkdown}</div>`;
+                    }
+                } else {
+                    // 降级：如果 marked.js 未加载，使用纯文本
+                    content.innerHTML = `<div class="draft-content">${filteredMarkdown}</div>`;
+                }
+                
+                // 滚动到底部
+                content.scrollTop = content.scrollHeight;
+            }, 100); // 100ms 防抖延迟
+        }
+        
+        // 设置完整大纲内容
+        function setOutlineContent(text) {
+            window.outlineMarkdown = text;
+            
+            // 检查是否遇到第一个 # 标题
+            let contentToShow = text;
+            const firstHeadingIndex = text.indexOf('#');
+            if (firstHeadingIndex !== -1) {
+                // 找到第一个 # 标题，从该位置开始截取内容
+                contentToShow = text.substring(firstHeadingIndex);
+                console.log('设置内容时检测到第一个标题，从该位置开始显示');
+            }
+            
+            // 过滤元数据
+            const filteredMarkdown = filterOutlineMetadata(contentToShow);
+            
+            const content = document.getElementById('outlineContent');
+            if (typeof marked !== 'undefined') {
+                // 配置 marked 选项
+                marked.setOptions({
+                    gfm: true,
+                    breaks: true,
+                    pedantic: false,
+                    smartLists: true,
+                    smartypants: false
+                });
+                
+                // 使用 draft-content 样式（中间状态，无首行缩进）
+                content.innerHTML = `<div class="draft-content">${marked.parse(filteredMarkdown)}</div>`;
+            } else {
+                // 降级：如果 marked.js 未加载，使用纯文本
+                content.innerHTML = `<div class="draft-content">${filteredMarkdown}</div>`;
+            }
+            
+            // 滚动到底部
+            content.scrollTop = content.scrollHeight;
+        }
+        
+        // 隐藏大纲面板
+        function hideOutlinePanel() {
+            const panel = document.getElementById('outlinePanel');
+            panel.classList.remove('active');
+        }
+        
+        // 显示最终报告
+        function displayFinalReport(reportContent) {
+            console.log('🎯 displayFinalReport 被调用');
+            console.log('🎯 报告内容长度:', reportContent ? reportContent.length : 'undefined');
+            console.log('🎯 报告内容预览:', reportContent ? reportContent.substring(0, 200) + '...' : 'undefined');
+            
+            const content = document.getElementById('outlineContent');
+            console.log('🎯 outlineContent 元素:', content);
+            
+            if (!content) {
+                console.error('❌ 找不到 outlineContent 元素');
+                return;
+            }
+            
+            // 预处理：移除 DOI: N/A
+            reportContent = reportContent.replace(/\s*DOI:\s*N\/A/gi, '');
+            
+            // 提取报告标题（第一个 # 标题）
+            let reportTitle = '最终研究报告';
+            const titleMatch = reportContent.match(/^#\s+(.+)$/m);
+            if (titleMatch) {
+                reportTitle = titleMatch[1].trim();
+            }
+            
+            // 使用 marked.js 渲染 Markdown
+            let renderedContent = reportContent;
+            if (typeof marked !== 'undefined') {
+                // 配置 marked
+                marked.setOptions({
+                    gfm: true,
+                    breaks: true,
+                    pedantic: false,
+                    smartLists: true,
+                    smartypants: false
+                });
+                
+                // 自定义 renderer，禁用删除线
+                const renderer = new marked.Renderer();
+                renderer.del = function(text) {
+                    return '~' + text + '~';
+                };
+                
+                try {
+                    renderedContent = marked.parse(reportContent, { renderer: renderer });
+                } catch (e) {
+                    console.warn('Markdown 解析失败:', e);
+                    renderedContent = reportContent;
+                }
+            }
+            
+            // 处理参考文献引用
+            renderedContent = processReferences(renderedContent);
+            
+            // 直接显示报告内容，不添加额外的标题容器
+            content.innerHTML = `<div class="report-content">${renderedContent}</div>`;
+            
+            // 添加引用点击监听
+            addReferenceClickListeners();
+            
+            // 确保右侧面板可见
+            console.log('🎯 调用 showOutlinePanel');
+            showOutlinePanel();
+            console.log('🎯 displayFinalReport 完成');
+            
+            // 显示导航栏的下载按钮
+            const downloadBtn = document.getElementById('downloadBtn');
+            if (downloadBtn) {
+                downloadBtn.style.display = 'block';
+            }
+        }
+        
+        // 显示继续生成选项（现在直接显示报告内容）
+        function showContinueOptions() {
+            // 不再显示完成提示，而是直接获取并显示报告内容
+            console.log('报告生成完成，直接显示报告内容');
+            fetchReportContentAndDisplay();
+        }
+        
+        // 创建新任务
+        async function createNewTask(query) {
+            if (!currentTask) {
+                addMessage('assistant', '❌ 当前任务不存在');
+                return;
+            }
+            
+            try {
+                // 清空右侧面板
+                document.getElementById('outlineContent').innerHTML = '';
+                
+                // 隐藏下载按钮
+                const downloadBtn = document.getElementById('downloadBtn');
+                if (downloadBtn) {
+                    downloadBtn.style.display = 'none';
+                }
+                
+                // 重置状态
+                isCapturingReport = false;
+                hasStartedOutput = false;
+                window.outlineMarkdown = '';
+                
+                // 发送新任务请求
+                const response = await fetch(`/api/new-task/${currentTask}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query: query })
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                console.log('新任务创建成功:', data);
+                
+                // 显示新任务开始消息
+                addMessage('assistant', `🔄 开始新的研究任务：${query}`);
+                
+            } catch (error) {
+                console.error('创建新任务失败:', error);
+                addMessage('assistant', `❌ 创建新任务失败：${error.message}`);
+            }
+        }
+        
+        // 下载当前显示的报告
+        async function downloadCurrentReport() {
+            if (!currentTask) {
+                alert('无法下载报告：任务 ID 不存在');
+                return;
+            }
+            
+            try {
+                const response = await fetch(`http://localhost:8000/api/download/${currentTask}`);
+                if (response.ok) {
+                    const blob = await response.blob();
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = `research_report_${currentTask}.md`;
+                    document.body.appendChild(a);
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                    document.body.removeChild(a);
+                } else {
+                    alert('下载失败，请重试');
+                }
+            } catch (error) {
+                console.error('下载失败:', error);
+                alert('下载失败，请重试');
+            }
+        }
+        
+        // 流式聊天渲染（带防抖和 Markdown 渲染）
+        let chatRenderTimer = null;
+        function updateStreamingChat(text) {
+            // 清除之前的定时器
+            if (chatRenderTimer) {
+                clearTimeout(chatRenderTimer);
+            }
+            
+            // 使用防抖，避免频繁渲染
+            chatRenderTimer = setTimeout(() => {
+                const contentDiv = document.getElementById('streaming-chat-content');
+                if (!contentDiv) return;
+                
+                // 尝试使用 Markdown 渲染
+                if (typeof marked !== 'undefined') {
+                    try {
+                        // 配置 marked
+                        marked.setOptions({
+                            gfm: true,
+                            breaks: true,
+                            pedantic: false,
+                            smartLists: true,
+                            smartypants: false
+                        });
+                        
+                        // 渲染 Markdown
+                        contentDiv.innerHTML = marked.parse(text);
+                    } catch (e) {
+                        // 如果解析失败（不完整的 Markdown），显示纯文本
+                        console.warn('流式 Markdown 解析失败，显示纯文本:', e);
+                        contentDiv.innerHTML = text.replace(/\n/g, '<br>');
+                    }
+                } else {
+                    // 降级：如果 marked.js 未加载，转换换行符
+                    contentDiv.innerHTML = text.replace(/\n/g, '<br>');
+                }
+                
+                // 自动滚动
+                const messagesDiv = document.getElementById('messages');
+                messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            }, 50); // 50ms 防抖延迟（比大纲渲染更短，因为文本通常较短）
+        }
+        
+    </script>
+</body>
+</html>

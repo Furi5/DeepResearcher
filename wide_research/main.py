@@ -344,7 +344,7 @@ class DeepResearchAgent:
             written_sections = []
             all_sources_metadata = {}
 
-            self._log("\n\n# 开始收集所有子章节\n\n")
+            self._log("\n\n# 开始撰写所有子章节\n\n")
             # 收集所有子章节，并为每个章节预先分配表格编号
             all_subsections = []
             for section in parsed_outline.get("sections", []):

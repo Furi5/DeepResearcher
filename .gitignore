@@ -31,7 +31,6 @@ wheels/
 *.pdb
 *.bak
 *.publish
-*.html
 *.pkl
 *.whl
 
@@ -69,3 +68,5 @@ _*
 # temp config
 test.yaml
 pgs
+log.md
+log1.md
