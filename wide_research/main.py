@@ -320,13 +320,13 @@ class DeepResearchAgent:
                 # 使用 callback 将流式输出发送到前端
                 await AgentsUtils.print_stream_events(
                     plan_result.stream_events(),
-                    # callback=lambda text: self._log(text) if text.strip() else None
+                    callback=lambda text: self._log(text) if text else None
                 )
                 # 获取最终输出（如果流式输出没有内容，使用最终输出）
                 markdown_outline = plan_result.final_output
             
             # 将完整大纲发送到前端（确保右侧显示完整内容）
-            self._log(f"\n{markdown_outline}\n")
+            # self._log(f"\n{markdown_outline}\n")
             
             # 持久化大纲
             outline_path = workspace_dir / "outline.md"
