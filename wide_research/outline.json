@@ -1,0 +1,241 @@
+{
+  "title": "关于 STAT6 国内外研究现状的全面综述",
+  "sections": [
+    {
+      "title": "1. 引言",
+      "id": "1",
+      "subsections": [
+        {
+          "title": "1.1 STAT6 研究的背景与意义",
+          "id": "1.1",
+          "research_focus": "提供 STAT6 研究领域的宏观背景，特别强调其在信号转导和转录激活因子家族中的重要地位。解释 STAT6 在免疫调节、细胞增殖和分化中的核心作用，并点出本篇综述旨在系统梳理国内外研究进展和差异。",
+          "keywords": [
+            "STAT6 研究背景",
+            "STAT6 生物学功能",
+            "STAT6 研究意义",
+            "信号转导",
+            "转录因子"
+          ],
+          "table_recommended": false,
+          "table_number": null
+        },
+        {
+          "title": "1.2 本篇综述的范围与目的",
+          "id": "1.2",
+          "research_focus": "清晰地界定本篇综述的边界，明确聚焦于 STAT6 的国内外研究现状对比。明确陈述综述将要回答的具体问题，包括国内外研究重点差异、技术路线差异、成果产出对比等，并概述文章的整体结构。",
+          "keywords": [
+            "STAT6 国内外研究",
+            "研究现状综述",
+            "国际比较",
+            "研究范围界定"
+          ],
+          "table_recommended": false,
+          "table_number": null
+        }
+      ]
+    },
+    {
+      "title": "2. STAT6 基础研究国内外进展对比",
+      "id": "2",
+      "subsections": [
+        {
+          "title": "2.1 STAT6 分子结构与功能研究的国内外比较",
+          "id": "2.1",
+          "research_focus": "详细阐述 STAT6 的分子结构特征和生物学功能，特别关注国内外研究团队在结构解析、功能域鉴定、蛋白相互作用等方面的研究差异和特色。",
+          "keywords": [
+            "STAT6 分子结构",
+            "STAT6 功能域",
+            "蛋白相互作用",
+            "国内外研究比较",
+            "结构生物学"
+          ],
+          "table_recommended": false,
+          "table_number": null
+        },
+        {
+          "title": "2.2 STAT6 信号通路机制的国内外研究特色",
+          "id": "2.2",
+          "research_focus": "系统分析 STAT6 参与的经典和非经典信号通路，重点对比国内外研究团队在通路机制解析、上下游调控网络、反馈调节机制等方面的研究深度和广度差异。",
+          "keywords": [
+            "STAT6 信号通路",
+            "IL-4/IL-13 信号",
+            "JAK-STAT 通路",
+            "国内外机制研究",
+            "调控网络"
+          ],
+          "table_recommended": false,
+          "table_number": null
+        }
+      ]
+    },
+    {
+      "title": "3. STAT6 与疾病关联研究的国内外现状",
+      "id": "3",
+      "subsections": [
+        {
+          "title": "3.1 STAT6 在免疫相关疾病中的研究进展汇总",
+          "id": "3.1",
+          "research_focus": "针对 STAT6 在过敏性疾病、自身免疫疾病等免疫相关疾病中的作用，详细汇总国内外多项重要研究的关键发现，包括疾病模型、分子机制、干预策略等方面的系统性对比。",
+          "keywords": [
+            "STAT6 免疫疾病",
+            "过敏性疾病",
+            "自身免疫病",
+            "国内外研究进展",
+            "疾病机制"
+          ],
+          "table_recommended": true,
+          "table_number": 1
+        },
+        {
+          "title": "3.2 STAT6 在肿瘤领域的研究成果对比",
+          "id": "3.2",
+          "research_focus": "在肿瘤研究的背景下，系统对比国内外团队在 STAT6 与各类肿瘤关联研究中的主要成果，包括肿瘤类型分布、研究深度、临床转化程度等方面的差异分析。",
+          "keywords": [
+            "STAT6 肿瘤研究",
+            "癌症机制",
+            "肿瘤微环境",
+            "国内外成果对比",
+            "肿瘤治疗"
+          ],
+          "table_recommended": false,
+          "table_number": null
+        }
+      ]
+    },
+    {
+      "title": "4. STAT6 靶向治疗开发的国内外技术路线",
+      "id": "4",
+      "subsections": [
+        {
+          "title": "4.1 STAT6 抑制剂开发的国内外进展对比",
+          "id": "4.1",
+          "research_focus": "详细对比分析国内外研究团队在 STAT6 小分子抑制剂、抗体药物、基因治疗等不同技术路线上的开发进展，包括化合物结构、作用机制、临床前数据等方面的系统性汇总。",
+          "keywords": [
+            "STAT6 抑制剂",
+            "小分子药物",
+            "抗体治疗",
+            "国内外开发进展",
+            "药物发现"
+          ],
+          "table_recommended": true,
+          "table_number": 2
+        },
+        {
+          "title": "4.2 STAT6 相关临床试验的国内外现状",
+          "id": "4.2",
+          "research_focus": "系统汇总国内外针对 STAT6 通路的相关临床试验情况，包括试验阶段、适应症、研究设计、主要终点等参数的详细对比分析。",
+          "keywords": [
+            "STAT6 临床试验",
+            "临床研究",
+            "药物开发阶段",
+            "国内外试验对比",
+            "临床转化"
+          ],
+          "table_recommended": true,
+          "table_number": 3
+        }
+      ]
+    },
+    {
+      "title": "5. STAT6 研究方法与技术平台的国内外差异",
+      "id": "5",
+      "subsections": [
+        {
+          "title": "5.1 STAT6 研究技术方法的国内外应用比较",
+          "id": "5.1",
+          "research_focus": "分析国内外研究团队在 STAT6 研究中采用的技术方法和实验平台的差异，包括基因编辑技术、蛋白组学、单细胞测序等先进技术的应用程度和特色。",
+          "keywords": [
+            "STAT6 研究方法",
+            "实验技术",
+            "技术平台",
+            "国内外技术差异",
+            "研究方法学"
+          ],
+          "table_recommended": false,
+          "table_number": null
+        },
+        {
+          "title": "5.2 STAT6 研究资源与平台的国内外建设情况",
+          "id": "5.2",
+          "research_focus": "对比国内外在 STAT6 研究相关资源库、动物模型、细胞系、抗体工具等研究平台的建设情况和共享机制，分析资源差异对研究进展的影响。",
+          "keywords": [
+            "STAT6 研究资源",
+            "动物模型",
+            "细胞系",
+            "抗体工具",
+            "平台建设"
+          ],
+          "table_recommended": false,
+          "table_number": null
+        }
+      ]
+    },
+    {
+      "title": "6. STAT6 研究的政策支持与科研产出分析",
+      "id": "6",
+      "subsections": [
+        {
+          "title": "6.1 国内外 STAT6 研究资助与政策环境比较",
+          "id": "6.1",
+          "research_focus": "分析国内外政府对 STAT6 相关研究的资助力度、政策支持、科研布局等方面的差异，探讨政策环境对研究方向和发展速度的影响。",
+          "keywords": [
+            "STAT6 研究资助",
+            "科研政策",
+            "经费支持",
+            "国内外政策比较",
+            "科研管理"
+          ],
+          "table_recommended": false,
+          "table_number": null
+        },
+        {
+          "title": "6.2 国内外 STAT6 研究成果产出与影响力分析",
+          "id": "6.2",
+          "research_focus": "系统对比国内外在 STAT6 研究领域的论文产出、专利数量、高影响力成果、国际合作等方面的差异，评估各自的研究实力和学术影响力。",
+          "keywords": [
+            "STAT6 研究成果",
+            "论文产出",
+            "专利分析",
+            "学术影响力",
+            "国际合作"
+          ],
+          "table_recommended": false,
+          "table_number": null
+        }
+      ]
+    },
+    {
+      "title": "7. 结论与未来展望",
+      "id": "7",
+      "subsections": [
+        {
+          "title": "7.1 STAT6 国内外研究现状总结与综合",
+          "id": "7.1",
+          "research_focus": "总结 STAT6 领域内国内外研究的核心差异和特色优势，综合这些发现，呈现对 STAT6 研究全球格局的深入理解，识别各自的强项和短板。",
+          "keywords": [
+            "STAT6 研究总结",
+            "国内外差异分析",
+            "研究特色",
+            "实力评估"
+          ],
+          "table_recommended": false,
+          "table_number": null
+        },
+        {
+          "title": "7.2 STAT6 研究未来发展方向与合作机遇",
+          "id": "7.2",
+          "research_focus": "基于国内外研究现状的对比分析，识别出当前知识体系中的关键空白和合作机遇。为国内外研究团队的未来合作提出具体、可行的方向和建议。",
+          "keywords": [
+            "STAT6 未来方向",
+            "国际合作",
+            "研究空白",
+            "发展建议",
+            "协同创新"
+          ],
+          "table_recommended": false,
+          "table_number": null
+        }
+      ]
+    }
+  ]
+}
